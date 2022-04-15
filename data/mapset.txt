@@ -1,0 +1,38 @@
+{
+    "server": "https://raw.githubusercontent.com/LafeLabs/geometroncoin/main/",
+    "maps": [
+        "foo",
+        "home"
+    ],
+    "images": [
+        "chaos8.png",
+        "earthbag.png",
+        "firebag.png",
+        "waterbag.png"
+    ],
+    "scrolls": [
+        "arduino",
+        "artbox",
+        "brain",
+        "controller",
+        "earthbag",
+        "firebag",
+        "flags",
+        "goldentriangle",
+        "home",
+        "hyperlink",
+        "iconsets",
+        "lasershapes",
+        "links",
+        "mechanicals",
+        "newcoin",
+        "pi",
+        "picrust",
+        "threed",
+        "trashmagic",
+        "waterbag",
+        "webpage",
+        "why",
+        "xampp"
+    ]
+}

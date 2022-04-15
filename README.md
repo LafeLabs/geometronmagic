@@ -1,0 +1,21 @@
+# Geometron Magic
+
+ - self replicating sets
+ - coins
+ - icons
+ - 3d printed icons
+ - trash robot coin printer and self replicating coins
+ - symbol factory to create icons, shapes, general graphics
+ - laser cut icons
+ - laser cut shapes
+ - artbox self-replicating cardboard box
+ - skeletron and the rest of Action Geometry
+ - the book Geometron Magic as a scroll set
+ - the pdf to print the book on letter size paper yourself to put in a 3 ring binder
+ - link to buy the book from lulu press
+ - roctal printing system for encoding geometron onto physical objects
+ - self-replicating roctal code, where a stamp is used to make many prints of a roctal sequence which is geometron code
+ - roctal geometron code can be html, json, php, markdown, arduino, or any of the things which fit inside those formats(like base 64 encoded bitmaps)
+ - the printer and scanner of roctal using dvd drives with micro positioning
+ - geometron magic, the concept
+ - [editor.php](editor.php)

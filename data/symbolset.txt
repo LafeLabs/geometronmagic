@@ -1,0 +1,7 @@
+{
+    "server": "https://raw.githubusercontent.com/LafeLabs/geometroncoin/main/",
+    "symbols": [
+        "symbol1649978591.svg",
+        "symbol1649985844.svg"
+    ]
+}
