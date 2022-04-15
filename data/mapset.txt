@@ -4,12 +4,7 @@
         "foo",
         "home"
     ],
-    "images": [
-        "chaos8.png",
-        "earthbag.png",
-        "firebag.png",
-        "waterbag.png"
-    ],
+    "images": [],
     "scrolls": [
         "arduino",
         "artbox",
