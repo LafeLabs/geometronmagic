@@ -3,7 +3,7 @@
 
 # DVD drive microposition
 
-Wire up to two of the coils, which are each about 2 to 4 ohms.  Leads are snipped off axial resistors, which are soldered to the solder blobs as shown. Pairs are directly opposite one another in the side-to-side direction.  There are 3 pairs but we're only wiring up two here. This system will drive either direction on either coil using an Adafruit PWM board.  50 ohm resistors are in series with each of the four wires.  The resistor leads are soldered to wires in a ribbon cable made up of multi strand wires.  These are soldered to the 50 ohm resistors, which are soldered to the output contacts of the Adafruit PWM driver board.  When either button or switch position is engaged, it turns one of the two coils on.  
+Wire up to two of the coils, which are each about 2 to 4 ohms.  Leads are snipped off axial resistors, which are soldered to the solder blobs as shown. Pairs are directly opposite one another in the side-to-side direction.  There are 3 pairs but we're only wiring up two here. This system will drive either direction on either coil using an [Adafruit TB6612 PWM board](https://www.adafruit.com/product/2448).  50 ohm resistors are in series with each of the four wires.  The resistor leads are soldered to wires in a ribbon cable made up of multi strand wires.  These are soldered to the 50 ohm resistors, which are soldered to the output contacts of the Adafruit PWM driver board.  When either button or switch position is engaged, it turns one of the two coils on.  
 
 
 ![](https://i.imgur.com/fQA5KwT.jpg)
