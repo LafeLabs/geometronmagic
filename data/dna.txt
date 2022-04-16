@@ -228,6 +228,7 @@
         "newcoin",
         "pi",
         "picrust",
+        "roctal",
         "threed",
         "trashmagic",
         "waterbag",
