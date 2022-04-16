@@ -5,14 +5,17 @@
 ## A Self-Replicating Set
 
  - [editor.php](editor.php)
- - icon coin design process
- - trash robot coin printer and self replicating coins
- - 3d printed icon coins
- - symbol factory to create icons, shapes, general graphics
- - laser cut icons
- - laser cut shapes
- - bags of coins, the elements of earth, water, and fire
+ - [icon coin design process](scrolls/newcoin)
+ - [trash robot brain](scrolls/brain)
+ - [trash robot controller](scrolls/controller)
+ - [trash robot 2 and a half d printer tool](scrolls/mechanicals)
+ - [3d printed icon coins](icon3d.html)
+ - [symbol factory to create icons, shapes, general graphics](symbol.html)
+ - [laser cut icons](svgfeed.html)
+ - [laser cut shapes](scrolls/lasershapes)
+ - bags of coins, the elements of [earth](scrolls/earthbag), [water](scrolls/waterbag), and [fire](scrolls/firebag)
  - artbox self-replicating cardboard box
+ - icon link feed, top page of geometron magic
  - skeletron and the rest of Action Geometry
  - the first book of geometron as a scroll set, integrated into this living geometron system
  - the book Geometron Magic as a scroll set
@@ -36,4 +39,17 @@
  - geometron maps as annotations of technology images
  - geometron maps for immersive gaming
  - cyber magic, the general phenomenon of self-replicating code sets
+ - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
+ - [the geometron github work flow](scrolls/github)
+ - [public coin distribution feeds](https://www.maplelawn.net)
+ - cardboard signs linking to the network 
+ - raspberry pi portable terminal
+ - solar power station
+ - trash robot fashion brand, rainbow and googly eyes
+ - android server install
+ - ios server install
+ - windows/mac server install
+ - install on an ubuntu virtual machine at APL
+ - trash robot shield board kit
+ - neopixel strips with arduino and shield and power 
  

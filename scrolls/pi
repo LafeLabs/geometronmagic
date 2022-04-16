@@ -1,7 +1,7 @@
 
 ## [HOME](index.html)
 
-# Install A Geometron Coin Server on Raspberry Pi
+# Install A Geometron Magic Server on Raspberry Pi
  
 Raspberry Pi is now impossible to buy.  Find them donated from someone. Most people who have them don't use them or used them once and stopped due to lack of interest/time/need. Ask around!  Someone will be able to donate a Pi, keyboard, mouse, screen, power supply and whatever other random things you need to get set up.
 
@@ -28,7 +28,7 @@ sudo apt install php libapache2-mod-php -y
 ```
 cd /var/www/html
 sudo rm index.html
-sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/geometroncoin/main/php/replicator.txt
+sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt
 cd ..
 sudo chmod -R 0777 *
 cd html

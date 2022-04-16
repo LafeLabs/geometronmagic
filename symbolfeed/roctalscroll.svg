@@ -1,0 +1,177 @@
+<svg width="800" height="800" viewbox = "0 0 800 800"  xmlns="http://www.w3.org/2000/svg">
+<!--<json>{
+  "shapes": [],
+  "glyph": "0532,0521,0530,0520,0530,0521,0530,0531,0521,0530,0520,0530,0522,0530,0531,0521,0530,0520,0530,0523,0530,0531,0521,0530,0520,0530,0524,0530,0531,0521,0530,0520,0530,0525,0530,0531,0521,0530,0520,0530,0526,0530,0531,0521,0530,0520,0530,0527,0530,0531,0521,0530,0521,0530,0520,0530,0531,0533,",
+  "x0": 790,
+  "y0": 10,
+  "unit": 5.714285714285714,
+  "width": 800,
+  "height": 800,
+  "style": {
+    "color0": "black",
+    "fill0": "black",
+    "line0": 1,
+    "color1": "black",
+    "fill1": "black",
+    "line1": 5,
+    "color2": "red",
+    "fill2": "red",
+    "line2": 1,
+    "color3": "#FF7900",
+    "fill3": "#FF7900",
+    "line3": 1,
+    "color4": "yellow",
+    "fill4": "yellow",
+    "line4": 1,
+    "color5": "green",
+    "fill5": "green",
+    "line5": 1,
+    "color6": "blue",
+    "fill6": "blue",
+    "line6": 1,
+    "color7": "purple",
+    "fill7": "purple",
+    "line7": 1
+  }
+}</json>-->	<path d = "M790 10 L790 4 L784 10 L790 10 Z" stroke = "#000000" stroke-width = "1" fill = "#000000" />	<path d = "M773 10 L773 4 L779 10 L773 10 Z" stroke = "#000000" stroke-width = "1" fill = "#000000" />	<path d = "M781 10 L787 4 L776 4 L781 10 Z" stroke = "#000000" stroke-width = "1" fill = "#000000" />    <circle cx="787" cy = "13" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="16" x2="790" y2="10" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="16" x2="773" y2="10" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="16" x2="793" y2="16" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="21" x2="790" y2="16" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="21" x2="773" y2="16" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="21" x2="793" y2="21" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "24" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="27" x2="790" y2="21" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="27" x2="773" y2="21" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="27" x2="793" y2="27" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="27" x2="770" y2="27" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="27" x2="779" y2="27" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="27" x2="784" y2="27" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="27" x2="790" y2="27" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="29" x2="784" y2="26" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="29" x2="779" y2="26" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "30" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="33" x2="790" y2="27" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="33" x2="773" y2="27" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="33" x2="793" y2="33" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="39" x2="790" y2="33" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="39" x2="773" y2="33" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="39" x2="793" y2="39" style="stroke:#000000;stroke-width:1" />
+    <circle cx="781" cy = "41" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="44" x2="790" y2="39" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="44" x2="773" y2="39" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="44" x2="793" y2="44" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="44" x2="770" y2="44" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="44" x2="779" y2="44" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="44" x2="784" y2="44" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="44" x2="790" y2="44" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="46" x2="784" y2="43" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="46" x2="779" y2="43" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "47" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="50" x2="790" y2="44" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="50" x2="773" y2="44" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="50" x2="793" y2="50" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="56" x2="790" y2="50" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="56" x2="773" y2="50" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="56" x2="793" y2="56" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "59" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="781" cy = "59" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="61" x2="790" y2="56" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="61" x2="773" y2="56" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="61" x2="793" y2="61" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="61" x2="770" y2="61" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="61" x2="779" y2="61" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="61" x2="784" y2="61" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="61" x2="790" y2="61" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="63" x2="784" y2="60" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="63" x2="779" y2="60" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "64" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="67" x2="790" y2="61" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="67" x2="773" y2="61" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="67" x2="793" y2="67" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="73" x2="790" y2="67" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="73" x2="773" y2="67" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="73" x2="793" y2="73" style="stroke:#000000;stroke-width:1" />
+    <circle cx="776" cy = "76" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="79" x2="790" y2="73" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="79" x2="773" y2="73" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="79" x2="793" y2="79" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="79" x2="770" y2="79" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="79" x2="779" y2="79" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="79" x2="784" y2="79" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="79" x2="790" y2="79" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="80" x2="784" y2="77" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="80" x2="779" y2="77" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "81" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="84" x2="790" y2="79" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="84" x2="773" y2="79" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="84" x2="793" y2="84" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="90" x2="790" y2="84" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="90" x2="773" y2="84" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="90" x2="793" y2="90" style="stroke:#000000;stroke-width:1" />
+    <circle cx="776" cy = "93" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="787" cy = "93" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="96" x2="790" y2="90" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="96" x2="773" y2="90" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="96" x2="793" y2="96" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="96" x2="770" y2="96" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="96" x2="779" y2="96" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="96" x2="784" y2="96" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="96" x2="790" y2="96" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="97" x2="784" y2="94" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="97" x2="779" y2="94" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "99" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="101" x2="790" y2="96" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="101" x2="773" y2="96" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="101" x2="793" y2="101" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="107" x2="790" y2="101" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="107" x2="773" y2="101" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="107" x2="793" y2="107" style="stroke:#000000;stroke-width:1" />
+    <circle cx="776" cy = "110" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="781" cy = "110" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="113" x2="790" y2="107" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="113" x2="773" y2="107" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="113" x2="793" y2="113" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="113" x2="770" y2="113" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="113" x2="779" y2="113" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="113" x2="784" y2="113" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="113" x2="790" y2="113" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="114" x2="784" y2="111" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="114" x2="779" y2="111" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "116" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="119" x2="790" y2="113" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="119" x2="773" y2="113" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="119" x2="793" y2="119" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="124" x2="790" y2="119" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="124" x2="773" y2="119" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="124" x2="793" y2="124" style="stroke:#000000;stroke-width:1" />
+    <circle cx="776" cy = "127" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="781" cy = "127" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="787" cy = "127" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="130" x2="790" y2="124" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="130" x2="773" y2="124" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="130" x2="793" y2="130" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="130" x2="770" y2="130" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="130" x2="779" y2="130" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="130" x2="784" y2="130" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="130" x2="790" y2="130" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="131" x2="784" y2="129" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="131" x2="779" y2="129" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "133" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="136" x2="790" y2="130" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="136" x2="773" y2="130" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="136" x2="793" y2="136" style="stroke:#000000;stroke-width:1" />
+    <circle cx="787" cy = "139" r = "2.857142857142857" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <line x1="790" y1="141" x2="790" y2="136" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="141" x2="773" y2="136" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="141" x2="793" y2="141" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="147" x2="790" y2="141" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="147" x2="773" y2="141" style="stroke:#000000;stroke-width:1" />
+    <line x1="790" y1="147" x2="793" y2="147" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="147" x2="770" y2="147" style="stroke:#000000;stroke-width:1" />
+    <line x1="773" y1="147" x2="779" y2="147" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="147" x2="784" y2="147" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="147" x2="790" y2="147" style="stroke:#000000;stroke-width:1" />
+    <line x1="784" y1="149" x2="784" y2="146" style="stroke:#000000;stroke-width:1" />
+    <line x1="779" y1="149" x2="779" y2="146" style="stroke:#000000;stroke-width:1" />
+	<path d = "M790 153 L790 147 L784 147 L784 153 L790 153 Z" stroke = "#000000" stroke-width = "1" fill = "#000000" />	<path d = "M779 153 L779 147 L773 147 L773 153 L779 153 Z" stroke = "#000000" stroke-width = "1" fill = "#000000" />	<path d = "M784 159 L784 153 L779 153 L779 159 L784 159 Z" stroke = "#000000" stroke-width = "1" fill = "#000000" /></svg>

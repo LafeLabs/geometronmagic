@@ -1,5 +1,5 @@
 {
-    "server": "https://raw.githubusercontent.com/LafeLabs/geometroncoin/main/",
+    "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/",
     "scrolls": [
         "arduino",
         "artbox",
@@ -18,6 +18,7 @@
         "newcoin",
         "pi",
         "picrust",
+        "roctal",
         "threed",
         "trashmagic",
         "waterbag",

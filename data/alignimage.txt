@@ -1,1 +1,1 @@
-{"w":0.7108571428571429,"x":0.14857142857142858,"y":0.13714285714285715,"angle":1,"src":"https://vt-vtwa-assets.varsitytutors.com/vt-vtwa/uploads/problem_question_image/image/1346/Cube__PSF_.png"}
+{"w":0.9988571428571429,"x":0,"y":0,"angle":-180,"src":"http://localhost/symbolfeed/symbol1650066042.svg"}
