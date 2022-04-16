@@ -19,7 +19,7 @@ A Geometron is a geometric virtual machine which has two 8x8x8 cubes of operatio
 
     
       The Action Cube is divided into layers as follows:
-         00-05: held in reserve for creation operations for making new instances of Geometron
+         00-05: held in reserve for creation operations for making new instances of Geometron...or roctal control codons?
          06-037: Root Actions, which manipulate things outside of the basic construct of geometron
          040-0176: keyboard actions, each of which maps to some other action/operation 
          0177: do nothing
