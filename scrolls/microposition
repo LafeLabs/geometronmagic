@@ -138,17 +138,19 @@ void loop() {
       digitalWrite(AIN2,LOW);
       digitalWrite(BIN1,LOW);
       digitalWrite(BIN2,LOW);
-    
+      analogWrite(PWMA,0);
+      analogWrite(PWMB,0);
+     
   }
   if(!button2 && !button1){
       digitalWrite(AIN1,LOW);
       digitalWrite(AIN2,LOW);
       digitalWrite(BIN1,LOW);
       digitalWrite(BIN2,LOW);
+      analogWrite(PWMA,0);
+      analogWrite(PWMB,0);
 
   }
-
-
 
 }
 ``` 
