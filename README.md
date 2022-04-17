@@ -6,7 +6,7 @@
 
 ### Elements
 
- - self replicating code from github
+ - [self replicating code from github](https://github.com/lafeLabs/geometronmagic)
  - raspberry pi mobile public terminals
  - solar power station with battery 
  - trash robot open fashion brand
