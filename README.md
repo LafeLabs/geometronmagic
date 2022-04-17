@@ -6,21 +6,18 @@
 
 ### Elements
 
- - [self replicating code from github](https://github.com/lafeLabs/geometronmagic)
- - raspberry pi mobile public terminals
+ - [self replicating github repository](https://github.com/lafeLabs/geometronmagic)
+ - [global link to replicator code](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)
  - [solar power station with battery](scrolls/solar)
  - [trash robot open fashion brand: rainbow and googly eyes](scrolls/trashrobotbrand)
- - Action Geometry: skeletron, s hooks, trash ties, artbox, shape sets, rulers, tiles
- - symbol factory, system of self-replicating vector graphics in the web browser
- - icon magic, the system for creating icons which can be replicated in clay, plastic, metal, paper, cardboard, bitmap, vector graphics, laser cut shapes, robot control
- - the clay icon coin printer design, the robots themselves, the bags of clay alchemy tokens
- - icon printer with pointed stick and xyz control
- - free books: the first book of geometron, geometron magic, trash magic, trash magic action coloring book and all of the ideas contained in those books
- - pi crust media distribution platform
- - arduino uno shield for education, motor control, science, neopixels
- - geometron printer with micro positioning for z, two DVD drives, laser optical print and electrode electrochemical print, running geometron 
- - smaller controller design with a resistor ladder 
- - the roctal system of encoding information in geometry of a surface
+ - [Action Geometry: skeletron, s hooks, trash ties, artbox, shape sets, rulers, tiles](http://trashrobot.org/bookofgeometronfirst/user.php?scroll=scrolls/actiongeometry.md)
+ - [symbol factory, system of self-replicating vector graphics in the web browser](symbol.html)
+ - [icon magic, the system for creating icons which can be replicated in clay, plastic, metal, paper, cardboard, bitmap, vector graphics, laser cut shapes, robot control, building icon printer robots](scrolls/newcoin)
+ - free books: the [first book of geometron](https://www.trashrobot.org/bookofgeometronfirst/), [geometron magic](https://www.trashrobot.org/geometronmagic/), [trash magic](scrolls/trashmagic), [trash magic action coloring book](https://www.trashrobot.org/tmacb/) and all of the ideas contained in those books
+ - [pi crust media distribution platform](scrolls/picrust)
+ - [arduino uno shield for education, motor control, science, neopixels](https://github.com/lafelabs/trashrobot5)
+ - [geometron printer with micro positioning for z, two DVD drives, laser optical print and electrode electrochemical print, running geometron](scrolls/microposition)
+ - [the roctal system of encoding information in geometry of a surface](scrolls/roctal)
 
 
 ### Links
@@ -30,6 +27,8 @@
  - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
  - [dnagenerator.php](dnagenerator.php)
  - [copy scrolls/home to README.md](copy.php?from=scrolls/home&to=README.md)
+ - [scroll set replicator](scrollset.html)
+ - [map set replicator](mapset.html)
  - [replicator.php](replicator.php)
  
 ### Install on Pi
