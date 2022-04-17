@@ -22,6 +22,7 @@
         "programarduinoxyz.html",
         "qrcode.html",
         "readme.html",
+        "readroctal.html",
         "roctal.html",
         "roctalcoin.html",
         "roctalscroll.html",
