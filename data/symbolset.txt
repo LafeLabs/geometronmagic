@@ -3,9 +3,20 @@
     "symbols": [
         "roctal.svg",
         "roctalscroll.svg",
+        "symbol1641265253.svg",
+        "symbol1642104224.svg",
+        "symbol1642306342.svg",
+        "symbol1643133352.svg",
+        "symbol1643323174.svg",
+        "symbol1643334358.svg",
+        "symbol1643335194.svg",
+        "symbol1643420360.svg",
+        "symbol1649202201.svg",
+        "symbol1649813100.svg",
         "symbol1650065287.svg",
         "symbol1650065492.svg",
         "symbol1650066042.svg",
-        "symbol1650066652.svg"
+        "symbol1650066652.svg",
+        "symbol1650227241.svg"
     ]
 }
