@@ -451,6 +451,10 @@ body{
     overflow:hidden;
     background-color:black
 }
+pre{
+  overflow:scroll;
+}
+
 input{
     display:block;
     margin:auto;
