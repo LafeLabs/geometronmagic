@@ -61,7 +61,7 @@
         </tr>
     </table>
     <table>
-        <tr>
+        <tr><td id = "loadbutton" class= "button">LOAD</td>
             <td>CODE:</td>
             <td>
                 <input id = "glyphinput"/>
@@ -218,11 +218,12 @@ function loadcoinfeed(){
         gvmArray2.push(newGVM);
         newGVM.drawGlyph(geometroncoinfeed[index].coin);    
 
+        newcan.id = "can" + index.toString();
+        newcan.onclick = function(){
+            var localindex = parseInt(this.id.substring(3));
+            document.getElementById("glyphinput").value = geometroncoinfeed[localindex].coin;
+        }        
 
-        
-        
-        
-        
         var newinput = document.createElement("INPUT");
         var newtd = document.createElement("TD");
         newtr.appendChild(newtd);
@@ -231,7 +232,7 @@ function loadcoinfeed(){
         newinput.value = geometroncoinfeed[index].url;
         newinput.onchange = function(){
             var localindex = parseInt(this.id.substring(5));
-            console.log(localindex);
+//            console.log(localindex);
             geometroncoinfeed[localindex].url = this.value;
             savecoinfeed();
         }
@@ -372,6 +373,12 @@ document.getElementById("replacebutton").onclick = function(){
 
 document.getElementById("textio").value = "";
 
+document.getElementById("loadbutton").onclick = function(){
+    var localglyph = document.getElementById("glyphinput").value;
+    robotfeed.unshift(localglyph);
+    loadfeed();
+    saverobotfeed();
+}
 
 
 function bytecode2ascii(bytecode){
@@ -413,6 +420,9 @@ function bytecode2ascii(bytecode){
 
 </script>
 <style>
+#loadbutton{
+    border:solid;
+}
 body{
     overflow:hidden;
     color:#00ff00;

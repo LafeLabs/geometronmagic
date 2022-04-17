@@ -65,7 +65,6 @@
         "set.txt",
         "symbolset.txt",
         "textfeed.txt",
-        "usermode.txt",
         "wall.txt"
     ],
     "php": [
@@ -218,6 +217,7 @@
         "arduino",
         "artbox",
         "brain",
+        "coinsets",
         "controller",
         "earthbag",
         "firebag",
