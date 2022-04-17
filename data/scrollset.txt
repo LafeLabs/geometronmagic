@@ -21,6 +21,7 @@
         "pi",
         "picrust",
         "roctal",
+        "solar",
         "threed",
         "todo",
         "trashmagic",

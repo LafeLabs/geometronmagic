@@ -8,8 +8,8 @@
 
  - [self replicating code from github](https://github.com/lafeLabs/geometronmagic)
  - raspberry pi mobile public terminals
- - solar power station with battery 
- - trash robot open fashion brand
+ - [solar power station with battery](scrolls/solar)
+ - [trash robot open fashion brand: rainbow and googly eyes](scrolls/trashrobotbrand)
  - Action Geometry: skeletron, s hooks, trash ties, artbox, shape sets, rulers, tiles
  - symbol factory, system of self-replicating vector graphics in the web browser
  - icon magic, the system for creating icons which can be replicated in clay, plastic, metal, paper, cardboard, bitmap, vector graphics, laser cut shapes, robot control
