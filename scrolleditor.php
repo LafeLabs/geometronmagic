@@ -26,8 +26,8 @@ double line break for paragraph break, *italic*, **bold**, [link](index.html). D
 </div>
     
 <textarea id = "maintextarea"></textarea>
-    <a id = "userlink" href = "mapbook.php?scroll=scrolls/home">
-        <img src = "iconsymbols/home.svg"/>
+    <a id = "userlink" href = "user.php?scroll=scrolls/home">
+        <img src = "iconsymbols/scroll.svg"/>
     </a>
     <a href = "scrolldelete.html">
         <img src = "iconsymbols/delete.svg"/>
@@ -114,7 +114,7 @@ if(document.getElementById("scrolldiv").innerHTML.length > 0 && document.getElem
                 scroll = this.responseText;
                 document.getElementById("maintextarea").value = scroll;  
                 document.getElementById("currentfilename").innerHTML = currentfile;        
-                document.getElementById("userlink").href = "mapbook.php?scroll=" + currentfile;
+                document.getElementById("userlink").href = "user.php?scroll=" + currentfile;
             }
         };
         httpc.open("GET", "fileloader.php?filename=" + currentfile, true);
@@ -129,7 +129,7 @@ if(document.getElementById("scrolldiv").innerHTML.length > 0 && document.getElem
                 document.getElementById("maintextarea").value = scroll;  
                 currentfile = "scrolls/remote";
                 document.getElementById("currentfilename").innerHTML = currentfile;
-                document.getElementById("userlink").href = "mapbook.php?scroll=" + currentfile;
+                document.getElementById("userlink").href = "user.php?scroll=" + currentfile;
             }
         };
         httpc.open("GET", "fileloader.php?filename=" + currentfile, true);
@@ -148,7 +148,7 @@ if(document.getElementById("scrolldiv").innerHTML.length > 0 && document.getElem
             scroll = this.responseText;
             document.getElementById("maintextarea").value = scroll;  
             document.getElementById("currentfilename").innerHTML = currentfile;
-            document.getElementById("userlink").href = "mapbook.php?scroll=" + currentfile;
+            document.getElementById("userlink").href = "user.php?scroll=" + currentfile;
             
             data = encodeURIComponent(scroll);
             var httpc = new XMLHttpRequest();
@@ -212,7 +212,7 @@ var httpc7 = new XMLHttpRequest();
                     currentfile = this.innerHTML;
                     //console.log(scrollname);
                     document.getElementById("currentfilename").innerHTML = currentfile;       
-                    document.getElementById("userlink").href = "mapbook.php?scroll=" + currentfile;
+                    document.getElementById("userlink").href = "user.php?scroll=" + currentfile;
                     var httpc = new XMLHttpRequest();
                     httpc.onreadystatechange = function() {
                         if (this.readyState == 4 && this.status == 200) {
@@ -251,7 +251,7 @@ if (this.readyState == 4 && this.status == 200) {
             document.getElementById("newscrollinput").value = "";
             currentfile = this.innerHTML;
             document.getElementById("currentfilename").innerHTML = currentfile;
-            document.getElementById("userlink").href = "mapbook.php?scroll=" + currentfile;            
+            document.getElementById("userlink").href = "user.php?scroll=" + currentfile;            
             var httpc = new XMLHttpRequest();
             httpc.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
@@ -276,7 +276,7 @@ document.getElementById("newscrollinput").onchange = function(){
     name = this.value;
     currentfile = "scrolls/" + this.value;
     document.getElementById("currentfilename").innerHTML = currentfile; 
-    document.getElementById("userlink").href = "mapbook.php?scroll=" + currentfile;
+    document.getElementById("userlink").href = "user.php?scroll=" + currentfile;
     var httpc = new XMLHttpRequest();
     httpc.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -308,7 +308,7 @@ document.getElementById("newscrollinput").onchange = function(){
         currentfile = this.innerHTML;
         //console.log(scrollname);
         document.getElementById("currentfilename").innerHTML = currentfile;       
-        document.getElementById("userlink").href = "mapbook.php?scroll=" + currentfile;
+        document.getElementById("userlink").href = "user.php?scroll=" + currentfile;
         var httpc = new XMLHttpRequest();
         httpc.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
