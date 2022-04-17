@@ -1,7 +1,11 @@
 {
-    "server": "https://raw.githubusercontent.com/LafeLabs/geometroncoin/main/",
+    "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/",
     "symbols": [
-        "symbol1649978591.svg",
-        "symbol1649985844.svg"
+        "roctal.svg",
+        "roctalscroll.svg",
+        "symbol1650065287.svg",
+        "symbol1650065492.svg",
+        "symbol1650066042.svg",
+        "symbol1650066652.svg"
     ]
 }

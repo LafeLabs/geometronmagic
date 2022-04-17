@@ -89,14 +89,11 @@
         <textarea id = "textio"></textarea>
     </div>
     <div id = "mapscroll">
-        <a href = "index.html">
-            <img src = "iconsymbols/home.svg"/>
-        </a>
         <a href= "mapdelete.html">
             <img src = "iconsymbols/delete.svg"/>
         </a>
         <a id = "mapuserlink" href= "mapbook.php?map=maps/home">
-            <img src = "iconsymbols/map.svg"/>
+            <img src = "iconsymbols/home.svg"/>
         </a>
         <a href= "mapset.html">
             <img src = "iconsymbols/chaos.svg"/>

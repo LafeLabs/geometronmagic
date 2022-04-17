@@ -75,5 +75,27 @@
         "href": "maps/foo",
         "src": "",
         "maplinkmode": true
+    },
+    {
+        "x": 0.006857142857142857,
+        "y": 0.25485714285714284,
+        "w": 0.6285714285714286,
+        "h": 0.05714285714285714,
+        "angle": 0,
+        "text": "index.html",
+        "href": "index.html",
+        "src": "",
+        "maplinkmode": false
+    },
+    {
+        "x": 0.136,
+        "y": 0.9154285714285715,
+        "w": 0.5428571428571428,
+        "h": 0.6788571428571428,
+        "angle": 0,
+        "text": "<span style=\"color:red\">Γ</span>     <span style=\"color:orange\">ε</span>     <span style=\"color:yellow\">ω</span>     <span style=\"color:green\">μ</span>     <span style=\"color:blue\">ε</span>     <span style=\"color:purple\">τ</span>     <span style=\"color:red\">ρ</span>     <span style=\"color:orange\">ο</span>     <span style=\"color:yellow\">ν</span>",
+        "href": "",
+        "src": "",
+        "maplinkmode": false
     }
 ]

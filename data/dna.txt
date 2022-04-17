@@ -5,6 +5,7 @@
         "controls.html",
         "font.html",
         "fork.html",
+        "geometroncoinfeed.html",
         "geometroncoinfeededitor.html",
         "globalimagefeed.html",
         "hypercube.html",
@@ -64,6 +65,7 @@
         "set.txt",
         "symbolset.txt",
         "textfeed.txt",
+        "usermode.txt",
         "wall.txt"
     ],
     "php": [
@@ -86,6 +88,7 @@
         "rdelete.txt",
         "removephp.txt",
         "replicator.txt",
+        "scroll.txt",
         "scrolleditor.txt",
         "scrollsetreplicator.txt",
         "setreplicator.txt",

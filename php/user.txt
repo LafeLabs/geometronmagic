@@ -20,8 +20,9 @@
 
     <!--Stop Google:-->
     <META NAME="robots" CONTENT="noindex,nofollow">
+
+    <script src="jscode/mapfactory.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.js"></script>
-        <script src = "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 <!--       un comment to use math
 
@@ -41,84 +42,36 @@
     
 </head>
 <body>    
-
+<div id = "mainmap"></div>
 <div id = "scrollscroll"></div>
 
-<div id  = "scrollsbox">
-    <input id = "scrollinput"/>
+<span id = "modebutton" class = "button">
+    <img style = "cursor:pointer;width:50px;position:absolute;right:10px;bottom:10px" src= "iconsymbols/lightdark.svg"/>
+</span>
+
+<a href = "mapset.html">
+    <img style = "width:50px;position:absolute;right:10px;bottom:60px;background-color:#808080" src = "iconsymbols/chaos.svg"/>
+</a>
+
+<div id  = "mapsbox">
+    <input id = "mapinput"/>
+    <a id = "mapeditorlink" href = "mapeditor.php">
+        <img style = "width:50px;display:block;margin:auto;padding-top:1em" src = "iconsymbols/edit.svg"/>
+    </a>    
 </div>
-<table id = "landscapelinks">
-    <tr>
-        <td class = "editlinks">
-            <a  id ="scrolleditorlink2" href = "scrolleditor.php">
-                <img src = "iconsymbols/edit.svg"/>
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td class = "editlinks">
-            <a href = "scrollset.html">
-                <img src = "iconsymbols/chaos.svg"/>
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td class = "editlinks">
-            <a href = "scrolldelete.html">
-                <img src = "iconsymbols/delete.svg"/>
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td class = "editlinks">
-            <a href = "fork.html">
-                <img src = "iconsymbols/fork.svg"/>
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td id = "modebutton" class= "button">
-            <img src = "iconsymbols/lightdark.svg"/>
-        </td>
-    </tr>
-    <tr>
-        <td id = "qrcode"></td>
-    </tr>
-</table>
+<div id = "scrollsbox">
+    <input id = "scrollinput"/>
+    <a id  = "scrolleditorlink" href = "scrolleditor.php">
+        <img style = "width:50px;display:block;margin:auto;padding-top:1em" src = "iconsymbols/edit.svg"/>
+    </a>
+</div>
+<div class = "data" id = "mapdiv"><?php
+    
+if(isset($_GET["map"])){
+    echo $_GET["map"];
+}
 
-<table id = "portraitlinks">
-    <tr>
-        <td class = "editlinks">
-            <a id ="scrolleditorlink" href = "scrolleditor.php">
-                <img src = "iconsymbols/edit.svg"/>
-            </a>
-        </td>
-        <td class = "editlinks">
-            <a href = "scrollset.html">
-                <img src = "iconsymbols/chaos.svg"/>
-            </a>
-        </td>
-        <td class = "editlinks">
-            <a href = "scrolldelete.html">
-                <img src = "iconsymbols/delete.svg"/>
-            </a>
-        </td>
-        <td class = "editlinks">
-            <a href = "fork.html">
-                <img src = "iconsymbols/fork.svg"/>
-            </a>
-        </td>
-        <td id = "modebutton2" class= "button">
-            <img src = "iconsymbols/lightdark.svg"/>
-        </td>
-        <td id = "hidebutton" class= "button">
-            <img id = "hideicon" src = "iconsymbols/showmenu.svg"/>
-        </td>
-
-        <td id = "qrcode2"></td>
-    </tr>
-</table>
-
+?></div>
 <div class = "data" id = "scrolldiv"><?php
     
 if(isset($_GET["scroll"])){
@@ -129,21 +82,52 @@ if(isset($_GET["scroll"])){
 
 <script>
 
+mode = "dark";
+//mode = "light";
+
+square = 1;
+
+document.getElementById("scrollscroll").style.display = "none";
+
+
+
+
 if(innerWidth > innerHeight){
+    menuhide = false;
+    document.getElementById("scrollscroll").style.left = (0.5*(innerWidth - innerHeight) + 10).toString() + "px"; 
+
+    document.getElementById("scrollscroll").style.width = (innerHeight - 20).toString() + "px";     
     
-    document.getElementById("scrollscroll").style.width = (innerHeight - 35).toString() + "px";
-    document.getElementById("scrollscroll").style.left = (0.5*(innerWidth - innerHeight) - 25).toString() + "px";    
-    document.getElementById("scrollsbox").style.width = (0.5*(innerHeight - innerWidth)).toString() + "px";
-    document.getElementById("scrollsbox").style.left = (innerHeight + 0.5*(innerWidth - innerHeight)).toString() + "px";    
+    document.getElementById("mainmap").style.left = (0.5*(innerWidth - innerHeight)).toString() + "px"; 
+    mainmap = new Map(innerHeight,innerHeight,document.getElementById("mainmap"));
+
+    document.getElementById("mapsbox").style.left = (innerHeight + 0.5*(innerWidth - innerHeight)).toString() + "px";
+    
+    document.getElementById("scrollsbox").style.right = (innerHeight + 0.5*(innerWidth - innerHeight)).toString() + "px";    
+
 
 }
 else{
+    menuhide = true;
+
+    mainmap = new Map(innerWidth,innerWidth,document.getElementById("mainmap"));    
 
 
+    document.getElementById("mainmap").style.top = (0.5*(innerHeight - innerWidth)).toString() + "px"; 
+    document.getElementById("scrollscroll").style.top = (0.5*(innerHeight - innerWidth)).toString() + "px"; 
+        
+    document.getElementById("scrollscroll").style.height = (innerWidth - 20).toString() + "px";     
+    
+    
+    document.getElementById("mapsbox").style.height = (0.5*(innerHeight - innerWidth) - 10).toString() + "px";
+    
+    document.getElementById("mapsbox").style.bottom = "0px";
+    
+    document.getElementById("scrollscroll").style.height = (innerWidth - 20).toString() + "px";     
+    
+    
 }
 
-mode = "dark";
-//mode = "light";
 
 
 scroll = "";
@@ -153,24 +137,94 @@ var converter = new showdown.Converter();
 // https://github.com/showdownjs/showdown/wiki/Showdown-Options
 converter.setOption('literalMidWordUnderscores', 'true');
 converter.setOption('tables', 'true')
-    
-filename = "scrolls/home";
 
-//loadscroll("scrolls/home");
+//mainmap.math = true;
+
+
+filename = "maps/home";
+mapname = "maps/home";
+scrollname = "scrolls/home";
 
 if(document.getElementById("scrolldiv").innerHTML.length > 0){
     loadscroll(document.getElementById("scrolldiv").innerHTML);
 }
-else{
-    loadscroll("scrolls/home");
+
+if(document.getElementById("mapdiv").innerHTML.length > 0){
+    loadmap(document.getElementById("mapdiv").innerHTML);
+}
+
+if(document.getElementById("mapdiv").innerHTML.length == 0 && document.getElementById("scrolldiv").innerHTML.length == 0){
+    //loadmap(mapname);
+    loadscroll(scrollname);
+}
+
+ismap = false;
+localfile = true;
+
+function loadmap(mapname){
+    ismap = true;
+    filename = mapname;
+    if(filename.substring(0,5) == "maps/"){
+        localfile = true;
+    }
+    else{
+        localfile = false;
+    }
+    document.getElementById("scrollscroll").style.display = "none";
+    
+    document.getElementById("mainmap").style.display = "block";
+    document.getElementById("mapeditorlink").href = "mapeditor.php?map=" + filename;
+        
+    var httpc = new XMLHttpRequest();
+    httpc.onreadystatechange = function(){
+        if (this.readyState == 4 && this.status == 200) {
+            
+            var raw = this.responseText;
+            if(raw.charAt(0) != "["){
+                raw = raw.substring(raw.indexOf("["))
+            }
+            mainmap.array = JSON.parse(raw);
+    
+
+            N = mainmap.array.length;
+
+            for(var index = 0;index < mainmap.array.length;index++){
+                
+            }
+            
+            mainmap.draw();
+            //			MathJax.Hub.Typeset();//tell Mathjax to update the math
+            for(var index = 0;index < mainmap.linkArray.length;index++){
+                if(mainmap.array[index].maplinkmode == true){
+                    mainmap.linkArray[index].style.color  = "#ff2cb4";
+                    mainmap.linkArray[index].onclick = function(){
+                        var localmap = this.getElementsByClassName("maplink")[0].innerHTML;
+                        if(localmap.includes("scrolls/")){
+                            var localscroll = "scrolls/" + localmap.split("scrolls/")[1];
+                            loadscroll(localscroll);
+                        }
+                        if(localmap.includes("scroll(")){
+                            var localscroll = localmap.split("scroll(")[1].split(")")[0];
+                            loadscroll(localscroll);
+                        }
+                        if(!localmap.includes("scroll(") && !localmap.includes("scrolls/")){
+                            loadmap(this.getElementsByClassName("maplink")[0].innerHTML);                                
+                        }
+
+                    }                    
+
+                }
+            }
+
+        }
+    };
+    httpc.open("GET", "fileloader.php?filename=" + mapname, true);
+    httpc.send();
 }
 
 
-localfile = true;
-
-
-
 function loadscroll(scrollname){
+    ismap = false;
     filename = scrollname;
     if(filename.substring(0,8) == "scrolls/" || filename == "README.md"){
         localfile = true;
@@ -179,11 +233,14 @@ function loadscroll(scrollname){
         localfile = false;
     }
     document.getElementById("scrolleditorlink").href = "scrolleditor.php?scroll=" + filename;
-    document.getElementById("scrolleditorlink2").href = "scrolleditor.php?scroll=" + filename;
 
+
+
+    document.getElementById("scrolleditorlink").style.display = "block";
 
     document.getElementById("scrollscroll").innerHTML = "";
     document.getElementById("scrollscroll").style.display = "block";
+    document.getElementById("mainmap").style.display = "none";
     var httpc666 = new XMLHttpRequest();
     httpc666.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -239,15 +296,47 @@ function convertscrollinks(){
                 loadscroll(localscroll);
             }
         }
-
+        if(links[index].href.includes("map(") && !links[index].href.includes(".php")){
+            //console.log(links[index].href);
+            //link format map(url)
+            var newspan = document.createElement("SPAN");
+            newspan.innerHTML = links[index].innerHTML;
+            var dataspan = document.createElement("SPAN");
+            dataspan.className = "data";
+            dataspan.innerHTML  = links[index].href.split("map(")[1].split(")")[0];            
+            newspan.appendChild(dataspan);
+            newspan.className = "scrolllink";
+            links[index].parentNode.insertBefore(newspan,links[index]);
+            links[index].style.display = "none";
+            
+            newspan.onclick = function(){
+                var localscroll = this.getElementsByClassName("data")[0].innerHTML;
+                loadmap(localscroll);
+            }
+        }        
+        if(links[index].href.includes("maps/") && !links[index].href.includes(".php") && !links[index].href.includes("https://")){
+            //console.log(links[index].href);
+            var newspan = document.createElement("SPAN");
+            newspan.innerHTML = links[index].innerHTML;
+            var dataspan = document.createElement("SPAN");
+            dataspan.className = "data";
+            dataspan.innerHTML  = "maps/" + links[index].href.split("maps/")[1];
+            newspan.appendChild(dataspan);
+            newspan.className = "scrolllink";
+            links[index].parentNode.insertBefore(newspan,links[index]);
+            links[index].style.display = "none";
+            
+            newspan.onclick = function(){
+                var localscroll = this.getElementsByClassName("data")[0].innerHTML;
+                loadmap(localscroll);
+            }
+        }        
     }
 }
 
-document.getElementById("modebutton").onclick = function(){
-    modeswitch();
-}
 
-document.getElementById("modebutton2").onclick = function(){
+
+document.getElementById("modebutton").onclick = function(){
     modeswitch();
 }
 
@@ -256,43 +345,67 @@ function modeswitch(){
     if(mode == "dark"){
         mode = "light";
         document.body.style.backgroundColor = "white";
-        document.getElementById("scrollscroll").style.backgroundColor = "#f0f0f0";
-        document.getElementById("scrollscroll").style.color = "black";
-
+        mainmap.linkColor = "blue";
+        mainmap.textColor = "black";
+        document.getElementById("mapinput").style.color = "black";
+        document.getElementById("mapinput").style.backgroundColor = "white";
         document.getElementById("scrollinput").style.color = "black";
-        document.getElementById("scrollinput").style.backgroundColor = "white";       
+        document.getElementById("scrollinput").style.backgroundColor = "white";        
+
+        document.getElementById("mapsbox").style.backgroundColor = "white";
+        document.getElementById("mapsbox").style.color = "black";  
+        document.getElementById("scrollscroll").style.backgroundColor = "white";
+        document.getElementById("scrollscroll").style.color = "black";          
         document.getElementById("scrollsbox").style.backgroundColor = "white";
-        document.getElementById("scrollsbox").style.color = "black";        
+        document.getElementById("scrollsbox").style.color = "black";          
+        
     }
     else{
         mode = "dark";
-        document.body.style.backgroundColor = "#404040";
-        document.getElementById("scrollscroll").style.backgroundColor = "black";
-        document.getElementById("scrollscroll").style.color = "#00ff00";    
-        document.getElementById("scrollinput").style.color = "#303030";
-        document.getElementById("scrollinput").style.backgroundColor = "black";              
-  
-        document.getElementById("scrollsbox").style.backgroundColor = "#303030";
+        document.body.style.backgroundColor = "black";
+        mainmap.textColor = "#00ff00";
+        mainmap.linkColor = "#ff2cb4";
+        document.getElementById("mapinput").style.color = "#ff2cb4";
+        document.getElementById("mapinput").style.backgroundColor = "black";
+        document.getElementById("scrollinput").style.color = "#ff2cb4";
+        document.getElementById("scrollinput").style.backgroundColor = "black";               
+        document.getElementById("mapsbox").style.backgroundColor = "black";
+        document.getElementById("mapsbox").style.color = "#00ff00";  
+        document.getElementById("scrollsbox").style.backgroundColor = "black";
         document.getElementById("scrollsbox").style.color = "#00ff00";  
+        document.getElementById("scrollscroll").style.backgroundColor = "black";
+        document.getElementById("scrollscroll").style.color = "#00ff00"; 
+                
 
     }
 }
 
+maps = [];
+var httpc8 = new XMLHttpRequest();
+httpc8.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        maps = JSON.parse(this.responseText);
+        for(var index = 0;index < maps.length;index++) {
+            var newmapbutton = document.createElement("P");
+            newmapbutton.className = "boxlink";
+            newmapbutton.innerHTML = "maps/" + maps[index];
+            document.getElementById("mapsbox").appendChild(newmapbutton);
+            newmapbutton.onclick = function(){
+                currentFile = this.innerHTML;
+                loadmap(currentFile);
+            }
+        }
+    };
+}
 
+httpc8.open("GET", "dir.php?filename=maps", true);
+httpc8.send();
 
 scrolls = [];
 var httpc9 = new XMLHttpRequest();
 httpc9.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         scrolls = JSON.parse(this.responseText);
-        var newscrollbutton = document.createElement("P");
-        newscrollbutton.className = "boxlink";
-        newscrollbutton.innerHTML = "README.md";
-        document.getElementById("scrollsbox").appendChild(newscrollbutton);
-        newscrollbutton.onclick = function(){
-            currentFile = this.innerHTML;
-                loadscroll(currentFile);
-        }           
         for(var index = 0;index < scrolls.length;index++) {
             var newscrollbutton = document.createElement("P");
             newscrollbutton.className = "boxlink";
@@ -309,73 +422,30 @@ httpc9.onreadystatechange = function() {
 httpc9.open("GET", "dir.php?filename=scrolls", true);
 httpc9.send();
 
+
+
+
+document.getElementById("mapinput").value = "";
+
 document.getElementById("scrollinput").value = "";
+
+document.getElementById("mapinput").onchange = function(){
+    loadmap(this.value);
+    this.value = "";
+}
 
 document.getElementById("scrollinput").onchange = function(){
     loadscroll(this.value);
     this.value = "";
 }
 
-
-
-
-if(innerWidth > innerHeight){
-    codesquaresize = 100;
-}
-else{
-    codesquaresize = 80;
-}
-
-
-//globalurl = "http://www.trashrobot.org/qrcode.html";
-globalurl = window.location.href;
-
-
-qrcode = new QRCode(document.getElementById("qrcode"), {
-	text: globalurl,
-	width: codesquaresize,
-	height: codesquaresize,
-	colorDark : "#000000",
-	colorLight : "#ffffff",
-	correctLevel : QRCode.CorrectLevel.H
-});
-    
-qrcode.makeCode(globalurl);
-
-qrcode2 = new QRCode(document.getElementById("qrcode2"), {
-	text: globalurl,
-	width: codesquaresize,
-	height: codesquaresize,
-	colorDark : "#000000",
-	colorLight : "#ffffff",
-	correctLevel : QRCode.CorrectLevel.H
-});
-    
-qrcode2.makeCode(globalurl);
-
-
-hideportraitlist = true;
-
-document.getElementById("hidebutton").onclick = function(){
-    hideportraitlist = !hideportraitlist;
-    if(hideportraitlist){
-        document.getElementById("scrollsbox").style.display = "none";
-        document.getElementById("hideicon").src = "iconsymbols/showmenu.svg";
-    }
-    else{
-        document.getElementById("scrollsbox").style.display = "block";
-        document.getElementById("hideicon").src = "iconsymbols/hidemenu.svg";
-
-    }
-
-}
 </script>
 <style>
-.editlinks{
-/*    display:none;*/
+#scrolleditorlink img{
+    background-color:#808080;
 }
-pre{
-  overflow:scroll;
+#mapeditorlink img{
+    background-color:#808080;
 }
 body{
     overflow:hidden;
@@ -395,12 +465,11 @@ input{
 .boxlink{
     padding-left:1em;
     cursor:pointer;
-    color:#ff2cb4;
+    
 }
 .boxlink:hover{
     background-color:#808080;
 }
-
 .scrolllink{
     color:#ff2cb4;
     cursor:pointer;
@@ -409,33 +478,22 @@ input{
     background-color:#ff2cb490;
 }
 
-#scrollscroll{
-    text-align:justify;
-    padding-left:1em;
-    padding-right:1em;
+#mainmap{
     position:absolute;
-    overflow:scroll;
-    background-color:black;
-    color:#00ff00;
-    font-size:2em;
+    left:0px;
+    top:0px;
+    overflow:hidden;
 }
-#scrollscroll a{
+#mainmap a{
+    font-family:Helvetica;
     color:#ff2cb4;
 }
-#scrollscroll img{
-    max-width:80%;
-    display:block;
-    margin:auto;
-    background-color:none;
-}
+
 .data{
     display:none;
 }
 h1,h2,h3,h4{
     text-align:center;
-}
-.button{
-    cursor:pointer;
 }
 .button:hover{
     background-color:green;
@@ -443,64 +501,97 @@ h1,h2,h3,h4{
 .button:active{
     background-color:yellow;
 }
+#mapsbox{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    z-index:-1;
+    overflow:hidden;
+    background:#404040;
+    font-size:1.2em;
+}
 #scrollsbox{
     position:absolute;
-    background-color:#808080;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    overflow:hidden;
+    font-size:1.2em;
+}
+#mapsbox{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    right:0px;
     color:black;
+    background-color:#ffd0d0;
     overflow:scroll;
+}
+
+#scrollscroll{
+    padding-left:1em;
+    padding-right:1em;
+    left:0px;
+    top:0px;
+    position:absolute;
+    overflow:scroll;
+    background-color:white;
+    color:black;
+    font-size:2em;
+    display:none;
+    z-index:-3;
+}
+#scrollscroll a{
+    color:#ff2cb4;
+}
+#scrollscroll img{
+    max-width:50%;
+    display:block;
+    margin:auto;
+    background-color:none;
 }
 
 
 @media only screen and (orientation: landscape) {
-    
-    #scrollsbox{
-        right:0px;
+    #mapsbox{
         top:0px;
+    }
+    #mapsbox{
+        top:0px;
+    }
+    #scrollsbox{
         bottom:0px;
     }
     #scrollscroll{
-        top:0px;
         bottom:0px;
-    }   
-    #landscapelinks{
-        position:absolute;
-        left:0px;
-        top:0px;
     }
-    #portraitlinks{
-        display:none;
+}
+
+@media only screen and (orientation: portrait) {
+    #scrollscroll{
+        left:0px;
+        right:0px;
+    }   
+    #scrollsbox{
+        right:0px;
+    }
+    #mapsbox{
+        bottom:0px;
+        left:0px;
+        right:0px;
     }
 
 }
 
-@media only screen and (orientation: portrait) {
-    .button{
-        font-size:2em;
-    }
-    #scrollsbox{
-        height:30%;
-        right:0px;
-        left:0px;
-        bottom:0px;
-        display:none;
-    }
-    #scrollscroll{
-        top:70px;
-        left:10px;
-        right:10px;
-        bottom:10px;
-    }   
-    #landscapelinks{
-        display:none;
-    }
-    #portraitlinks{
-        position:absolute;
-        left:0px;
-        top:0px;
-    }
-    table img{
-        max-width:60px;
-    }
+#mapsbox{
+    bottom:0px;
+    left:0px;
+}
+#mapsbox img{
+    width:50px;
+}
+.button{
+    font-size:2em;
 }
 </style>
 </body>
