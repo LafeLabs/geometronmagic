@@ -510,7 +510,7 @@ h1,h2,h3,h4{
     right:0px;
     bottom:0px;
     z-index:-1;
-    overflow:hidden;
+    overflow:scroll;
     background:#404040;
     font-size:1.2em;
 }
@@ -519,7 +519,7 @@ h1,h2,h3,h4{
     top:0px;
     left:0px;
     z-index:-1;
-    overflow:hidden;
+    overflow:scroll;
     font-size:1.2em;
 }
 #mapsbox{
