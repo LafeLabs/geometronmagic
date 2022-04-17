@@ -92,7 +92,7 @@
         <a href= "mapdelete.html">
             <img src = "iconsymbols/delete.svg"/>
         </a>
-        <a id = "mapuserlink" href= "mapbook.php?map=maps/home">
+        <a id = "mapuserlink" href= "user.php?map=maps/home">
             <img src = "iconsymbols/home.svg"/>
         </a>
         <a href= "mapset.html">
@@ -221,7 +221,7 @@ else{
 }
 
 document.getElementById("currentfilename").innerHTML = currentFile;
-document.getElementById("mapuserlink").href = "mapbook.php?map=" + currentFile;
+document.getElementById("mapuserlink").href = "user.php?map=" + currentFile;
     
 landscape = false;
 if(innerWidth > innerHeight){
@@ -651,7 +651,7 @@ if (this.readyState == 4 && this.status == 200) {
         newmapbutton.onclick = function(){
             currentFile = this.innerHTML;
             document.getElementById("currentfilename").innerHTML = currentFile;
-            document.getElementById("mapuserlink").href = "mapbook.php?map=" + currentFile;    
+            document.getElementById("mapuserlink").href = "user.php?map=" + currentFile;    
             var httpc = new XMLHttpRequest();
             httpc.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
@@ -675,7 +675,7 @@ document.getElementById("newmapinput").value = "";
 document.getElementById("newmapinput").onchange = function(){
     var localmapname = this.value;
     currentFile = "maps/" + this.value;
-    document.getElementById("mapuserlink").href = "mapbook.php?map=" + currentFile;
+    document.getElementById("mapuserlink").href = "user.php?map=" + currentFile;
     document.getElementById("currentfilename").innerHTML = currentFile;
     
     if(maps.indexOf(localmapname) != -1){

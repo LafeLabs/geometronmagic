@@ -47,6 +47,9 @@
             <a href = "geometroncoinfeededitor.html">FEED EDITOR</a>
         </td>
     </tr>
+        <td>
+            <a href = "mapeditor.php">mapeditor.php</a>
+        </td>
     <tr>
         <td>
             <a href = "icon.png">icon.png</a>
@@ -56,6 +59,10 @@
     <tr>
         <td class=  "button" id  = "savebutton">SAVE</td>
     </tr>
+    <tr>
+        <td class=  "button" id  = "mapsavebutton">SAVE TO MAP</td>
+    </tr>
+
 </table>
 <script>
 
@@ -159,6 +166,10 @@ document.getElementById("savebutton").onclick = function(){
     savepng();
 }
 
+document.getElementById("mapsavebutton").onclick = function(){
+    savefeed();
+}
+
 function savepng(){
 
     var httpc = new XMLHttpRequest();
@@ -168,9 +179,28 @@ function savepng(){
     httpc.send("data="+encodeURIComponent(mainGVM.pngcode().substring(22))+"&filename=icon.png");//send text to filesaver.php
 }
 
+function savefeed(){
+    textfeed.src.push(mainGVM.pngcode());
+    var url = "filesaver.php";        
+    var httpc4 = new XMLHttpRequest();
+    httpc4.open("POST", url, true);
+    httpc4.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    httpc4.send("data="+encodeURIComponent(JSON.stringify(textfeed,null,"    "))+"&filename=data/textfeed.txt");//send text to filesaver.php
+}
+
+textfeed = {};
+var httpc11 = new XMLHttpRequest();
+    httpc11.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        textfeed = JSON.parse(this.responseText);
+    }
+};
+httpc11.open("GET", "fileloader.php?filename=data/textfeed.txt", true);
+httpc11.send();
+
 </script>
 <style>
-#savebutton{
+#savebutton,#mapsavebutton{
     border:solid;
 }
 body{
