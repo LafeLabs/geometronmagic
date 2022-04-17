@@ -18,6 +18,7 @@
  - [arduino uno shield for education, motor control, science, neopixels](https://github.com/lafelabs/trashrobot5)
  - [geometron printer with micro positioning for z, two DVD drives, laser optical print and electrode electrochemical print, running geometron](scrolls/microposition)
  - [the roctal system of encoding information in geometry of a surface](scrolls/roctal)
+ - [flags pointing to domains](scrolls/flags)
 
 
 ### Links
@@ -27,6 +28,7 @@
  - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
  - [dnagenerator.php](dnagenerator.php)
  - [copy scrolls/home to README.md](copy.php?from=scrolls/home&to=README.md)
+ - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)
  - [scroll set replicator](scrollset.html)
  - [map set replicator](mapset.html)
  - [replicator.php](replicator.php)
@@ -53,7 +55,7 @@ sudo apt install apache2 -y
 sudo apt install php libapache2-mod-php -y
 ```
 
-## Install geometron coin with this document for self-documentation and replication
+## Install geometron magic with this document for self-documentation and replication
 
 ```
 cd /var/www/html
@@ -140,5 +142,6 @@ Use the Editor built into the system to create a new file called replicator.php 
  - after you've edited the code, click [text2php.php](text2php.php) to convert that to php
  - push your code to your github repo
  - use the new replicator code on your github repo to replicate out that instance to all other servers(linux, windows, mac, android) and forks
+ - when you figure this out, make youtube videos showing other people how to copy the whole system 
 
 
