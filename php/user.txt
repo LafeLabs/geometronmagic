@@ -59,14 +59,14 @@
     </tr>
     <tr>
         <td class = "editlinks">
-            <a href = "scrollset.html">
+            <a id = "setlink2" href = "scrollset.html">
                 <img src = "iconsymbols/chaos.svg"/>
             </a>
         </td>
     </tr>
     <tr>
         <td class = "editlinks">
-            <a href = "scrolldelete.html">
+            <a  id = "deletelink2" href = "scrolldelete.html">
                 <img src = "iconsymbols/delete.svg"/>
             </a>
         </td>
@@ -96,12 +96,12 @@
             </a>
         </td>
         <td class = "editlinks">
-            <a href = "scrollset.html">
+            <a id = "setlink" href = "scrollset.html">
                 <img src = "iconsymbols/chaos.svg"/>
             </a>
         </td>
         <td class = "editlinks">
-            <a href = "scrolldelete.html">
+            <a id = "deletelink" href = "scrolldelete.html">
                 <img src = "iconsymbols/delete.svg"/>
             </a>
         </td>
@@ -211,9 +211,15 @@ function loadmap(mapname){
     document.getElementById("scrollscroll").style.display = "none";
     
     document.getElementById("mainmap").style.display = "block";
+
     document.getElementById("scrolleditorlink").href = "mapeditor.php?map=" + filename;
     document.getElementById("scrolleditorlink2").href = "mapeditor.php?map=" + filename;
 
+
+    document.getElementById("setlink").href = "mapset.html";
+    document.getElementById("setlink2").href = "mapset.html";
+    document.getElementById("deletelink").href = "mapdelete.html";
+    document.getElementById("deletelink2").href = "mapdelete.html";
         
     var httpc = new XMLHttpRequest();
     httpc.onreadystatechange = function(){
@@ -274,6 +280,11 @@ function loadscroll(scrollname){
     }
     document.getElementById("scrolleditorlink").href = "scrolleditor.php?scroll=" + filename;
     document.getElementById("scrolleditorlink2").href = "scrolleditor.php?scroll=" + filename;
+
+    document.getElementById("setlink").href = "scrollset.html";
+    document.getElementById("setlink2").href = "scrollset.html";
+    document.getElementById("deletelink").href = "scrolldelete.html";
+    document.getElementById("deletelink2").href = "scrolldelete.html";
 
 
     document.getElementById("scrollscroll").innerHTML = "";
