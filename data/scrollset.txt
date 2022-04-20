@@ -15,6 +15,7 @@
         "iconsets",
         "lasershapes",
         "links",
+        "math",
         "mechanicals",
         "microposition",
         "newcoin",

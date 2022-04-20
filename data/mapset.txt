@@ -2,7 +2,8 @@
     "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/",
     "maps": [
         "foo",
-        "home"
+        "home",
+        "math"
     ],
     "images": [],
     "scrolls": [
@@ -20,6 +21,7 @@
         "iconsets",
         "lasershapes",
         "links",
+        "math",
         "mechanicals",
         "microposition",
         "newcoin",
