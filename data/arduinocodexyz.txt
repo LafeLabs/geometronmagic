@@ -226,16 +226,16 @@ void geometronAction(char action){
     side *= 2;
   }
   if(action == 'A'){
-    geometronSequence("ggdhhef");
+    geometronSequence("ggdhheeff");
   }
   if(action == 'B'){
-    geometronSequence("ggchhef");
+    geometronSequence("ggchheeff");
   }
   if(action == 'C'){
-    geometronSequence("ggbhhef");
+    geometronSequence("ggbhheeff");
   }
   if(action == 'D'){
-    geometronSequence("ggahhef");
+    geometronSequence("ggahheeff");
   }
   if(action == 'E'){
     geometronSequence("ggdhh");
