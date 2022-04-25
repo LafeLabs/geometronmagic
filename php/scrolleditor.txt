@@ -15,7 +15,7 @@
     </head>
 <body>
 <div id = "prototype">
-## [HOME](scrolls/home)
+## [HOME](index.html)
 
 # name
  

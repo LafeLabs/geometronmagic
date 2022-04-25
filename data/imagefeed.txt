@@ -9,5 +9,6 @@
   "https://vt-vtwa-assets.varsitytutors.com/vt-vtwa/uploads/problem_question_image/image/1346/Cube__PSF_.png",
   "http://localhost/symbolfeed/symbol1650065287.svg",
   "http://localhost/symbolfeed/symbol1650065492.svg",
-  "http://localhost/symbolfeed/symbol1650066042.svg"
+  "http://localhost/symbolfeed/symbol1650066042.svg",
+  "http://localhost/symbolfeed/symbol1650918625.svg"
 ]
