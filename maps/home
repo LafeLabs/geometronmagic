@@ -3,33 +3,11 @@
         "x": -0.016,
         "y": 0.32,
         "w": 0.6765714285714286,
-        "h": 0.6788571428571428,
+        "h": 0.6765714285714286,
         "angle": 0,
         "text": "editor.php",
         "href": "",
         "src": "https://i.imgur.com/qMRny0B.jpg",
-        "maplinkmode": false
-    },
-    {
-        "x": 0.7485714285714286,
-        "y": 0.888,
-        "w": 0.4662857142857143,
-        "h": 0.053714285714285714,
-        "angle": 0,
-        "text": "editor.php",
-        "href": "editor.php",
-        "src": "",
-        "maplinkmode": false
-    },
-    {
-        "x": 0.7657142857142857,
-        "y": 0.23085714285714284,
-        "w": 0.4674285714285714,
-        "h": 0.05503512880562061,
-        "angle": 0,
-        "text": "fork.html",
-        "href": "fork.html",
-        "src": "",
         "maplinkmode": false
     },
     {
@@ -42,17 +20,6 @@
         "href": "scrolls/home",
         "src": "",
         "maplinkmode": true
-    },
-    {
-        "x": 0.014857142857142857,
-        "y": 0.006857142857142857,
-        "w": 0.4674285714285714,
-        "h": 0.054857142857142854,
-        "angle": 0,
-        "text": "up a level",
-        "href": "../",
-        "src": "",
-        "maplinkmode": false
     },
     {
         "x": 0.24342857142857144,

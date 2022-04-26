@@ -1,1 +1,1 @@
-{"w":0.8594285714285714,"x":-0.5211428571428571,"y":0.5737142857142857,"angle":0,"src":"http://localhost/symbolfeed/symbol1650918625.svg"}
+{"w":0.9988571428571429,"x":0,"y":0.08914285714285715,"angle":0,"src":"http://localhost/symbolfeed/symbol1650981547.svg"}

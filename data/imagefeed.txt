@@ -10,5 +10,6 @@
   "http://localhost/symbolfeed/symbol1650065287.svg",
   "http://localhost/symbolfeed/symbol1650065492.svg",
   "http://localhost/symbolfeed/symbol1650066042.svg",
-  "http://localhost/symbolfeed/symbol1650918625.svg"
+  "http://localhost/symbolfeed/symbol1650918625.svg",
+  "http://localhost/symbolfeed/symbol1650981547.svg"
 ]

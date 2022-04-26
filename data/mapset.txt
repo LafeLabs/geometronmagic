@@ -28,6 +28,7 @@
         "newcoin",
         "pi",
         "picrust",
+        "printerxyz",
         "roctal",
         "sets",
         "solar",
