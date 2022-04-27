@@ -4,6 +4,7 @@
         "arduino",
         "artbox",
         "brain",
+        "coins",
         "coinsets",
         "controller",
         "earthbag",

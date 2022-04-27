@@ -1,8 +1,46 @@
+ - [geometroncoinfeededitor.html](geometroncoinfeededitor.html)
+ - [programarduino.html](programarduino.html)
+ - [programarduinoxyz.html](programarduinoxyz.html)
+ - [globalimagefeed.html](globalimagefeed.html)
+ - [alignimage.html](alignimage.html)
+ - [traceicon.html](traceicon.html)
+ - [icon3d.html](icon3d.html)
+ - [svgfeed.html](svgfeed.html)
+ - [roctalcoin.html](roctalcoin.html)
+ - [icon64.html](icon64.html)
+ - [hypercube.html](hypercube.html)
+ - [water bag](scrolls/waterbag)
+ - [fire bag](scrolls/firebag)
+ - [earth bag](scrolls/earthbag)
+ - [build arduino brain for robot](scrolls/brain)
+ - [build controller for robot](scrolls/controller)
+ - [build the nail-and-clay 2 and a half d icon printer mechanicals](scrolls/mechanicals)
+ - [copy different coin sets](scrolls/coinsets)
+
 ## [HOME](index.html)
 
-# Create New Icons
+# Create New Coins
 
-Find the symbol/image/icon you want to trace, a url of some image somewhere either on the Internet or your local server.  Go to the [global image feed](globalimagefeed.html) and copy/paste the url of the image into the input(use right clicking to get an image url).
+1. Either get a link from someone with a [pi server set up](scrolls/pi) or [set up a server on a windows, linux or mac laptop/desktop using XAMPP](scrolls/xampp)
+2. Find an image of a symbol and put it in [GLOBAL IMAGE FEED](globalimagefeed.html)
+3. Align the image with [ALIGN IMAGE](alignimage.html)
+4. Trace the icon with [TRACE ICON](traceicon.html)
+5. Print out a coin from the icon program on a printer robot
+6. Store print in [EARTH BAG](scrolls/earthbag)
+7. Make stamps from prints and store in [FIRE BAG](scrolls/firebag)
+8. Use stamps to make finished coins and store in WATER BAG
+9. Distribute coins in physical spaces, which link to a url which links back to the physical space with the coins in it
+10. Create other physical hyperlinks to amplify the loop: flags and cardboard signs
+ 
+Geometron Coin Feed:
+
+![](https://i.imgur.com/WzzpO44.png)
+
+Click the eight arrows of CHAOS to get to the feed editor:
+
+![](https://i.imgur.com/iJzuy3j.png)
+
+Click "IMAGES" to get to the global image feed.  Then go find images on the Web, right click and copy the url of the image, then paste it in the text input at the top of the image feed page:
 
 ![](https://i.imgur.com/IR6el87.png)
 
@@ -13,8 +51,6 @@ Click the "ALIGN" link to go to the image aligner.  Move the image around by dra
 Click "TRACE" to go to the icon tracer page.  To clear the glyph hit the vertical line key "|".  To move with a pixel drawn, use keys a, s, d, and f.  To move without drawing a pixel use the keys z, x, c,  and v.   Hit "enter" to switch between pixel draw mode and text mode, in which you can type and it will create letters using the Geometron pixel font(this is documented in the [First Book of Geometron](http://trashrobot.org/bookofgeometronfirst/)).  Arrow keys step through the Geometron glyph, allowing for it to be edited at any point in the program.  Actions are deleted using the backspace key.  Color is selected by selecting the numbers 2, 3, 4, 5, 6, and 7 for red, orange, yellow, green, blue, and purple.  The backtick key "`" selects the default color black again.  All of these can also be accessed by way of the touch screen keys in the other panel in the display.  Hit the SAVE button whenever a glyph is ready to be saved to the feed.  
 
 ![](https://i.imgur.com/RnqevGz.png)
-
-Icon sets can be copied, manipulated, added to or subtracted from, or traded. They can be printed on paper, trash, leaves, bark, wood, plastic, metal, stone, 3d printed plastic, clay, anything you can cut with a laser cutter, or canvas or svg elements in HTML.  
 
 Once you have finished the design of an icon, you can print it by clicking the link to "PROGRAM CLAY PRINTER".  Note the icon you want to print and click on it.  When you do that the code in the rectangular text area in the lower right hand corner of the screen will change to have the correct robot motion sequence. This sequence is just a long string of letters representing robot movements. 
 
@@ -77,25 +113,3 @@ Use [svgfeed.html](svgfeed.html) to create .svg files for download to print on a
 ![](https://i.imgur.com/vkob7aZ.png)
 
 ![](https://i.imgur.com/cuv5cVJ.png)
-
-## Links
-
- - [geometroncoinfeededitor.html](geometroncoinfeededitor.html)
- - [programarduino.html](programarduino.html)
- - [programarduinoxyz.html](programarduinoxyz.html)
- - [globalimagefeed.html](globalimagefeed.html)
- - [alignimage.html](alignimage.html)
- - [traceicon.html](traceicon.html)
- - [icon3d.html](icon3d.html)
- - [svgfeed.html](svgfeed.html)
- - [roctalcoin.html](roctalcoin.html)
- - [icon64.html](icon64.html)
- - [hypercube.html](hypercube.html)
- - [water bag](scrolls/waterbag)
- - [fire bag](scrolls/firebag)
- - [earth bag](scrolls/earthbag)
- - [build arduino brain for robot](scrolls/brain)
- - [build controller for robot](scrolls/controller)
- - [build the nail-and-clay 2 and a half d icon printer mechanicals](scrolls/mechanicals)
- - [copy different coin sets](scrolls/coinsets)
-
