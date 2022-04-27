@@ -1,10 +1,84 @@
 
 ## [HOME](index.html)
 
-# printerxyz
+# Printer XYZ
  
+## [Arduino programmer](programarduinoxyz.html)
 
+![](https://i.imgur.com/OQLwUHJ.jpg)
+
+![](https://i.imgur.com/O9WbCjS.jpg)
+
+![](https://i.imgur.com/t4nmiDt.jpg)
+
+Handle construction: stack of cardboard:
+
+![](https://i.imgur.com/Pd5l9a3.jpg)
+
+Handle goes through a slot cut in the top board
+
+![](https://i.imgur.com/vxxstUU.jpg)
+
+Top board layout:
+
+![](https://i.imgur.com/NJ3TJSy.jpg)
+
+Base board is a stack of big slabs of cardboard, rulers shown for scale, punch holes in corners and thread clotheslines through. Clotheslines are 6 foot segments with ends taped with duct tape.
+
+![](https://i.imgur.com/zYphxwK.jpg)
+
+We make fasteners with 3 inch triangles and chains of rubber bands:
+
+![](https://i.imgur.com/WQi2npo.jpg)
+
+These are used as bunji cords across the base board:
+
+![](https://i.imgur.com/36OFFhk.jpg)
+
+Z axis parts:
+
+![](https://i.imgur.com/FNOjQqk.jpg)
+
+Z axis stage closeup, this rubber band holds the base of the tool spring:
+
+![](https://i.imgur.com/w1b298G.jpg)
+
+Assembled z axis stage and tool on spring:
+
+![](https://i.imgur.com/Z3JwbLq.jpg)
+
+Elements of XY stages, the L bracket is all Elmers glue construction:
+
+![](https://i.imgur.com/qP1oSia.jpg)
+
+
+![](https://i.imgur.com/LC9pWqt.jpg)
+
+Closeup of the L
+
+![](https://i.imgur.com/PWZREjN.jpg)
+
+
+The L is strapped to the X stage with a pair of rubber bands
+
+![](https://i.imgur.com/PmPSW6r.jpg)
+
+And the Y stage is fixed into place against the upright of the L with another rubber band, with the wires looped up and around and through the rubber and for strain relief.
+ 
+Figure out which is X(red), Y(green) and Z(blue), do a couple test prints to make sure you have the right orientation, and use paint pen to to mark which is which on the brain.
+
+![](https://i.imgur.com/aRhrqSn.jpg)
+
+
+Be sure that you have a red tape or paint pen marker to mark the side of the controller which goes away from where the USB is.
+
+![](https://i.imgur.com/AUyGbzi.jpg)
+
+
+ 
 ## controller
+![](https://i.imgur.com/dXG7WgX.jpg)
+
 
 Controller kit:
 
@@ -15,15 +89,9 @@ Controller kit:
 - 7 solid wire jumpers, 3" long
 - Geometron shapes: 3" equillateral triangle, 3" square, 3" isoscoles right triangle, 6"x1" ruler with Geometron markings
 
-## Version 2 Geometry
 
 ![](https://i.imgur.com/Iu8m5NU.png)
 
-![](https://i.imgur.com/LOGqpWJ.png)
-
-![](https://i.imgur.com/DXJ8lp1.png)
-
-![](https://i.imgur.com/BaobcqC.png)
 
 
 ![](https://i.imgur.com/rIaKsJ3.jpg)
@@ -47,18 +115,9 @@ Finish opposite end of cable by cutting out two corrugated cardboard strain reli
 
 ![](https://i.imgur.com/UG55SnP.jpg)
 
-[return to robot map](maps/robot)
+## Robot Brain
 
-## [home](index.html)
-## [mechanicals](scrolls/mechanicals)
-## [controller](scrolls/controller)
-
-## [link to arduino program page](programarduino.html)
-
-
-# Robot Brain
-
-## Parts
+### Parts
 
 - [Trash Robot Brain Board v3, purchased from PCBway.com](https://www.pcbway.com/project/shareproject/Trash_Robot_main__brain__board.html) from board design [on github](https://github.com/LafeLabs/trashrobot5/tree/master/boards) called Arduino Shield XYZ stepper v3 
 - right angle male header, 9 pin, 1x
@@ -123,15 +182,8 @@ Note that the orientation of the rainbow matters!! red is at the same end as red
 
 ## Program
 
-[Download and install Arduino IDE](https://www.arduino.cc/en/software).
-
-Copy [Arduino code from github](https://github.com/LafeLabs/trashrobot5/blob/master/arduinocode/arduino-trashrobot-coin-printer/arduino-trashrobot-coin-printer.ino) and paste into IDE, compile and upload to board.  Finish assembly of robot with controller and mechanicals and test. 
-
-To operate robot, follow the path of the [workflow map](maps/workflow) to find images, align them, trace them into robot code, program them into robots, and share them with other people.
-
  - [link to arduino xyz](programarduinoxyz.html)
  - [link to arduino with bridge tool](programarduino.html)
-
 
 
 
