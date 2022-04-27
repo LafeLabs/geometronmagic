@@ -1,1 +1,1 @@
-{"w":0.8868571428571429,"x":0.054857142857142854,"y":0.027428571428571427,"angle":0,"src":"http://localhost/symbolfeed/symbol1651093304.svg"}
+{"w":0.9257142857142857,"x":0.03428571428571429,"y":0.032,"angle":0,"src":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/ChaosStar.svg/1200px-ChaosStar.svg.png"}

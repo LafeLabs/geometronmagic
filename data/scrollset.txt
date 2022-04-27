@@ -30,6 +30,7 @@
         "threed",
         "todo",
         "trashmagic",
+        "trashmagicbooks",
         "trashrobotbrand",
         "waterbag",
         "webpage",
