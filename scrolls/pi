@@ -58,6 +58,9 @@ edit the /etc/hosts file on the remote pi terminal so that home/ and remote/ poi
 
 [link to setting up basic website with pi with external connection](http://unixetc.co.uk/2013/09/21/create-a-basic-website-on-a-raspberry-pi/)
 
+## Install Arduino
+
+the short but not as good way:
 
 ```
 sudo apt-get install arduino

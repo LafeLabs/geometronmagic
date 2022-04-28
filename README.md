@@ -4,34 +4,11 @@
 
 ## A Self-Replicating Set
 
-### Elements
-
- - [self replicating github repository](https://github.com/lafeLabs/geometronmagic)
- - [global link to replicator code](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)
- - [solar power station with battery](scrolls/solar)
- - [trash robot open fashion brand: rainbow and googly eyes](scrolls/trashrobotbrand)
- - [Action Geometry: skeletron, s hooks, trash ties, artbox, shape sets, rulers, tiles](http://trashrobot.org/bookofgeometronfirst/user.php?scroll=scrolls/actiongeometry.md)
- - [symbol factory, system of self-replicating vector graphics in the web browser](symbol.html)
- - [icon magic, the system for creating icons which can be replicated in clay, plastic, metal, paper, cardboard, bitmap, vector graphics, laser cut shapes, robot control, building icon printer robots](scrolls/newcoin)
- - free books: the [first book of geometron](https://www.trashrobot.org/bookofgeometronfirst/), [geometron magic](https://www.trashrobot.org/geometronmagic/), [trash magic](scrolls/trashmagic), [trash magic action coloring book](https://www.trashrobot.org/tmacb/) and all of the ideas contained in those books
- - [pi crust media distribution platform](scrolls/picrust)
- - [arduino uno shield for education, motor control, science, neopixels](https://github.com/lafelabs/trashrobot5)
- - [geometron printer with micro positioning for z, two DVD drives, laser optical print and electrode electrochemical print, running geometron](scrolls/microposition)
- - [the roctal system of encoding information in geometry of a surface](scrolls/roctal)
- - [flags pointing to domains](scrolls/flags)
-
-
 ### Links
 
- - [editor.php](editor.php)
  - [http://localhost/](http://localhost/)
  - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
- - [dnagenerator.php](dnagenerator.php)
- - [copy scrolls/home to README.md](copy.php?from=scrolls/home&to=README.md)
  - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)
- - [scroll set replicator](scrollset.html)
- - [map set replicator](mapset.html)
- - [replicator.php](replicator.php)
  
 ### Install on Pi
 
@@ -90,6 +67,81 @@ edit the /etc/hosts file on the remote pi terminal so that home/ and remote/ poi
 
 [link to setting up basic website with pi with external connection](http://unixetc.co.uk/2013/09/21/create-a-basic-website-on-a-raspberry-pi/)
 
+## Install Arduino
+
+the short but not as good way:
+
+```
+sudo apt-get install arduino
+```
+
+this installs a old version which is missing some features, namely the serial plotter.  following more complicated instructions leads to non-working version which is impossible to uninstall.
+
+
+how to do the tar ball thing to get a later version of arduino which has the plotting
+
+[https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/)
+
+go get the Arduino software at:
+
+[https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+
+and download "Linux ARM 32 bits".
+
+Open a terminal and go to the home directory:
+
+```
+cd ~
+```
+
+Go to downloads folder:
+```
+cd Downloads
+```
+list the files with 
+```
+ls
+```
+See the name of an archive with a name like "arduino-####-linuxarm.tar.xz", where #### is a version number.
+
+extract with 
+```
+tar -xf arduino-####-linuxarm.tar.xz
+```
+
+move the extracted information to opt directory(directory for package installation)
+
+```
+sudo mv arduino-#### /opt
+```
+
+then run the install script:
+```
+sudo /opt/arduino-####/install.sh
+```
+
+
+## Add python that we need for doing science
+
+[https://matplotlib.org/](https://matplotlib.org/)
+
+matplotlib install:
+
+```
+sudo apt install python3-matplotlib
+```
+
+[https://matplotlib.org/](https://matplotlib.org/)
+
+[https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/](https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/)
+
+```
+sudo apt-get update
+sudo apt-get install python3-scipy
+sudo pip3 install --upgrade pip
+reboot
+sudo pip3 install jupyter
+```
 
 ### Install on Windows or Mac
 
