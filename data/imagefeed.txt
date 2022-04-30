@@ -13,5 +13,6 @@
   "http://localhost/symbolfeed/symbol1650918625.svg",
   "http://localhost/symbolfeed/symbol1650981547.svg",
   "http://localhost/symbolfeed/symbol1651093304.svg",
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/ChaosStar.svg/1200px-ChaosStar.svg.png"
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/ChaosStar.svg/1200px-ChaosStar.svg.png",
+  "https://i.imgur.com/dUXEPDV.jpg"
 ]

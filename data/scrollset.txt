@@ -29,6 +29,7 @@
         "solar",
         "threed",
         "todo",
+        "trashframe",
         "trashmagic",
         "trashmagicbooks",
         "trashrobotbrand",
