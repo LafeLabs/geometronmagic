@@ -1,6 +1,9 @@
 {
     "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/",
     "symbols": [
+        "baseboard.svg",
+        "crossbar.svg",
+        "handle.svg",
         "roctal.svg",
         "roctalscroll.svg",
         "symbol1641265253.svg",
