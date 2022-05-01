@@ -1,1 +1,1 @@
-{"w":1.1748571428571428,"x":-0.08685714285714285,"y":-0.10742857142857143,"angle":0,"src":"https://i.imgur.com/dUXEPDV.jpg"}
+{"w":0.9988571428571429,"x":0,"y":0,"angle":0,"src":"http://localhost/symbolfeed/symbol1651422639.svg"}
