@@ -18,6 +18,11 @@
         "symbol1650066042.svg",
         "symbol1650066652.svg",
         "symbol1650227241.svg",
-        "symbol1650246852.svg"
+        "symbol1650246852.svg",
+        "symbol1650247225.svg",
+        "symbol1650918625.svg",
+        "symbol1650981547.svg",
+        "symbol1651093304.svg",
+        "symbol1651266125.svg"
     ]
 }
