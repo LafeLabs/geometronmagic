@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <!--
 
-        EVERYTHING IS PHYSICAL 
+        EVERYTHING IS PHYSICAL
         EVERYTHING IS FRACTAL
         EVERYTHING IS RECURSIVE
-        NO MONEY 
-        MO MINING 
+        NO MONEY
+        MO MINING
         NO PROPERTY
         LOOK AT THE INSECTS
         LOOK AT THE FUNGI
@@ -16,14 +16,21 @@
 
     
     -->
-    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA588AANx3AADcdwAA3HcAAN/3AADcdwAAvHsAANx3AADf9wAA3HcAANx3AADcdwAA3/cAAOfPAAD//wAA" rel="icon" type="image/x-icon" />
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAP//AP///wANAP8A5Dz6ABueRwAAt/8A6BonABo86AAAAAA  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREREREREREREREAAAEREREREQCIgREREd3dwAAB3d3d3d3d3d3d3d3d3d3d3d3d3VVVVVVVQAFVVAAVVVQIiBRAiIBEQIAIBECAAERAgAgFgIABmYCIiBmAiIGZgIiIGYCIgZmYCIAaIAAMzMzAAiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
     
-    <!--Stop Google:-->
-    <META NAME="robots" CONTENT="noindex,nofollow">
-<!--geometron javascript library-->
-    <script src="jscode/geometron.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+        <script src="jscode/geometron.js"></script>
+
 </head>
 <body>
+<div id="example1" class="list-group col">
+	<div class="list-group-item">Item 1</div>
+	<div class="list-group-item">Item 2</div>
+	<div class="list-group-item">Item 3</div>
+	<div class="list-group-item">Item 4</div>
+	<div class="list-group-item">Item 5</div>		
+	<div class="list-group-item">Item 6</div>
+</div>
     <div style = "display:none"><canvas id = "maincanvas"></canvas></div>
     
 <div id = "header">
@@ -73,6 +80,13 @@
 
 <script>
 
+new Sortable(document.getElementById('feed'), {});
+
+//new Sortable(document.getElementById('feed'), {
+//	animation: 150,
+//	ghostClass: 'blue-background-class'
+//});
+
 feedwidth = 100;
 feedlinkwidth  = feedwidth;
 mainsize = 0.5*innerWidth - 10;
@@ -116,13 +130,19 @@ function loadfeed(){
         newdiv.style.marginBottom = 0.05*feedwidth + "px";
         newdiv.appendChild(newcan);
         newdiv.className = "feedelement";
+       // newdiv.classList.add("list-group-item");
+        newdiv.ondrop = function(){
+            neworder();
+        }
         newcan.classList.add("button");
+        newdiv.style.height = "100px";
         document.getElementById("feed").appendChild(newdiv);
         var newGVM = new GVM(newcan,feedlinkwidth,feedlinkwidth);
         newGVM.hypercube = mainGVM.hypercube;
         gvmArray.push(newGVM);
         newGVM.drawGlyph(robotfeed[index]);    
-        
+
+
         var datadiv = document.createElement("DIV");
         datadiv.innerHTML = robotfeed[index];
         datadiv.className = "data";
@@ -131,6 +151,7 @@ function loadfeed(){
             glyph = this.getElementsByClassName("data")[0].innerHTML;
             document.getElementById("glyphinput").value = glyph;
         }
+        
         
         var newimg = document.createElement("IMG");
         newimg.src = "iconsymbols/delete.svg";
@@ -204,47 +225,23 @@ document.getElementById("replacebutton").onclick = function(){
 
 document.getElementById("textio").value = "";
 
-
-
-function bytecode2ascii(bytecode){
-    var bytesequence = bytecode.split(",");
-    var outstring = "";
-    for(var index = 0;index < bytesequence.length;index++){
-        var robotaction = parseInt(bytesequence[index],8);
-        if(robotaction == 0500){
-            outstring += "A";
-        }
-        if(robotaction == 0501){
-            outstring += "B";
-        }
-        if(robotaction == 0502){
-            outstring += "C";
-        }
-        if(robotaction == 0503){
-            outstring += "D";
-        }
-        if(robotaction == 0504){
-            outstring += "E";
-        }
-        if(robotaction == 0505){
-            outstring += "F";
-        }
-        if(robotaction == 0506){
-            outstring += "G";
-        }
-        if(robotaction == 0507){
-            outstring += "H";
-        }
-        if(robotaction > 01040 && robotaction < 01177){
-            outstring += bytecode2ascii(mainGVM.hypercube[robotaction]);
-        }
+function neworder(){
+    
+    var datafeed = document.getElementById("feed").getElementsByClassName("data");
+    newrobotfeed = [];
+    
+    for(var index = 0;index < datafeed.length;index++){
+        newrobotfeed.push(datafeed[index].innerHTML);
     }
-    return outstring;
+    robotfeed  = newrobotfeed;
+    loadfeed();
+    saverobotfeed();
 
 }
 
 </script>
 <style>
+
 body{
     overflow:hidden;
     color:#00ff00;
@@ -258,6 +255,8 @@ body{
     top:-80px;
 }
 .feedelement{
+}
+.feedcan{
 }
 #header{
     position:absolute;
