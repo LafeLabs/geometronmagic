@@ -22,6 +22,9 @@
     <META NAME="robots" CONTENT="noindex,nofollow">
 <!--geometron javascript library-->
     <script src="jscode/geometron.js"></script>
+<!--
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>-->
+        
 </head>
 <body>
     <div style = "display:none"><canvas id = "maincanvas"></canvas></div>
@@ -35,23 +38,10 @@
             <td>
                 <a href = "iconset.html">ICONS</a>
             </td>
-
-            <td>
-                <a href = "magic.html">MAGIC</a>
-            </td>
-
-        </tr>
-    </table>
-    <table>
-        <tr><td id = "loadbutton" class= "button">LOAD</td>
-            <td>CODE:</td>
-            <td>
-                <input id = "glyphinput"/>
-            </td>
         </tr>
     </table>
     <p>
-        enter code in input to add to feed. red x's delete elements. copy from orange box to get this feed and share it.  If someone shares a feed with you drop it in the orange box and "IMPORT".
+Click icons to create a link.  Edit links. Edit glyphs. Move links up and down.  Delete links and make new ones.  The bottom text area is for import/export of link feeds.  
     </p>
 </div>
 
@@ -62,10 +52,12 @@
     <div id = "importbutton" class=  "button">IMPORT</div>
     <div id = "replacebutton" class= "button">REPLACE</div>
     <textarea id = "textio"></textarea>
-    
 </div>
 
 <script>
+
+//new Sortable(document.getElementById('coinfeed'), {});
+
 
 feedwidth = 100;
 feedlinkwidth  = feedwidth;
@@ -88,7 +80,7 @@ httpcHypercube.onreadystatechange = function(){
             if (this.readyState == 4 && this.status == 200) {
                 robotfeed = JSON.parse(this.responseText);
                 loadfeed();
-                document.getElementById("textio").value = JSON.stringify(robotfeed,null,"  ");
+
             }
         };
         httpcFeed.open("GET", "fileloader.php?filename=data/robotfeed.txt", true);
@@ -99,6 +91,7 @@ httpcHypercube.onreadystatechange = function(){
             if (this.readyState == 4 && this.status == 200) {
                 geometroncoinfeed = JSON.parse(this.responseText);
                 loadcoinfeed();
+                document.getElementById("textio").value = JSON.stringify(geometroncoinfeed,null,"  ");
             }
         };
         httpccoinfeed.open("GET", "fileloader.php?filename=data/geometroncoinfeed.txt", true);
@@ -135,8 +128,6 @@ function loadfeed(){
         newdiv.appendChild(datadiv);
         newdiv.onclick = function(){
             glyph = this.getElementsByClassName("data")[0].innerHTML;
-            document.getElementById("glyphinput").value = glyph;
-            
             var newcoin = {};
             newcoin.coin = glyph;
             newcoin.url = "https://www.trashrobot.org/";
@@ -145,31 +136,7 @@ function loadfeed(){
             loadcoinfeed();
 
         }
-        
-        
-        /*
-        var newimg = document.createElement("IMG");
-        newimg.src = "iconsymbols/delete.svg";
-        newdiv.appendChild(newimg);
-        newimg.classList.add("button");
-        newimg.classList.add("deletebutton");
-        newimg.id = "if" + index.toString();
-        newimg.onclick = function(){
-            //find the index and remove that from the feed 
-            var thisindex = parseInt(this.id.substring(2));
 
-            var tempfeed = [];
-            for(var robotindex = 0;robotindex < robotfeed.length;robotindex++){
-                if(robotindex != thisindex){
-                    tempfeed.push(robotfeed[robotindex]);
-                }
-            }
-            robotfeed = tempfeed;    
-            this.parentElement.parentElement.removeChild(this.parentElement);
-            saverobotfeed();
-            loadfeed();
-        }
-        */
         
     }    
 }
@@ -180,6 +147,9 @@ function loadcoinfeed(){
     for(var index = 0;index < geometroncoinfeed.length;index++){
     
         var newtable = document.createElement("TABLE");
+        var newdiv = document.createElement("div");
+        document.getElementById("coinfeed").appendChild(newdiv);
+        newdiv.appendChild(newtable);
         document.getElementById("coinfeed").appendChild(newtable);
         var newtr = document.createElement("TR");
         newtable.appendChild(newtr);
@@ -191,9 +161,11 @@ function loadcoinfeed(){
         newtr.appendChild(newtd);
         var newcan = document.createElement("CANVAS");
         newcan.className = "feedcan";
-//        newdiv.style.marginTop = 0.05*feedwidth + "px";
+//        newdiv.style.marginTop = 0.05*feedwidth + "px";  
  //       newdiv.style.marginBottom = 0.05*feedwidth + "px";
-        newdiv.appendChild(newcan);
+        var newspan = document.createElement("SPAN");
+        newspan.appendChild(newcan);
+        newdiv.appendChild(newspan);
         newdiv.className = "feedelement";
         newcan.classList.add("button");
         document.getElementById("coinfeed").appendChild(newdiv);
@@ -203,10 +175,7 @@ function loadcoinfeed(){
         newGVM.drawGlyph(geometroncoinfeed[index].coin);    
 
         newcan.id = "can" + index.toString();
-        newcan.onclick = function(){
-            var localindex = parseInt(this.id.substring(3));
-            document.getElementById("glyphinput").value = geometroncoinfeed[localindex].coin;
-        }        
+          
 
         var newinput = document.createElement("INPUT");
         var newtd = document.createElement("TD");
@@ -219,6 +188,21 @@ function loadcoinfeed(){
 //            console.log(localindex);
             geometroncoinfeed[localindex].url = this.value;
             savecoinfeed();
+        }
+
+
+        var newinput = document.createElement("INPUT");
+        var newtd = document.createElement("TD");
+        newtr.appendChild(newtd);
+        newtd.appendChild(newinput);
+        newinput.id = "glyph" + index.toString();
+        newinput.value = geometroncoinfeed[index].coin;
+        newinput.onchange = function(){
+            var localindex = parseInt(this.id.substring(5));
+//            console.log(localindex);
+            geometroncoinfeed[localindex].coin = this.value;
+            savecoinfeed();
+            loadcoinfeed();
         }
 
         var newtd = document.createElement("TD");
@@ -246,10 +230,8 @@ function loadcoinfeed(){
             loadcoinfeed();
         }
         
-        
         var newtd = document.createElement("TD");
         newtr.appendChild(newtd);
-        
         var newimg = document.createElement("IMG");
         newimg.src = "iconsymbols/moveup.svg";
         newtd.appendChild(newimg);
@@ -298,27 +280,11 @@ function loadcoinfeed(){
                 
             }
         }              
+                
         
     }    
 }
 
-document.getElementById("glyphinput").value = "";
-
-
-document.getElementById("glyphinput").onchange = function(){
-    robotfeed.unshift(this.value);
-    loadfeed();
-    saverobotfeed();
-}
-
-
-function saverobotfeed(){
-    var httpc = new XMLHttpRequest();
-    httpc.open("POST", "filesaver.php", true);
-    httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    httpc.send("data="+encodeURIComponent(JSON.stringify(robotfeed,null,"  "))+"&filename=data/robotfeed.txt");//send text to filesaver.php
-    document.getElementById("textio").value = JSON.stringify(robotfeed,null,"  ");    
-}
 
 function savecoinfeed(){
     
@@ -333,10 +299,10 @@ document.getElementById("importbutton").onclick = function(){
     if(document.getElementById("textio").value.length > 0){
         inputfeed = JSON.parse(document.getElementById("textio").value);
         for(var index = inputfeed.length - 1;index >= 0;index--){
-                robotfeed.unshift(inputfeed[index]);
+                geometroncoinfeed.unshift(inputfeed[index]);
         }
-        loadfeed();
-        saverobotfeed();
+        loadcoinfeed()
+        savecoinfeed();
 
     }    
 }
@@ -345,83 +311,36 @@ document.getElementById("importbutton").onclick = function(){
 document.getElementById("replacebutton").onclick = function(){
     if(document.getElementById("textio").value.length > 0){
         inputfeed = JSON.parse(document.getElementById("textio").value);
-        robotfeed = [];
+        geometroncoinfeed = [];
         for(var index = inputfeed.length - 1;index >= 0;index--){
-                robotfeed.unshift(inputfeed[index]);
+                geometroncoinfeed.unshift(inputfeed[index]);
         }
-        loadfeed();
-        saverobotfeed();
+        loadcoinfeed()
+        savecoinfeed();
 
     }    
 }
 
 document.getElementById("textio").value = "";
 
-document.getElementById("loadbutton").onclick = function(){
-    var localglyph = document.getElementById("glyphinput").value;
-    robotfeed.unshift(localglyph);
-    loadfeed();
-    saverobotfeed();
-}
-
-
-function bytecode2ascii(bytecode){
-    var bytesequence = bytecode.split(",");
-    var outstring = "";
-    for(var index = 0;index < bytesequence.length;index++){
-        var robotaction = parseInt(bytesequence[index],8);
-        if(robotaction == 0500){
-            outstring += "A";
-        }
-        if(robotaction == 0501){
-            outstring += "B";
-        }
-        if(robotaction == 0502){
-            outstring += "C";
-        }
-        if(robotaction == 0503){
-            outstring += "D";
-        }
-        if(robotaction == 0504){
-            outstring += "E";
-        }
-        if(robotaction == 0505){
-            outstring += "F";
-        }
-        if(robotaction == 0506){
-            outstring += "G";
-        }
-        if(robotaction == 0507){
-            outstring += "H";
-        }
-        if(robotaction > 01040 && robotaction < 01177){
-            outstring += bytecode2ascii(mainGVM.hypercube[robotaction]);
-        }
-    }
-    return outstring;
-
-}
 
 </script>
 <style>
-#loadbutton{
-    border:solid;
-}
 body{
     overflow:hidden;
     color:#00ff00;
     background-color:black;
 }
 .deletebutton{
-    width:20px;
+    width:40px;
     z-index:2;
 }
 .moveupbutton{
-    width:20px;
+    width:40px;
     z-index:2;
 }
 .movedownbutton{
-    width:20px;
+    width:40px;
     z-index:2;
 }
 .feedcan{
@@ -491,6 +410,8 @@ body{
 #coinfeed table{
     border-top:solid;
     border-color:black;
+    margin-top:1em;
+    margin-bottom:1em;
 }
 .button{
     cursor:pointer;
@@ -503,15 +424,6 @@ body{
 }
 .data{
     display:none;
-}
-#glyphinput{
-    width:40em;
-    font-family:courier;
-    font-size:12px;
-    background-color:black;
-    color:#00ff00;
-    border-color:#00ff00;
-    border:solid;
 }
 #importbutton{
     border:solid;
