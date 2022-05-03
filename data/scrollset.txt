@@ -27,6 +27,7 @@
         "roctal",
         "sets",
         "solar",
+        "sproing",
         "threed",
         "todo",
         "trashframe",
