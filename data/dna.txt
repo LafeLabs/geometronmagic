@@ -244,6 +244,7 @@
         "sets",
         "solar",
         "sproing",
+        "stages",
         "threed",
         "todo",
         "trashframe",
