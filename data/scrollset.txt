@@ -26,6 +26,7 @@
         "printerxyz",
         "roctal",
         "sets",
+        "skeletron",
         "solar",
         "sproing",
         "stages",
