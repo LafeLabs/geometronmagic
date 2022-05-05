@@ -9,17 +9,18 @@
 ## Parts
 
 - [Trash Robot Brain Board v3, purchased from PCBway.com](https://www.pcbway.com/project/shareproject/Trash_Robot_main__brain__board.html) from board design [on github](https://github.com/LafeLabs/trashrobot5/tree/master/boards) called Arduino Shield XYZ stepper v3 
-- right angle male header, 9 pin, 1x
-- straight male headers [bought in bulk along with right angles](https://www.amazon.com/gp/product/B0774VBJ3J/) and broken into 3 4 pin headers, 2 8 pin, 2 6 pin and 1 10 pin
-- [one 0.5 inch breadboard jumper](https://www.amazon.com/MCIGICM-Breadboard-Jumper-Cables-Arduino/dp/B081GMJVPB/)
+- [right angle male header, 9 pin, 1x](https://www.digikey.com/en/products/detail/chip-quik-inc/HDR100IMP40M-G-RA-TH/5978204)
+- straight male headers [bought in bulk along with right angles](https://www.digikey.com/en/products/detail/chip-quik-inc/HDR100IMP40M-G-V-TH/5978197) and broken into 3 4 pin headers, 2 8 pin, 2 6 pin and 1 10 pin
+- [one 0.5 inch breadboard jumper](https://www.digikey.com/en/products/detail/twin-industries/TW-E012-000/643115)
 - 3 [MP6500 stepper motor contoller boards with potentiometer from pololu robotics](https://www.pololu.com/product/2966)
 - [Arduino UNO, the most basic of Arduino Boards](https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/)
-- [USB A to USB B printer cable](https://www.amazon.com/gp/product/B00UNZ9HLU/)
+- [USB A to USB B printer cable](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/321010008/5487914)
+- [3 motor cables for DVD drives](https://www.digikey.com/en/products/detail/molex/2177971043/14637940)
 - 2 googley eyes
 - duct tape of colors of rainbow
 - box cutter
 - scissors
-- geometry tools(Geometron Shapes, rulers, pen etc)
+- geometry tools([Geometron Shapes](scrolls/lasershapes), rulers, pen etc)
 
 
 ![](https://i.imgur.com/DwKbgfP.jpg)
@@ -75,11 +76,9 @@ Note that the orientation of the rainbow matters!! red is at the same end as red
 
 Copy [Arduino code from github](https://github.com/LafeLabs/trashrobot5/blob/master/arduinocode/arduino-trashrobot-coin-printer/arduino-trashrobot-coin-printer.ino) and paste into IDE, compile and upload to board.  Finish assembly of robot with controller and mechanicals and test. 
 
-To operate robot, follow the path of the [workflow map](maps/workflow) to find images, align them, trace them into robot code, program them into robots, and share them with other people.
-
  - [link to arduino xyz](programarduinoxyz.html)
  - [link to arduino with bridge tool](programarduino.html)
-
+ - [HOME](index.html)
 
 
 

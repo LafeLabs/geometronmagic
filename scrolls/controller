@@ -1,19 +1,18 @@
 ## [home](index.html)
-## [brain](scrolls/brain)
-## [mechanicals](scrolls/mechanicals)
 
+## [brain](scrolls/brain)
 
 # Controller
 
 
 Controller kit:
 
-- 26 inches of 9 conductor ribbon cable from red to black colors
-- 8 buttons, Panasonic part number EVQ-11L05R
-- 9 pin female header with long pins, created by hand from 10 pin using a knife
+- [18-26 inches of 9 conductor ribbon cable from red to black colors(link to buy 5' from digikey)](https://www.digikey.com/en/products/detail/assmann-wsw-components/AWG28-20-F-1-300-R/2391636)
+- [8 buttons, E-Switch part number TL59AF100Q from Digikey](https://www.digikey.com/en/products/detail/e-switch/TL59AF100Q/1144803)
+- [9 pin female header with long pins(Samtec part from Digikey)](https://www.digikey.com/en/products/detail/samtec-inc/SSQ-109-03-T-S/1111949)
 - push pin to punch holes in the board for the buttons
-- 7 solid wire jumpers, 3" long
-- Geometron shapes: 3" equillateral triangle, 3" square, 3" isoscoles right triangle, 6"x1" ruler with Geometron markings
+- [7 solid wire jumpers, 3" long(link to buy jumpers from digikey)](https://www.digikey.com/en/products/detail/twin-industries/TW-E012-000/643115)
+- [Geometron shapes: 3" equillateral triangle, 3" square, 3" isoscoles right triangle, 6"x1" ruler with Geometron markings](scrolls/lasershapes)
 
 ## Version 2 Geometry
 
@@ -47,4 +46,4 @@ Finish opposite end of cable by cutting out two corrugated cardboard strain reli
 
 ![](https://i.imgur.com/UG55SnP.jpg)
 
-[return to robot map](maps/robot)
+## [home](index.html)
