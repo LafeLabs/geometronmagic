@@ -29,5 +29,11 @@ else{
 <p style = "font-size:5em">
     <a href = "index.html">home</a>
 </p>
+<p style = "font-size:5em">
+    <a href = "imagefeed.html">imagefeed.html</a>
+</p>
+<p style = "font-size:5em">
+    <a href = "mapeditor.php">mapeditor.php</a>
+</p>
 
 
