@@ -25,14 +25,15 @@
  - [flags pointing to domains](scrolls/flags)
 
 
+
 ### Links
 
  - [editor.php](editor.php)
  - [http://localhost/](http://localhost/)
+ - [copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/geometroncoinfeed.txt&to=data/geometroncoinfeed.txt](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/geometroncoinfeed.txt&to=data/geometroncoinfeed.txt)
  - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
  - [dnagenerator.php](dnagenerator.php)
- - [copy scrolls/home to README.md](copy.php?from=scrolls/home&to=README.md)
- - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)
+  - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)
  - [scroll set replicator](scrollset.html)
  - [map set replicator](mapset.html)
  - [replicator.php](replicator.php)
