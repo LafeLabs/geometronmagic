@@ -3,7 +3,11 @@
     "maps": [
         "foo",
         "home",
-        "math"
+        "math",
+        "trashfeed",
+        "zoom1",
+        "zoom2",
+        "zoom3"
     ],
     "images": [
         "squatsymbol.png",
@@ -16,6 +20,7 @@
         "coins",
         "coinsets",
         "controller",
+        "dvd",
         "earthbag",
         "firebag",
         "flags",
