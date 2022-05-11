@@ -86,5 +86,16 @@
         "href": "maps/zoom3",
         "src": "iconsymbols/map.svg",
         "maplinkmode": true
+    },
+    {
+        "x": 0.344,
+        "y": 0.5565714285714286,
+        "w": 0.06285714285714286,
+        "h": 0.06285714285714286,
+        "angle": 0,
+        "text": "trashfeed scroll",
+        "href": "scrolls/trashfeed",
+        "src": "iconsymbols/scroll.svg",
+        "maplinkmode": true
     }
 ]

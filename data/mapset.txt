@@ -47,6 +47,7 @@
         "textiles",
         "threed",
         "todo",
+        "trashfeed",
         "trashframe",
         "trashmagic",
         "trashmagicbooks",
