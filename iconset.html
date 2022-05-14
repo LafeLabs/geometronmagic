@@ -64,6 +64,7 @@
 <div id = "feed"></div>
 
 <div id = "footer">
+    <div id = "exportbutton" class = "button">EXPORT/SAVE</div>
     <div id = "importbutton" class=  "button">IMPORT</div>
     <div id = "replacebutton" class= "button">REPLACE</div>
     <textarea id = "textio"></textarea>
@@ -231,6 +232,10 @@ function neworder(){
 
 }
 
+document.getElementById("exportbutton").onclick = function(){
+    neworder();
+}
+
 </script>
 <style>
 
@@ -270,7 +275,7 @@ body{
     left:0px;
     right:0px;
     bottom:0px;
-    height:20%;
+    height:22%;
 }
 #textio{
     position:absolute;
@@ -317,10 +322,16 @@ body{
     border-color:#00ff00;
     border:solid;
 }
+
 #importbutton{
     border:solid;
     text-align:center;
 }
+#exportbutton{
+    border:solid;
+    text-align:center;
+}
+
 #replacebutton{
     border:solid;
     text-align:center;
