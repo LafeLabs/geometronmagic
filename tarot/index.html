@@ -63,6 +63,10 @@
 <div class = "rightnamebox" id = "rightnamebox1"></div>
 <div class = "rightnamebox" id = "rightnamebox2"></div>
 
+<img class = "cardimg" id = "cardimg1"/>
+<img class = "cardimg" id = "cardimg2"/>
+
+
 <a id = "printerlink" href= "programarduinoxyz.html">TRASH PRINTER</a>
 <script>
 
@@ -73,6 +77,10 @@ spread = [0,0];
 //spread[1] = Math.round(Math.random()*78);
 spread[0] = Math.round(Math.random()*21);
 spread[1] = Math.round(Math.random()*21);
+
+if(spread[1] == spread[0]){
+    spread[1] = Math.round(Math.random()*21);
+}
 
 icon1 = deck[spread[0]];
 icon2 = deck[spread[1]];
@@ -88,6 +96,7 @@ if(spread[0] < 22){
     document.getElementById("icon1namelink").href = cardlinks[spread[0]];    
     document.getElementById("icon1hebrewlink").innerHTML = hebrewname[spread[0]];    
     document.getElementById("icon1hebrewlink").href = hebrewlinks[spread[0]];        
+    
 }
 
 if(spread[1] < 22){
@@ -95,12 +104,18 @@ if(spread[1] < 22){
     document.getElementById("icon2namelink").href = cardlinks[spread[1]];    
     document.getElementById("icon2hebrewlink").innerHTML = hebrewname[spread[1]];    
     document.getElementById("icon2hebrewlink").href = hebrewlinks[spread[1]];            
+    
 }
+document.getElementById("cardimg2").src = cardimages[spread[1]];
+document.getElementById("cardimg1").src = cardimages[spread[0]];
 
 document.getElementById("jsonio").value = JSON.stringify(spread);
 
 document.getElementById("jsonio").onchange = function(){
     spread = JSON.parse(this.value);
+    document.getElementById("cardimg2").src = cardimages[spread[1]];
+    document.getElementById("cardimg1").src = cardimages[spread[0]];
+
     icon1 = deck[spread[0]];
     icon2 = deck[spread[1]];
     icon1GVM.drawGlyph(icon1);
@@ -257,6 +272,9 @@ function redraw(){
     document.getElementById("icon1canvas").style.opacity = (alpha).toString();
     document.getElementById("icon2canvas").style.opacity = (beta).toString();
     
+    document.getElementById("cardimg1").style.opacity = (alpha).toString();
+    document.getElementById("cardimg2").style.opacity = (beta).toString();    
+    
     document.getElementById("leftnamebox1").style.opacity = (alpha).toString();
     document.getElementById("leftnamebox2").style.opacity = (beta).toString();
 
@@ -368,6 +386,11 @@ a{
     right:0px;
     top:0px;
     font-size:24px;
+}
+.cardimg{
+    position:absolute;
+    right:0px;
+    bottom:3em;
 }
 </style>
 </body>
