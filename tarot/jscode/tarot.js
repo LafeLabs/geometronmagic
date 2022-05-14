@@ -302,7 +302,7 @@ cardimages = [
     "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cups14.jpg/136px-Cups14.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Swords01.jpg/137px-Swords01.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Swords02.jpg/138px-Swords02.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Swords02.jpg/138px-Swords02.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Swords03.jpg/135px-Swords03.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Swords04.jpg/135px-Swords04.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Swords05.jpg/136px-Swords05.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Swords06.jpg/139px-Swords06.jpg",

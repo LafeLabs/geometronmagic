@@ -289,7 +289,79 @@ function redraw(){
 }
 
 document.getElementById("reloadbutton").onclick = function(){
-     location.reload(); 
+    // location.reload(); 
+
+
+    //spread[0] = Math.round(Math.random()*78);
+    //spread[1] = Math.round(Math.random()*78);
+    spread[0] = Math.round(Math.random()*77);
+    spread[1] = Math.round(Math.random()*77);
+    document.getElementById("jsonio").value = JSON.stringify(spread);
+    
+    if(spread[1] == spread[0]){
+        spread[1] = Math.round(Math.random()*77);
+    }
+    
+    icon1 = deck[spread[0]];
+    icon2 = deck[spread[1]];
+
+
+    document.getElementById("cardimg2").src = cardimages[spread[1]];
+    document.getElementById("cardimg1").src = cardimages[spread[0]];
+
+    icon1GVM.drawGlyph(icon1);
+    icon2GVM.drawGlyph(icon2);
+    document.getElementById("leftnamebox1").innerHTML = leftname[spread[0]];
+    document.getElementById("rightnamebox1").innerHTML = rightname[spread[0]];
+
+    document.getElementById("leftnamebox2").innerHTML = leftname[spread[1]];
+    document.getElementById("rightnamebox2").innerHTML = rightname[spread[1]];
+    
+
+
+    if(spread[0] < 22){
+        hebrewGVM1.drawGlyph(hebrewicons[spread[0]]);
+        document.getElementById("hebrewnamebox1").innerHTML = hebrewname[spread[0]];
+    }
+    else{
+        hebrewGVM1.drawGlyph("0300,");
+        document.getElementById("hebrewnamebox1").innerHTML = "";
+    }
+    if(spread[1] < 22){
+        hebrewGVM2.drawGlyph(hebrewicons[spread[1]]);
+        document.getElementById("hebrewnamebox2").innerHTML = hebrewname[spread[1]];        
+    }
+    else{
+        hebrewGVM2.drawGlyph("0300,");
+        document.getElementById("hebrewnamebox2").innerHTML = "";
+    }
+
+
+    if(spread[0] < 22){
+        document.getElementById("icon1namelink").innerHTML = rightname[spread[0]];    
+        document.getElementById("icon1namelink").href = cardlinks[spread[0]];    
+        document.getElementById("icon1hebrewlink").innerHTML = hebrewname[spread[0]];    
+        document.getElementById("icon1hebrewlink").href = hebrewlinks[spread[0]];        
+    }
+    else{
+        document.getElementById("icon1namelink").innerHTML = leftname[spread[0]] + " OF " + rightname[spread[0]];    
+        document.getElementById("icon1namelink").href = cardlinks[spread[0]];    
+        document.getElementById("icon1hebrewlink").innerHTML = "";    
+        document.getElementById("icon1hebrewlink").href = "";        
+    }
+    
+    if(spread[1] < 22){
+        document.getElementById("icon2namelink").innerHTML = rightname[spread[1]];    
+        document.getElementById("icon2namelink").href = cardlinks[spread[1]];    
+        document.getElementById("icon2hebrewlink").innerHTML = hebrewname[spread[1]];    
+        document.getElementById("icon2hebrewlink").href = hebrewlinks[spread[1]];            
+    }
+    else{
+        document.getElementById("icon2namelink").innerHTML = leftname[spread[1]] + " OF " + rightname[spread[1]];    
+        document.getElementById("icon2namelink").href = cardlinks[spread[1]];    
+        document.getElementById("icon2hebrewlink").innerHTML = "";    
+        document.getElementById("icon2hebrewlink").href = "";        
+    }
 }
 
 </script>
