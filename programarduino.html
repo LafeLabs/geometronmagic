@@ -99,7 +99,7 @@ var httpc = new XMLHttpRequest();
 httpc.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         arduinocode = this.responseText;
-        document.getElementById("arduinocode").value = "char coin[] = \"\";\n\n" + arduinocode;
+        document.getElementById("arduinocode").value = "char icon[] = \"\";\n\n" + arduinocode;
     };
 }
 httpc.open("GET", "fileloader.php?filename=data/arduinocode.txt", true);
@@ -132,10 +132,9 @@ function loadfeed(){
             glyph = this.getElementsByClassName("data")[0].innerHTML;
             document.getElementById("glyphinput").value = glyph;
             document.getElementById("arduinoinput").value = bytecode2ascii(glyph);
-            //make this the coin for coin studio
-            coin = glyph;
+            icon = glyph;
             
-            document.getElementById("arduinocode").value = "char coin[] = \"" + bytecode2ascii(glyph) + "\";\n\n" + arduinocode;
+            document.getElementById("arduinocode").value = "char icon[] = \"" + bytecode2ascii(glyph) + "\";\n\n" + arduinocode;
         }
         
         

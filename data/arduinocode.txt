@@ -1,4 +1,3 @@
-//char coin[] = "";
 
 int delayus = 500;//delayMicroseconds(delayus);
 
@@ -89,7 +88,7 @@ void loop() {
   
    //Serial.println(goBool); 
   if(goBool){
-      printCoin(); 
+      printIcon(); 
   }
 
   if(xleftBool){
@@ -276,10 +275,10 @@ void geometronAction(char action){
 }
 
 
-void printCoin(){
-   for(int index = 0;index <= sizeof(coin);index++){
+void printIcon(){
+   for(int index = 0;index <= sizeof(icon);index++){
     if(!stopBool){
-      geometronAction(coin[index]);    
+      geometronAction(icon[index]);    
     }
    }  
 }
