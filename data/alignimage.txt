@@ -1,1 +1,1 @@
-{"w":0.7405714285714285,"x":0.12571428571428572,"y":0.21942857142857142,"angle":0,"src":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Gmail_Icon_%282013-2020%29.svg/1200px-Gmail_Icon_%282013-2020%29.svg.png"}
+{"w":0.20342857142857143,"x":-0.009142857142857144,"y":-0.052571428571428575,"angle":0,"src":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/SVG_Logo.svg/1920px-SVG_Logo.svg.png"}
