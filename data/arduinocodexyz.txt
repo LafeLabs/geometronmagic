@@ -1,9 +1,9 @@
 
+
 int delayus = 500;//delayMicroseconds(delayus);
 
 int unit = 100;
 int side = unit;
-int glyphIndex = 0;
 
 //these are the pin numbers of the buttons on the controller.  Connect to ground to activate.
 int xleftPin = 7;
@@ -76,7 +76,8 @@ void setup() {
 }
 
 void loop() { 
-    
+  
+  
   xleftBool = !digitalRead(xleftPin);
   xrightBool = !digitalRead(xrightPin);
   yawayBool = !digitalRead(yawayPin);
@@ -88,8 +89,6 @@ void loop() {
   
    //Serial.println(goBool); 
   if(goBool){
-      stopBool = false;
-      side = unit;
       printIcon(); 
   }
 
@@ -201,6 +200,52 @@ void moveTowards(int nSteps){
 
 
 void geometronAction(char action){
+  stopBool = !digitalRead(stopPin);
+  if(stopBool){
+    while(true){
+       
+        xleftBool = !digitalRead(xleftPin);
+        xrightBool = !digitalRead(xrightPin);
+        yawayBool = !digitalRead(yawayPin);
+        ytowardsBool = !digitalRead(ytowardsPin);
+        zdownBool = !digitalRead(zdownPin);
+        zupBool = !digitalRead(zupPin);
+        goBool = !digitalRead(goPin);
+        stopBool = !digitalRead(stopPin);
+        
+         //Serial.println(goBool); 
+        if(goBool){
+            stopBool = false;
+            break; 
+        }
+        if(stopBool){
+            delay(500);
+            if(!digitalRead(stopPin)){
+              side = unit;
+              break;
+            }    
+        }
+        if(xleftBool){
+           moveLeft(1);
+        }
+        if(xrightBool){
+           moveRight(1);
+        }
+        if(zdownBool){
+          moveUp(1); 
+        }
+        if(zupBool){
+          moveDown(1); 
+        }
+        if(yawayBool){
+          moveAway(1);
+        }
+        if(ytowardsBool){
+          moveTowards(1);
+       }
+
+    }
+  }
   if(action == 'a'){
      moveRight(side);
   }
@@ -252,65 +297,21 @@ void geometronAction(char action){
 }
 
 
-
 void printIcon(){
-   for(glyphIndex = 0;glyphIndex <= sizeof(icon);glyphIndex++){
-      stopBool = !digitalRead(stopPin);
-      if(!stopBool){
-        geometronAction(icon[glyphIndex]);    
-      }
-      else{      
-            //if stop button pressed, we end up here and loop until go or another stop
-            //pause for a sec first so that the double stop doesn't happen too fast
-            delay(500);//half a second pause before start looking for more buttons
-            while(true){
-                xleftBool = !digitalRead(xleftPin);
-                xrightBool = !digitalRead(xrightPin);
-                yawayBool = !digitalRead(yawayPin);
-                ytowardsBool = !digitalRead(ytowardsPin);
-                zdownBool = !digitalRead(zdownPin);
-                zupBool = !digitalRead(zupPin);
-                
-                if(xleftBool){
-                   moveLeft(1);
-                }
-                if(xrightBool){
-                   moveRight(1);
-                }
-                if(zdownBool){
-                  moveUp(1); 
-                }
-                if(zupBool){
-                  moveDown(1); 
-                }
-                if(yawayBool){
-                  moveAway(1);
-                }
-                if(ytowardsBool){
-                  moveTowards(1);
-                }      
-                goBool = !digitalRead(goPin);
-                if(goBool){
-                    stopBool = false;
-                    side = unit;
-                    break; 
-                }  
-                stopBool = !digitalRead(stopPin);
-                if(stopBool){
-                  glyphIndex = 0;
-                }
-                
-                
-            }
-           
-        }
+   for(int index = 0;index <= sizeof(icon);index++){
+    if(!stopBool){
+      geometronAction(icon[index]);    
+    }
    }  
 }
 
 
 void geometronSequence(String glyph){
   //for loop thru the String
-  for(int index = 0;index < glyph.length();index++){
+  int index = 0;
+  for(index = 0;index < glyph.length();index++){
+    if(!stopBool){
       geometronAction(glyph.charAt(index));      
-  }
+    }
+   }
 }
