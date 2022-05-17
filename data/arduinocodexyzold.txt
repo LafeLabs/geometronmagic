@@ -199,18 +199,6 @@ void moveTowards(int nSteps){
 
 void geometronAction(char action){
   stopBool = !digitalRead(stopPin);
-  if(stopBool){
-    delay(500);
-    while(true){
-      if(!digitalRead(goPin)){
-        stopBool = false;
-        break;
-      }
-      if(!digitalRead(stopPin)){
-        break;
-      }
-    }
-  }
   if(action == 'a'){
      moveRight(side);
   }
@@ -263,7 +251,6 @@ void geometronAction(char action){
 
 
 void printCoin(){
-  side=unit;
    for(int index = 0;index <= sizeof(coin);index++){
     if(!stopBool){
       geometronAction(coin[index]);    
