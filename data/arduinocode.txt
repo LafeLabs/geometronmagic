@@ -88,7 +88,7 @@ void loop() {
   
    //Serial.println(goBool); 
   if(goBool){
-      printIcon(); 
+      printCoin(); 
   }
 
   if(xleftBool){
@@ -275,10 +275,10 @@ void geometronAction(char action){
 }
 
 
-void printIcon(){
-   for(int index = 0;index <= sizeof(icon);index++){
+void printCoin(){
+   for(int index = 0;index <= sizeof(coin);index++){
     if(!stopBool){
-      geometronAction(icon[index]);    
+      geometronAction(coin[index]);    
     }
    }  
 }
