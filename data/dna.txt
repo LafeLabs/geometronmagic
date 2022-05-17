@@ -51,6 +51,7 @@
         "alignimage.txt",
         "arduinocode.txt",
         "arduinocodexyz.txt",
+        "arduinocodexyzpause.txt",
         "coin.txt",
         "controls.txt",
         "currentjson.txt",
@@ -223,6 +224,7 @@
         "coins",
         "coinsets",
         "controller",
+        "dvd",
         "earthbag",
         "firebag",
         "flags",
@@ -249,6 +251,7 @@
         "textiles",
         "threed",
         "todo",
+        "trashfeed",
         "trashframe",
         "trashmagic",
         "trashmagicbooks",
@@ -262,6 +265,10 @@
     "maps": [
         "foo",
         "home",
-        "math"
+        "math",
+        "trashfeed",
+        "zoom1",
+        "zoom2",
+        "zoom3"
     ]
 }

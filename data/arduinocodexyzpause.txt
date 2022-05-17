@@ -1,4 +1,5 @@
 
+
 int delayus = 500;//delayMicroseconds(delayus);
 
 int unit = 100;
@@ -200,6 +201,14 @@ void moveTowards(int nSteps){
 
 void geometronAction(char action){
   stopBool = !digitalRead(stopPin);
+  if(stopBool){
+    while(true){
+      if(!digitalRead(goPin)){
+        stopBool = false;
+        break;
+      }
+    }
+  }
   if(action == 'a'){
      moveRight(side);
   }
@@ -252,6 +261,7 @@ void geometronAction(char action){
 
 
 void printCoin(){
+  side=unit;
    for(int index = 0;index <= sizeof(coin);index++){
     if(!stopBool){
       geometronAction(coin[index]);    
