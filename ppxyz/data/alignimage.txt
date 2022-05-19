@@ -1,0 +1,1 @@
+{"w":0.20342857142857143,"x":-0.009142857142857144,"y":-0.052571428571428575,"angle":0,"src":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/SVG_Logo.svg/1920px-SVG_Logo.svg.png"}
