@@ -1,5 +1,5 @@
 {
-    "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/",
+    "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/",
     "maps": [
         "foo",
         "home",
@@ -9,10 +9,7 @@
         "zoom2",
         "zoom3"
     ],
-    "images": [
-        "squatsymbol.png",
-        "trashrobot.png"
-    ],
+    "images": [],
     "scrolls": [
         "arduino",
         "artbox",
@@ -37,6 +34,7 @@
         "newcoin",
         "pi",
         "picrust",
+        "ppxyz",
         "printerxyz",
         "roctal",
         "sets",
