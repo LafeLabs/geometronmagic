@@ -2,6 +2,8 @@
 
 ![](https://i.imgur.com/7b0gJPn.jpg)
 
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/images/ppxyz3dscreenshot.png)
+
  - [www.trashrobot.org](https://www.trashrobot.org)
  - [link to map](user.php?map=maps/home)
  - [Geometron Magic](scrolls/home)
@@ -9,6 +11,8 @@
  - [get the scroll set](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/data/scrollset.txt&to=data/scrollset.txt)
  - [scrollsetreplicator.php](scrollsetreplicator.php)
  - [copy index from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/index.html&to=index.html)
+ - [ppxyz-3dprint.stl](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/media/ppxyz-3dprint.stl)
+ - [ppxyz-mirror-3dprint.stl](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/media/ppxyz-mirror-3dprint.stl)
  - classifieds
  - photo of trash prints of domain
  - photo of clay self-replicating coin
