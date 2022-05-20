@@ -5,10 +5,11 @@
  - [www.trashrobot.org](https://www.trashrobot.org)
  - [link to map](user.php?map=maps/home)
  - [Geometron Magic](scrolls/home)
+ - [icon feed](iconfeed.html)
  - [get the scroll set](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/data/scrollset.txt&to=data/scrollset.txt)
  - [scrollsetreplicator.php](scrollsetreplicator.php)
- - [copy index from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/index.html&to=index.html)
- - links to scrolls with links to things
+ - [copy index from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/index.html&to=index.html)
+ - classifieds
  - photo of trash prints of domain
  - photo of clay self-replicating coin
  - link to replicate this scroll
