@@ -19,3 +19,11 @@
  - [Trash Robot on Tiktok](https://www.tiktok.com/@trash_robot)
  - [ppxyz-3dprint.stl](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/media/ppxyz-3dprint.stl)
  - [ppxyz-mirror-3dprint.stl](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/media/ppxyz-mirror-3dprint.stl)
+ - [copy ppxyz scroll set from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/data/scrollset.txt&to=data/scrollset.txt)
+ - [copy ppxyz map set from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/data/mapset.txt&to=data/mapset.txt)
+ - [mapsetreplicator.php](mapsetreplicator.php)
+ - [scrollsetreplicator.php](scrollsetreplicator.php)
+
+
+
+
