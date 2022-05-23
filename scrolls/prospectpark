@@ -26,6 +26,7 @@
  - [copy data/robotfeed.txt from TRASH ROBOT main on Github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/robotfeed.txt&to=data/robotfeed.txt)
  - [copy data/geometroncoinfeed.txt from TRASH ROBOT main on Github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/geometroncoinfeed.txt&to=data/geometroncoinfeed.txt)
  - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
+ - [http://localhost/](http://localhost/)
 
 
 
