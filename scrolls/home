@@ -41,7 +41,7 @@
 
  - [editor.php](editor.php)
  - [http://localhost/](http://localhost/)
- - [copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/geometroncoinfeed.txt&to=data/geometroncoinfeed.txt](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/geometroncoinfeed.txt&to=data/geometroncoinfeed.txt)
+ - [copy data/geometroncoinfeed.txt from TRASH ROBOT main on Github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/geometroncoinfeed.txt&to=data/geometroncoinfeed.txt)
  - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
  - [dnagenerator.php](dnagenerator.php)
   - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)

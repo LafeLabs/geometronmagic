@@ -38,6 +38,8 @@
         "pi",
         "picrust",
         "printerxyz",
+        "prospectpark",
+        "replicators",
         "roctal",
         "sets",
         "skeletron",
