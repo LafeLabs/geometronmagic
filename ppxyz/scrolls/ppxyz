@@ -1,34 +1,29 @@
-# [www.prospectpark.xyz](https://www.prospectpark.xyz)
 
+## [HOME](scrolls/home)
+
+# [Prospect Park, Brooklyn, NYC](https://www.prospectpark.xyz)
+ 
 [![](https://i.imgur.com/7b0gJPn.jpg)](scrolls/ppxyzflag)
 
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/images/ppxyz3dscreenshot.png)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/media/ppxyz-3dprint.stl)
 
- - [prospect park wikipedia page](https://en.wikipedia.org/wiki/Prospect_Park_(Brooklyn))
- - [www.trashrobot.org](https://www.trashrobot.org)
- - [link to map](user.php?map=maps/home)
- - [Geometron Magic](scrolls/home)
- - [icon feed](iconfeed.html)
- - [get the scroll set](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/data/scrollset.txt&to=data/scrollset.txt)
- - [scrollsetreplicator.php](scrollsetreplicator.php)
- - [copy index from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/index.html&to=index.html)
+ - [www.prospectpark.xyz](https://www.prospectpark.xyz)
+ - [open street maps](https://www.openstreetmap.org/#map=16/40.6607/-73.9708)
+ - [Google Maps](https://www.google.com/maps/@40.6631124,-73.9678362,15.92z)
+ - [www.prospectpark.org/](https://www.prospectpark.org/)
+ - [Prospect Park Page from NYC Parks Dept.](https://www.nycgovparks.org/parks/B073/)
+ - [wikipedia entry for the park](https://en.wikipedia.org/wiki/Prospect_Park_(Brooklyn))
+ - [https://www.nycmesh.net/](https://www.nycmesh.net/)
+ - [subway map](https://new.mta.info/map/5256)
+ - [Wurrm on Tiktok](https://www.tiktok.com/@wurrmdotcom)
+ - [Trash Robot on Tiktok](https://www.tiktok.com/@trash_robot)
  - [ppxyz-3dprint.stl](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/media/ppxyz-3dprint.stl)
  - [ppxyz-mirror-3dprint.stl](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/media/ppxyz-mirror-3dprint.stl)
- - [classifieds](scrolls/classifieds)
- - photo of trash prints of domain
- - photo of clay self-replicating coin
- - link to replicate this scroll
- - links to replicate any other scrolls
- - links to replicate any maps
- - link to replicate this index.html
- - link to global instance of this scroll
- - this scroll goes in the main scroll set of geometronmagic, so that an instance of that can replicate to this local web page
- - link to raspberry pi on a local network 
- - link to contact info
- - link to trash robot and anything trash robot related
- - pi crust
- - pibrary station
- - solar station
- - trash magic economy: trash, art, magic, mutual aid, production, replication
- - artists, occult practitioners, musicians, mutual aid workers, informal economy participants, hackers, musicians, makers, crafters, jewelry makers, engineers, developers, chaos practitioners, gamers
-   
+ - [copy ppxyz scroll set from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/data/scrollset.txt&to=data/scrollset.txt)
+ - [copy ppxyz map set from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/ppxyz/data/mapset.txt&to=data/mapset.txt)
+ - [mapsetreplicator.php](mapsetreplicator.php)
+ - [scrollsetreplicator.php](scrollsetreplicator.php)
+
+
+
+
