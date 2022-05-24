@@ -31,5 +31,16 @@
         "href": "maps/zoom1",
         "src": "https://i.imgur.com/No1wukK.png",
         "maplinkmode": true
+    },
+    {
+        "x": 0.8925714285714286,
+        "y": 0.15314285714285714,
+        "w": 0.04914285714285714,
+        "h": 0.05942857142857143,
+        "angle": 0,
+        "text": "zoom1",
+        "href": "maps/nyc",
+        "src": "https://i.imgur.com/No1wukK.png",
+        "maplinkmode": true
     }
 ]

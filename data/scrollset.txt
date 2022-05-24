@@ -26,6 +26,7 @@
         "picrust",
         "printerxyz",
         "prospectpark",
+        "prospectparkcamp",
         "replicators",
         "roctal",
         "sets",
