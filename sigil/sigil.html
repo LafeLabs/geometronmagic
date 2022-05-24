@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--
+
+        EVERYTHING IS PHYSICAL
+        EVERYTHING IS FRACTAL
+        EVERYTHING IS RECURSIVE
+        NO MONEY
+        MO MINING
+        NO PROPERTY
+        LOOK AT THE INSECTS
+        LOOK AT THE FUNGI
+        LANGUAGE IS HOW THE MIND PARSES REALITY
+
+    
+    -->
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAP//AP///wANAP8A5Dz6ABueRwAAt/8A6BonABo86AAAAAA  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREREREREREREREAAAEREREREQCIgREREd3dwAAB3d3d3d3d3d3d3d3d3d3d3d3d3VVVVVVVQAFVVAAVVVQIiBRAiIBEQIAIBECAAERAgAgFgIABmYCIiBmAiIGZgIiIGYCIgZmYCIAaIAAMzMzAAiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+    
+    <!--Stop Google:-->
+    <META NAME="robots" CONTENT="noindex,nofollow">
+<!--geometron javascript library-->
+    <script src="jscode/geometron.js"></script>
+
+</head>
+<body>
+
+<div><canvas id = "maincanvas"></canvas></div>
+
+<script>
+
+mainsize = 100;
+if(innerWidth>innerHeight){
+    mainsize = innerHeight - 100;
+}
+else{
+    mainsize = innerWidth - 100;
+}
+
+maincanvas = document.getElementById("maincanvas");
+var mainGVM = new GVM(maincanvas,mainsize,mainsize);
+mainGVM.unit = 0.15*mainsize;
+mainGVM.style.color1 = "#00ff00";
+mainGVM.style.fill1 = "#00ff00";
+
+sigil = "0321,0306,0350,0330,0340,0331,0331,0340,0330,0335,0330,0340,0331,0331,0340,0330,0335,0330,0340,0331,0331,0340,0330,0335,0330,0340,0331,0331,0340,0330,0335,0330,0340,0331,0331,0340,0330,0335,0330,0340,0331,0331,0340,0330,0334,0334,0334,0334,0334,";
+
+
+n = Math.round(Math.random()*11) + 1;//roll a D12 zodiak
+m = Math.round(Math.random()*11) + 1;//roll a D12 zodiak
+
+//rotate to the right by n
+for(var index = 0;index < n;index++){
+    sigil += "0335,";
+}
+//go out from center
+sigil += "0330,";
+//rotate to the right by m
+for(var index = 0;index < m;index++){
+    sigil += "0335,";
+}
+//start the first path
+sigil += "0366,";
+//rotate back left by m
+for(var index = 0;index < m;index++){
+    sigil += "0334,";
+}
+//move back into center
+sigil += "0331,";
+//rotate back left by n
+for(var index = 0;index < n;index++){
+    sigil += "0334,";
+}
+//choose the next location and angle
+n = Math.round(Math.random()*11) + 1;//roll a D12 zodiak
+m = Math.round(Math.random()*11) + 1;//roll a D12 zodiak
+//rotate right by n
+for(var index = 0;index < n;index++){
+    sigil += "0335,";
+}
+//move out from center
+sigil += "0330,";
+//move right by m
+for(var index = 0;index < m;index++){
+    sigil += "0335,";
+}
+//terminate the first curve
+sigil += "0367,";
+
+
+numcurves = 10;
+for(var curveindex = 0;curveindex < numcurves;curveindex++){
+    //rotate by 180 degrees which is 6 steps
+    sigil += "0335,0335,0335,0335,0335,0335,";
+    //start curve
+    sigil += "0366,";
+    //another 180 degrees
+    sigil += "0335,0335,0335,0335,0335,0335,";
+    //unwind m
+    for(var index = 0;index < m;index++){
+        sigil += "0334,";
+    }
+    sigil += "0331,";
+    //unwind n
+    for(var index = 0;index < n;index++){
+        sigil += "0334,";
+    }
+    
+    n = Math.round(Math.random()*11) + 1;//roll a D12 zodiak
+    m = Math.round(Math.random()*11) + 1;//roll a D12 zodiak
+    
+    //rotate to the right by n (inside second curve)
+    for(var index = 0;index < n;index++){
+        sigil += "0335,";
+    }
+    //go out from center
+    sigil += "0330,";
+    //rotate to the right by m
+    for(var index = 0;index < m;index++){
+        sigil += "0335,";
+    }
+    //terminate second curve
+    sigil += "0367,";
+
+}
+
+mainGVM.drawGlyph(sigil);
+
+</script>
+<style>
+body{
+    overflow:hidden;
+    background-color:black;
+}
+
+.button{
+    cursor:pointer;
+}
+.button:hover{
+    background-color:green;
+}
+.button:active{
+    background-color:yellow;
+}
+.data{
+    display:none;
+}
+
+</style>
+</body>
+</html>

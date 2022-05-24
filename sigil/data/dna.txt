@@ -36,6 +36,7 @@
         "setup.html",
         "shapestack.html",
         "shapestacksymbols.html",
+        "sigil.html",
         "styleeditor.html",
         "svgfeed.html",
         "symbol.html",
