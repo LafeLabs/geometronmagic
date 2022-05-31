@@ -4,60 +4,11 @@
 
 ## A Self-Replicating Set
 
-## Books by TRASH ROBOT
-
- - [First Book of Geometron](https://www.trashrobot.org/bookofgeometronfirst/)
- - [Geometron Magic](https://www.trashrobot.org/geometronmagic/)
- - [Trash Magic Manifesto](user.php?scroll=scrolls/trashmagicbooks)
-
-### Physical Media at [Prospect Park](scrolls/prospectpark) Station
-
- - solar power station, battery, charger, converter to barrel, alligator clips, volt meter
- - sunfounder raspberry pi terminal with 12 V wall power supply
- - artbox with sharpies, rulers, shapes, box cutters
- - cardboard stencils with symbols both drawn with geometron and pasted on from printer icons, a feed of cardboard trash with stencils, prints, and symbols using action geometry constructions
- - bags of self-replicating clay icon coins
- - a full printer set with controller and USB and frame
- - an extra frame, broken down, as well as primary frame broken down
- - some cardboard stencils to make frames
- - some trash ties
- - flags: prospect park, us route 1, chaos flag
- - the three books to pass along
- - geometron keyboard with symbols 
- - a bag of Golden Triangles
- - a few standard shape sets, laser cut shapes in bags
- - a couple rulers
- - a few circuit boards for the brain to pass along
- - a neopixel strip robot driver we can use at night
-
-This media consists of a flow of freely shared objects through physical locations in public spaces.  We ask people to contribute time, energy, materials, attention and intention to work together to build full Trash Magic.  In Full Trash Magic, we provide everything people need to live a good life using only self-replicating media constructs built from trash and organic material, powered only by the available energy in our direct environment.  Self-replication simply means we can repeat a thing from one person to another and one place to another.  Media is any physical matter which communicates from one human mind to the next.
-
-We refer to this network with various names: trash robot network, trash magic network, geometron network, cyber magic network, street network, dumpster network.  This network consists primarily of people with a shared intent and value system.  It also includes our self-replicating media, media which contains all the means of its own replication.  Everything in our media is linking back to other media which link back to instructions to replicate things as well as the memes to spread the *desire* to replicate the things.  The things being replicated include the media which points back to its own replication and so on and so on. 
-
-We begin by putting together free things and sharing them.  We share our intention to build full Trash Magic.  And we use our physical feed of media to do that. No one owns any of these media elements.  They are designed to flow as fast and freely as possible from one person to the next, as we constantly exchange information to try to co-create this new world.   With intention, rapid evolution and rapid growth, we should be able to shape this emerging network to create larger and more powerful projects.  As this process expands, we will direct intention to solving the technical problems of trash magic: communication technology, medicine, sanitation, food production, transport, HVAC, and so on.  All we need is intent!  This can be as simple as a piece of cardboard with a web address written on it left on the street.  The white rabbit for the right people to follow to navigate the network where it needs to go.
-
- - NO MONEY
- - NO MINING
- - NO PROPERTY
- - EVERYTHING IS FRACTAL
- - EVERYTHING IS RECURSIVE
- - EVERYTHING IS FRACTAL
- - LOOK AT THE INSECTS
- - LOOK AT THE FUNGI
- - LANGUAGE IS HOW THE MIND PARSES REALITY
-
 ### Links
 
- - [editor.php](editor.php)
  - [http://localhost/](http://localhost/)
- - [copy data/robotfeed.txt from TRASH ROBOT main on Github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/robotfeed.txt&to=data/robotfeed.txt)
- - [copy data/geometroncoinfeed.txt from TRASH ROBOT main on Github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/geometroncoinfeed.txt&to=data/geometroncoinfeed.txt)
  - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
- - [dnagenerator.php](dnagenerator.php)
-  - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)
- - [scroll set replicator](scrollset.html)
- - [map set replicator](mapset.html)
- - [replicator.php](replicator.php)
+ - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)
  
 ### Install on Pi
 
@@ -116,6 +67,81 @@ edit the /etc/hosts file on the remote pi terminal so that home/ and remote/ poi
 
 [link to setting up basic website with pi with external connection](http://unixetc.co.uk/2013/09/21/create-a-basic-website-on-a-raspberry-pi/)
 
+## Install Arduino
+
+the short but not as good way:
+
+```
+sudo apt-get install arduino
+```
+
+this installs a old version which is missing some features, namely the serial plotter.  following more complicated instructions leads to non-working version which is impossible to uninstall.
+
+
+how to do the tar ball thing to get a later version of arduino which has the plotting
+
+[https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/)
+
+go get the Arduino software at:
+
+[https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+
+and download "Linux ARM 32 bits".
+
+Open a terminal and go to the home directory:
+
+```
+cd ~
+```
+
+Go to downloads folder:
+```
+cd Downloads
+```
+list the files with 
+```
+ls
+```
+See the name of an archive with a name like "arduino-####-linuxarm.tar.xz", where #### is a version number.
+
+extract with 
+```
+tar -xf arduino-####-linuxarm.tar.xz
+```
+
+move the extracted information to opt directory(directory for package installation)
+
+```
+sudo mv arduino-#### /opt
+```
+
+then run the install script:
+```
+sudo /opt/arduino-####/install.sh
+```
+
+
+## Add python that we need for doing science
+
+[https://matplotlib.org/](https://matplotlib.org/)
+
+matplotlib install:
+
+```
+sudo apt install python3-matplotlib
+```
+
+[https://matplotlib.org/](https://matplotlib.org/)
+
+[https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/](https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/)
+
+```
+sudo apt-get update
+sudo apt-get install python3-scipy
+sudo pip3 install --upgrade pip
+reboot
+sudo pip3 install jupyter
+```
 
 ### Install on Windows or Mac
 

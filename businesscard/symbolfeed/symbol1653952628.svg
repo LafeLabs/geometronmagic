@@ -1,0 +1,278 @@
+<svg width="376" height="226" viewbox = "0 0 376 226"  xmlns="http://www.w3.org/2000/svg">
+<!--<json>{
+  "glyph": "0331,0331,0331,0332,0332,0332,0332,0332,0332,0336,0332,0337,01167,01167,01167,01056,01164,01162,01141,01163,01150,01162,01157,01142,01157,01164,01056,01157,01162,01147,0300,0321,0330,0332,0332,0332,0332,0330,0337,0335,0331,0337,0305,0362,0203,0335,0335,0203,0335,0335,0203,0335,0335,0203,0335,0335,0203,0354,0335,0350,0335,0300,0321,0330,0336,0332,0337,0333,0333,0333,0333,0333,0336,0330,0337,0337,0306,0333,0334,0334,0337,0362,0203,0335,0350,0335,0335,0335,0313,0336,0312,0337,0203,0335,0335,0335,0335,0203,0335,0335,0335,0335,0335,0336,0203,0203,0335,0335,0335,0335,0335,0335,0335,0337,0203,0334,0334,0334,0334,0203,0354,",
+  "x0": 188,
+  "y0": 113,
+  "unit": 20,
+  "width": 376,
+  "height": 226,
+  "style": {
+    "color0": "black",
+    "fill0": "black",
+    "line0": 1,
+    "color1": "black",
+    "fill1": "black",
+    "line1": 5,
+    "color2": "red",
+    "fill2": "red",
+    "line2": 4,
+    "color3": "#FF7900",
+    "fill3": "#FF7900",
+    "line3": 4,
+    "color4": "yellow",
+    "fill4": "yellow",
+    "line4": 4,
+    "color5": "green",
+    "fill5": "green",
+    "line5": 4,
+    "color6": "blue",
+    "fill6": "blue",
+    "line6": 4,
+    "color7": "purple",
+    "fill7": "purple",
+    "line7": 4
+  },
+  "shapes": [
+    "0220:0331,0333,0337,0336,0330,0332,0336,0333,0330,0335,0350,0321,0334,0310,0337,0337,0337,0342,0330,0335,0335,0335,0313,0336,0342,0335,0335,0342,0334,0330,0330,0335,0335,0335,0335,0310,0336,0334,0304,0331,0332,0313,0337,0330,0334,0201,0334,0201,0201,0334,0201,0201,0334,0201,0336,0342,0330,0330,0332,0332,0335,0342,0334,0331,0331,0337,",
+    "0231:0321,0342,0330,0320,0336,0230,0331,0331,0337,0350,0335,0304,",
+    "0232:0231,0231,0231,0231,0231,0231,0231,0231,",
+    "0233:0220,0336,0210,0232,",
+    "0234:0220,0336,0335,0335,0331,0335,0331,0337,0321,0342,0332,0342,0336,0333,0337,0342,0330,0336,0336,0336,0330,0337,0366,0332,0332,0332,0367,0350,0335,0306,0350,0320,0335,0362,0203,0334,0334,0334,0334,0203,0334,0334,0334,0334,0203,0363,0335,0304,0350,0335,0304,0335,0335,0331,0331,0332,01015,0145,0154,0145,0155,0145,0156,0164,040,0144,0157,0167,0156,0365,0330,0330,0330,0330,0330,0333,0333,0333,0336,0332,0337,0333,0337,0337,",
+    "0235:0220,0321,0336,0342,0335,0342,0335,0342,0335,0342,0335,0337,",
+    "0236:0321,0220,0335,0336,0321,0342,0335,0335,0342,0335,0337,",
+    "0237:0220,0336,0331,0332,0336,0321,0342,0335,0342,0335,0342,0335,0342,0335,0330,0330,0333,0333,0337,0337,",
+    "01220:0333,0200,",
+    "01221:0333,0200,",
+    "01222:0333,0200,",
+    "01223:0333,0200,0336,0330,0332,0336,0331,0330,0223,0333,0333,0331,0331,0337,0337,",
+    "01224:0333,0200,0336,0330,0332,0336,0332,0337,0335,0224,0334,0336,0331,0333,0333,0337,0337,0336,0336,0331,0333,0337,0337,",
+    "01225:0333,0200,0336,0330,0332,0336,0336,0225,0337,0337,0331,0333,0337,",
+    "01226:0333,0200,0336,0336,0330,0332,0226,0331,0333,0337,0337,",
+    "01227:0333,0200,0336,0330,0332,0336,0331,0333,0337,0227,0336,0331,0333,0337,0337,",
+    "01230:0333,0200,0336,0330,0332,0336,0331,0330,0230,0331,0331,0333,0333,0337,0337,",
+    "01231:0333,0200,",
+    "01232:0333,0200,",
+    "01233:0333,0200,",
+    "01234:0333,0200,",
+    "01235:0333,0200,",
+    "01236:0333,0200,",
+    "01237:0333,0200,",
+    "0240:0220,0336,0331,0333,0336,0321,0335,0342,0335,0335,0342,0335,0330,0330,0332,0332,0337,0337,",
+    "01240:0333,0200,0336,0330,0332,0210,0240,0211,0333,0331,0337,",
+    "0241:0220,0336,0321,0343,0332,0350,0335,0336,0342,0334,0334,0342,0335,0304,0337,0333,0337,",
+    "01241:0333,0200,0336,0332,0330,0210,0241,0211,0333,0331,0337,",
+    "0242:0220,0321,0336,0343,0333,0336,0350,0335,0342,0334,0334,0342,0335,0337,0304,0332,0337,",
+    "01242:0333,0200,0336,0330,0332,0210,0242,0211,0333,0331,0337,",
+    "0243:0220,0336,0331,0332,0336,0321,0343,0332,0350,0334,0336,0342,0335,0335,0342,0337,0334,0334,0335,0304,0332,0330,0330,0337,0337,0333,",
+    "01243:0333,0200,0336,0330,0332,0210,0243,0211,0333,0331,0337,",
+    "0244:0220,0336,0331,0333,0336,0321,0343,0333,0350,0336,0335,0342,0334,0334,0342,0335,0337,0304,0333,0330,0330,0337,0337,0332,",
+    "01244:0333,0200,0336,0330,0332,0210,0244,0211,0333,0331,0337,",
+    "0245:0210,0332,0332,0362,0335,0203,0203,0203,0203,0334,0203,0363,0332,0332,0331,0211,",
+    "01245:0333,0200,0336,0330,0332,0336,0245,0337,0333,0331,0337,",
+    "0246:0210,0332,0332,0335,0306,0336,0330,0335,0335,0335,0321,0362,0203,0335,0335,0203,0364,0331,0350,0335,0337,0366,0333,0333,0333,0333,0334,0334,0334,0334,0367,0335,0336,0342,0334,0334,0342,0330,0330,0330,0330,0335,0335,0335,0304,0337,0211,",
+    "01246:0333,0200,0336,0330,0332,0336,0246,",
+    "0247:0330,0332,0336,0332,0336,0221,0333,0333,0333,0222,0333,0333,0333,0223,0333,0333,0333,0225,0333,0331,0331,0331,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0333,0333,0226,0331,0331,0331,0333,0333,0333,0333,0333,0333,0333,0333,0333,0333,0333,0333,0333,0330,0333,0330,0330,0333,0330,0331,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0227,0333,0333,0333,0230,0333,0331,0331,0331,0331,0332,0332,0332,0330,0332,0332,0332,0332,0332,0332,0333,0333,0231,0333,0333,0333,0232,0331,0333,0330,0333,0333,0233,0333,0333,0333,0234,0330,0330,0332,0330,0332,0332,0337,0337,",
+    "01247:0333,0200,0336,0330,0332,0220,0336,0247,0337,0331,0333,0337,"
+  ]
+}</json>-->    <circle cx="61" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="61" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="61" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="61" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="63" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="66" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="66" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="68" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="71" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="71" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="71" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="71" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="76" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="76" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="76" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="76" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="78" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="81" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="81" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="83" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="86" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="86" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="86" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="86" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="91" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="91" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="91" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="91" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="93" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="96" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="96" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="98" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="101" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="101" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="101" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="101" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="111" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="111" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="113" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="113" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="123" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="123" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="123" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="123" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="123" cy = "161" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="123" cy = "158" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="121" cy = "161" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="126" cy = "161" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="126" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="128" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="131" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="136" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="136" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="136" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="136" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="136" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="138" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="141" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="143" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="146" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="151" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="153" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="156" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="158" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="161" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="161" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="158" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="156" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="153" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="161" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="161" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="158" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="156" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="153" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="166" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="168" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="171" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="173" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="176" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="173" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="171" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="168" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="166" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="168" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="171" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="173" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="176" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="181" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="181" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="181" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="181" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="181" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="181" cy = "161" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="181" cy = "158" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="181" cy = "156" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="183" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="186" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="188" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="191" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="191" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="191" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="191" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="196" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="196" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="196" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="196" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="196" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="198" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="201" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="203" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="206" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="211" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="211" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="211" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="213" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="216" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="218" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="221" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="221" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="221" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="218" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="216" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="213" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="226" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="226" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="226" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="226" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="226" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="226" cy = "161" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="226" cy = "158" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="228" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="231" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="233" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="236" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="236" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="236" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="233" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="231" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="228" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="241" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="241" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="241" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="243" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="246" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="248" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="251" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="251" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="251" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="248" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="246" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="243" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="258" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="258" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="258" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="258" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="258" cy = "161" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="258" cy = "158" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="256" cy = "161" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="261" cy = "161" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="261" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="263" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="266" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="276" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="276" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="278" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="278" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="286" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="286" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="286" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="288" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="291" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="293" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="296" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="296" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="296" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="293" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="291" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="288" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="301" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="301" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="301" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="301" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="301" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="303" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="306" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="308" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="311" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="318" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="321" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="323" cy = "173" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="326" cy = "171" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="326" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="326" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="326" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="323" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="321" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="318" cy = "163" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="316" cy = "166" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="318" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="321" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+    <circle cx="323" cy = "168" r = "1.25" stroke = "#000000" stroke-width = "1" fill = "#000000" />
+	<path d = "M68 73 L148 73 L83 120 L108 44 L133 120 L68 73 Z" stroke = "#000000" stroke-width = "5" fill = "none" />	<path d = "M313 63 L243 103 L278 43 L313 103 L278 83 L243 63 L278 123 L313 63 Z" stroke = "#000000" stroke-width = "5" fill = "none" /></svg>

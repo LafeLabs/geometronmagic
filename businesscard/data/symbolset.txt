@@ -1,0 +1,20 @@
+{
+    "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/businesscard/",
+    "symbols": [
+        "symbol1653952628.svg",
+        "symbol1653952960.svg",
+        "symbol1653952986.svg",
+        "symbol1653954899.svg",
+        "symbol1653954910.svg",
+        "symbol1653955493.svg",
+        "symbol1653956543.svg",
+        "symbol1653956891.svg",
+        "symbol1653956901.svg",
+        "symbol1653956995.svg",
+        "symbol1653959528.svg",
+        "symbol1653960073.svg",
+        "symbol1653960133.svg",
+        "symbol1653960529.svg",
+        "symbol1653960566.svg"
+    ]
+}
