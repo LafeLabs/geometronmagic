@@ -1,13 +1,46 @@
 [
     {
-        "x": 0.15428571428571428,
-        "y": 0.31085714285714283,
-        "w": 0.5954285714285714,
-        "h": 0.5954285714285714,
+        "x": -0.1417142857142857,
+        "y": -0.0034285714285714284,
+        "w": 1.3748571428571428,
+        "h": 0.9942857142857143,
         "angle": 0,
-        "text": "text",
-        "href": "scrolls/home",
-        "src": "iconsymbols/scroll.svg",
+        "text": "index.html",
+        "href": "",
+        "src": "https://i.imgur.com/LQXB5Eu.png",
+        "maplinkmode": true
+    },
+    {
+        "x": 0.0034285714285714284,
+        "y": 0.011428571428571429,
+        "w": 0.09714285714285714,
+        "h": 0.09714285714285714,
+        "angle": 0,
+        "text": "index.html",
+        "href": "index.html",
+        "src": "iconsymbols/home.svg",
+        "maplinkmode": false
+    },
+    {
+        "x": 0.07314285714285715,
+        "y": 0.7062857142857143,
+        "w": 0.04914285714285714,
+        "h": 0.05942857142857143,
+        "angle": 0,
+        "text": "zoom1",
+        "href": "maps/zoom1",
+        "src": "https://i.imgur.com/No1wukK.png",
+        "maplinkmode": true
+    },
+    {
+        "x": 0.8925714285714286,
+        "y": 0.15314285714285714,
+        "w": 0.04914285714285714,
+        "h": 0.05942857142857143,
+        "angle": 0,
+        "text": "zoom1",
+        "href": "maps/nyc",
+        "src": "https://i.imgur.com/No1wukK.png",
         "maplinkmode": true
     }
 ]

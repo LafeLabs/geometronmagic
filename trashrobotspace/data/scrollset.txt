@@ -6,8 +6,11 @@
         "home",
         "lafespietz1",
         "lafespietz2",
+        "picrust",
         "pilot",
         "replication",
-        "trashmagic"
+        "trashmagic",
+        "trashrobot",
+        "venue"
     ]
 }

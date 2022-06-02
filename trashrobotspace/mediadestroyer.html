@@ -30,26 +30,18 @@
             HOME
             </a>
         </td>
+        </tr>
+        <tr>
         <td>
             <a href = "picrust.html">PI CRUST</a>
         </td>
-        </tr>
-        <tr>
-        <td>
-            <a href = "alignimage.html">ALIGN ICON</a>
-        </td>
-        <tr>
-            <td>
-            <a href = "globalimagefeed.html">GLOBAL IMAGES</a>
-            </td>
-        </tr>
     </tr>    
 </table>    
 <div id = "imagefeedheader">
-    <form id = "uploadform" action="upload.php" method="post" enctype="multipart/form-data">
+    <form id = "uploadform" action="uploadmedia.php" method="post" enctype="multipart/form-data">
                 <span id ="uploadspan">UPLOAD:</span>
         <input type="file" name="fileToUpload" id="fileToUpload">
-        <input type="submit" value="Upload Image" name="submit" id ="submitinput">
+        <input type="submit" value="Upload Media File" name="submit" id ="submitinput">
     </form>        
 </div>
     
@@ -66,41 +58,38 @@ httpcUpload.onreadystatechange = function() {
         loadimagefeed();
     }
 };
-httpcUpload.open("GET", "dir.php?filename=uploadimages", true);
+httpcUpload.open("GET", "dir.php?filename=media", true);
 httpcUpload.send();
 
 
 function loadimagefeed(){
 
     for(var index = uploadImages.length - 1;index >= 0;index--) {
-        var newuploadbox = document.createElement("DIV");
-        newuploadbox.classList.add("imagebox");
-        var newimg = document.createElement("IMG");
-        newimg.src = "uploadimages/" + uploadImages[index];
-        newimg.classList.add("uploadimage");
-        
-        newuploadbox.appendChild(newimg);
-        document.getElementById("imagefeed").appendChild(newuploadbox);
-
-        var newdiv = document.createElement("DIV");
-        newdiv.innerHTML = uploadImages[index];
-        newdiv.className = "filelabel";
-        newuploadbox.appendChild(newdiv);
+        if(uploadImages[index].includes(".")){
+            var newuploadbox = document.createElement("DIV");
+            newuploadbox.classList.add("imagebox");
     
-        var newimg = document.createElement("IMG");
-        newimg.src = "iconsymbols/delete.svg";
-        newuploadbox.appendChild(newimg);
-        newimg.classList.add("button");
-        newimg.classList.add("deletebutton");
-        newimg.onclick = function(){
-            var imageurl =this.parentElement.getElementsByClassName("uploadimage")[0].src; 
-            var imagename = "uploadimages/" + imageurl.split("uploadimages/")[1];
-            var httpc = new XMLHttpRequest();
-            var url = "deletefile.php";         
-            httpc.open("POST", url, true);
-            httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
-            httpc.send("filename=" + imagename);//send text to deletefile.php
-            this.parentElement.parentElement.removeChild(this.parentElement);
+            document.getElementById("imagefeed").appendChild(newuploadbox);
+    
+            var newdiv = document.createElement("DIV");
+            newdiv.innerHTML = uploadImages[index];
+            newdiv.className = "filelabel";
+            newuploadbox.appendChild(newdiv);
+        
+            var newimg = document.createElement("IMG");
+            newimg.src = "iconsymbols/delete.svg";
+            newuploadbox.appendChild(newimg);
+            newimg.classList.add("button");
+            newimg.classList.add("deletebutton");
+            newimg.onclick = function(){
+                var filename = "media/" + this.parentElement.getElementsByClassName("filelabel")[0].innerHTML; 
+                var httpc = new XMLHttpRequest();
+                var url = "deletefile.php";         
+                httpc.open("POST", url, true);
+                httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+                httpc.send("filename=" + filename);//send text to deletefile.php
+                this.parentElement.parentElement.removeChild(this.parentElement);
+            }   
         }
     }    
 }

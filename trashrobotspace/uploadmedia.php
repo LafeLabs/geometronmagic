@@ -1,6 +1,6 @@
 <?php
-$target_dir = "uploadimages/";
-$files = scandir(getcwd()."/uploadimages");
+$target_dir = "media/";
+$files = scandir(getcwd()."/media");
 $imageIndex =  count($files) - 1;
 $infilename = basename( $_FILES["fileToUpload"]["name"]);
 $extension = substr($infilename,-4);
@@ -14,7 +14,7 @@ if (file_exists($target_file)) {
     $imageIndex +=  1;
    // $target_file = $target_dir . "image" . $imageIndex . $extension;
 }
-if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], "uploadimages/".$target_file)) {
+if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], "media/".$target_file)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
         
 }
@@ -30,13 +30,11 @@ else{
     <a href = "index.html">home</a>
 </p>
 <p style = "font-size:5em">
-    <a href = "imagefeed.html">imagefeed.html</a>
+    <a href = "mediadestroyer.html">media destroyer</a>
 </p>
+
 <p style = "font-size:5em">
     <a href = "picrust.html">picrust.html</a>
-</p>
-<p style = "font-size:5em">
-    <a href = "mapeditor.php">mapeditor.php</a>
 </p>
 
 
