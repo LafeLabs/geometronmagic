@@ -19,7 +19,6 @@ mkdir("scrolls");
 mkdir("symbolfeed");
 mkdir("uploadimages");
 mkdir("maps");
-mkdir("images");
 mkdir("media");
 
 

@@ -65,29 +65,31 @@ httpcUpload.send();
 function loadimagefeed(){
 
     for(var index = uploadImages.length - 1;index >= 0;index--) {
-        var newuploadbox = document.createElement("DIV");
-        newuploadbox.classList.add("imagebox");
-
-        document.getElementById("imagefeed").appendChild(newuploadbox);
-
-        var newdiv = document.createElement("DIV");
-        newdiv.innerHTML = uploadImages[index];
-        newdiv.className = "filelabel";
-        newuploadbox.appendChild(newdiv);
+        if(uploadImages[index].includes(".")){
+            var newuploadbox = document.createElement("DIV");
+            newuploadbox.classList.add("imagebox");
     
-        var newimg = document.createElement("IMG");
-        newimg.src = "iconsymbols/delete.svg";
-        newuploadbox.appendChild(newimg);
-        newimg.classList.add("button");
-        newimg.classList.add("deletebutton");
-        newimg.onclick = function(){
-            var filename = "media/" + this.parentElement.getElementsByClassName("filelabel")[0].innerHTML; 
-            var httpc = new XMLHttpRequest();
-            var url = "deletefile.php";         
-            httpc.open("POST", url, true);
-            httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
-            httpc.send("filename=" + filename);//send text to deletefile.php
-            this.parentElement.parentElement.removeChild(this.parentElement);
+            document.getElementById("imagefeed").appendChild(newuploadbox);
+    
+            var newdiv = document.createElement("DIV");
+            newdiv.innerHTML = uploadImages[index];
+            newdiv.className = "filelabel";
+            newuploadbox.appendChild(newdiv);
+        
+            var newimg = document.createElement("IMG");
+            newimg.src = "iconsymbols/delete.svg";
+            newuploadbox.appendChild(newimg);
+            newimg.classList.add("button");
+            newimg.classList.add("deletebutton");
+            newimg.onclick = function(){
+                var filename = "media/" + this.parentElement.getElementsByClassName("filelabel")[0].innerHTML; 
+                var httpc = new XMLHttpRequest();
+                var url = "deletefile.php";         
+                httpc.open("POST", url, true);
+                httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+                httpc.send("filename=" + filename);//send text to deletefile.php
+                this.parentElement.parentElement.removeChild(this.parentElement);
+            }   
         }
     }    
 }
