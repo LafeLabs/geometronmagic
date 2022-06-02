@@ -35,8 +35,24 @@
 <textarea id  = "wall" spellcheck="false"></textarea>
 <div id = "qrcode"></div>
 <div id = "brandbox"><a style = "color:#ff2cb4;background-color:black" href = "index.html">HOME</a></div>
-<div id = "imagescroll"></div>
-<div id = "mediascroll"></div>
+<div id = "imagescroll">
+    
+        <form id = "uploadform" style = "margin-top:10px;" action="upload.php" method="post" enctype="multipart/form-data">
+                Select image to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
+
+</div>
+<div id = "mediascroll">
+    
+    <form id = "uploadform" style = "margin-top:10px;color:#00ff00" action="uploadmedia.php" method="post" enctype="multipart/form-data">
+                Select media file to upload:
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload Media File" name="submit">
+    </form>    
+    
+</div>
 <script>
 
 wall = "";
@@ -73,7 +89,7 @@ httpcUpload.onreadystatechange = function() {
         loadimagefeed();
     }
 };
-httpcUpload.open("GET", "dir.php?filename=images", true);
+httpcUpload.open("GET", "dir.php?filename=uploadimages", true);
 httpcUpload.send();
 
 
@@ -81,7 +97,7 @@ function loadimagefeed(){
 
     for(var index = uploadImages.length - 1;index >= 0;index--) {
         var newimg = document.createElement("IMG");
-        newimg.src = "images/" + uploadImages[index];
+        newimg.src = "uploadimages/" + uploadImages[index];
         document.getElementById("imagescroll").appendChild(newimg);
     }    
 }

@@ -20,6 +20,7 @@
         "mapbook.html",
         "mapdelete.html",
         "mapset.html",
+        "mediadestroyer.html",
         "picrust.html",
         "programarduino.html",
         "programarduinoxyz.html",
@@ -99,6 +100,7 @@
         "symbolsetreplicator.txt",
         "text2php.txt",
         "upload.txt",
+        "uploadmedia.txt",
         "uploadsymbol.txt",
         "user.txt"
     ],
