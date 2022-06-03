@@ -1,6 +1,7 @@
 {
     "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/trashrobotspace/",
     "scrolls": [
+        "budget",
         "communitymedia",
         "craftin",
         "electronics",
@@ -14,6 +15,7 @@
         "picrust",
         "pilot",
         "replication",
+        "tables",
         "trashmagic",
         "trashrobot",
         "venue"

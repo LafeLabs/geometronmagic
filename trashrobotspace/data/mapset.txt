@@ -20,6 +20,7 @@
         "work-tables.jpg"
     ],
     "scrolls": [
+        "budget",
         "communitymedia",
         "craftin",
         "electronics",
@@ -33,6 +34,7 @@
         "picrust",
         "pilot",
         "replication",
+        "tables",
         "trashmagic",
         "trashrobot",
         "venue"
