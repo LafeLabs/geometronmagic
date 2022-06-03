@@ -96,7 +96,7 @@ httpc8.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         scrolls = JSON.parse(this.responseText);
         for(var index = 0;index < scrolls.length;index++) {    
-            if(scrolls.substring(currentFile.length-5,currentFile.length) == ".html"){
+            if(scrolls[index].substring(scrolls[index].length-5,scrolls[index].length) == ".html"){
              
                 var newscrollbutton = document.createElement("div");
                 newscrollbutton.classList.add("file");
