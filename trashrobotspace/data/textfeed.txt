@@ -35,7 +35,11 @@
     "https://i.imgur.com/m9Pk97B.png",
     "https://i.imgur.com/Hc7SHPP.png",
     "https://i.imgur.com/KY0RGoI.png",
-    "https://i.imgur.com/E4SfZFt.png"
+    "https://i.imgur.com/E4SfZFt.png",
+    "https://i.imgur.com/yAWrXag.jpg",
+    "https://i.imgur.com/EwyIoPV.jpg",
+    "iconsymbols/scroll.svg",
+    "iconsymbols/home.svg"
   ],
   "href": [
     "http://geometronics.org"

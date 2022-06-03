@@ -1,0 +1,79 @@
+[
+    {
+        "x": -0.009142857142857144,
+        "y": 0.10514285714285715,
+        "w": 1.072,
+        "h": 0.8445714285714285,
+        "angle": 0,
+        "text": "text",
+        "href": "",
+        "src": "https://i.imgur.com/yAWrXag.jpg",
+        "maplinkmode": false
+    },
+    {
+        "x": 0.6651428571428571,
+        "y": 0.7485714285714286,
+        "w": 0.05714285714285714,
+        "h": 0.05714285714285714,
+        "angle": 0,
+        "text": "text",
+        "href": "scrolls/fieldkit",
+        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "maplinkmode": true
+    },
+    {
+        "x": 0.03428571428571429,
+        "y": 0.11314285714285714,
+        "w": 0.05714285714285714,
+        "h": 0.05714285714285714,
+        "angle": 0,
+        "text": "text",
+        "href": "scrolls/home",
+        "src": "http://localhost/trashrobotspace/iconsymbols/home.svg",
+        "maplinkmode": true
+    },
+    {
+        "x": 0.4297142857142857,
+        "y": 0.7828571428571428,
+        "w": 0.05714285714285714,
+        "h": 0.05714285714285714,
+        "angle": 0,
+        "text": "text",
+        "href": "scrolls/mushroomcompost",
+        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "maplinkmode": true
+    },
+    {
+        "x": 0.3737142857142857,
+        "y": 0.5908571428571429,
+        "w": 0.05714285714285714,
+        "h": 0.05714285714285714,
+        "angle": 0,
+        "text": "text",
+        "href": "scrolls/electronics",
+        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "maplinkmode": true
+    },
+    {
+        "x": 0.456,
+        "y": 0.42742857142857144,
+        "w": 0.05714285714285714,
+        "h": 0.05714285714285714,
+        "angle": 0,
+        "text": "text",
+        "href": "scrolls/craftin",
+        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "maplinkmode": true
+    },
+    {
+        "x": 0.7897142857142857,
+        "y": 0.41828571428571426,
+        "w": 0.05714285714285714,
+        "h": 0.05714285714285714,
+        "angle": 0,
+        "text": "text",
+        "href": "scrolls/mediaout",
+        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "maplinkmode": true
+    }
+]
