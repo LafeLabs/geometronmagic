@@ -47,7 +47,8 @@
         "threejs.html",
         "threejsinvert.html",
         "traceicon.html",
-        "user.html"
+        "user.html",
+        "webpages.html"
     ],
     "data": [
         "alignimage.txt",
