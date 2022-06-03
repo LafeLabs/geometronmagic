@@ -6,7 +6,13 @@ To build Trash Magic, we start by building machines which print symbols onto tra
 
 We distribute these media in public spaces, and invite creators to join us in the Trash Robot Space to create more media, share their own media, and build more machines.  This flow of information through physical media is like any other media system in that it can be used to distribute what people want to: ideas, connections, brands, movements, methods, groups, stories, music, art, software, articles, videos, machines, food, clothes, structural elements, medicine, and so on.  
 
+We create the Trash Robot brand, an open brand without intellectual property, to spread the meme of Trash Magic.  This is "whimsical mad max", or things made obviously from trash, with rainbows and googly eyes to make everything as whimsical as possible.  We build this into our art and fashion to create brand awareness for Trash Magic without generating any property, making it outside the existing system of commercial branding.  
 
+We invite members of the community to donate to support the space, and to use the feed of free media to promote whatever they want to promote.  In this way we can both raise funds to support the basic operational expenses and raise direct material support such as free space to operate and donated materials to build things from.  We aim to move all local commerce to our media feed, and to therefore take back all the value the Internet companies have been extracting communities into public shared spaces in those communities.  
+
+We create free web servers(web servers with no private content or data of any kind and no private property of any kind) and put them both on our shared wireless networks and on the public Internet.  We create extensions of these hotspots into outdoor public spaces with wireless links, extending the space of free network.  We support the operation of media in these public outdoor spaces with solar powered charging stations, places to sit down, and refreshments and supplies as well as free physical media distribution.  We call these public spaces trash robot camps, and they are easily recognizable with the flags we create from waste textiles using the Trash Robot brand.  These web servers are used as the means of public distribution of media in a local community.  
+
+All of our digital media consists of self-replicating sets of files which are freely replicated from our public domain code repositories on numerous websites including Github.  These public repositories can also be used to scale up replication of media from the local to global level without taxing our local bandwidth resources.  In a local neighborhood, distribution of digital media can be largely by USB thumb drive, physically putting files onto the Raspberry Pi based web servers in public Trash Robot Spaces.  The Pi's can also be old chromebooks with linux installed on them.
 
 [![](https://i.imgur.com/yAWrXag.jpg)](maps/shelves)
 
@@ -24,6 +30,7 @@ We distribute these media in public spaces, and invite creators to join us in th
  - [venue](scrolls/venue)
  - [fieldkit](scrolls/fieldkit)
  - [shelves map](maps/shelves)
+ - [editor.php](editor.php)
 
 
 ![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/trashrobotspace/uploadimages/camp.jpg)
