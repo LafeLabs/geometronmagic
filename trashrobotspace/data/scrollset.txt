@@ -2,22 +2,28 @@
     "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/trashrobotspace/",
     "scrolls": [
         "budget",
+        "clothes",
         "communitymedia",
         "craftin",
         "electronics",
         "fieldkit",
+        "flags",
         "geometron",
         "home",
         "lafespietz1",
         "lafespietz2",
         "mediaout",
         "mushroomcompost",
+        "organicmedia",
         "picrust",
         "pilot",
         "replication",
+        "slides",
         "tables",
         "trashmagic",
         "trashrobot",
+        "trashrobotspace",
+        "trashrobotstation",
         "venue"
     ]
 }

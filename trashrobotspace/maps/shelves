@@ -18,7 +18,7 @@
         "angle": 0,
         "text": "text",
         "href": "scrolls/fieldkit",
-        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "src": "iconsymbols/scroll.svg",
         "maplinkmode": true
     },
     {
@@ -29,7 +29,7 @@
         "angle": 0,
         "text": "text",
         "href": "scrolls/home",
-        "src": "http://localhost/trashrobotspace/iconsymbols/home.svg",
+        "src": "iconsymbols/scroll.svg",
         "maplinkmode": true
     },
     {
@@ -40,7 +40,7 @@
         "angle": 0,
         "text": "text",
         "href": "scrolls/mushroomcompost",
-        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "src": "iconsymbols/scroll.svg",
         "maplinkmode": true
     },
     {
@@ -51,7 +51,7 @@
         "angle": 0,
         "text": "text",
         "href": "scrolls/electronics",
-        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "src": "iconsymbols/scroll.svg",
         "maplinkmode": true
     },
     {
@@ -62,7 +62,7 @@
         "angle": 0,
         "text": "text",
         "href": "scrolls/craftin",
-        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "src": "iconsymbols/scroll.svg",
         "maplinkmode": true
     },
     {
@@ -73,7 +73,29 @@
         "angle": 0,
         "text": "text",
         "href": "scrolls/mediaout",
-        "src": "http://localhost/trashrobotspace/iconsymbols/scroll.svg",
+        "src": "iconsymbols/scroll.svg",
+        "maplinkmode": true
+    },
+    {
+        "x": 0.8411428571428572,
+        "y": 0.2845714285714286,
+        "w": 0.05714285714285714,
+        "h": 0.05714285714285714,
+        "angle": 0,
+        "text": "text",
+        "href": "scrolls/flags",
+        "src": "iconsymbols/scroll.svg",
+        "maplinkmode": true
+    },
+    {
+        "x": 0.5725714285714286,
+        "y": 0.304,
+        "w": 0.05714285714285714,
+        "h": 0.05714285714285714,
+        "angle": 0,
+        "text": "text",
+        "href": "scrolls/clothes",
+        "src": "iconsymbols/scroll.svg",
         "maplinkmode": true
     }
 ]
