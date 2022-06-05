@@ -40,6 +40,7 @@
         "mechanicals",
         "microposition",
         "newcoin",
+        "pentagram",
         "pi",
         "picrust",
         "printerxyz",
