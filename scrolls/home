@@ -50,6 +50,7 @@ We begin by putting together free things and sharing them.  We share our intenti
 
  - [editor.php](editor.php)
  - [http://localhost/](http://localhost/)
+ - [home map link](maps/home)
  - [copy data/robotfeed.txt from TRASH ROBOT main on Github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/robotfeed.txt&to=data/robotfeed.txt)
  - [copy data/geometroncoinfeed.txt from TRASH ROBOT main on Github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/data/geometroncoinfeed.txt&to=data/geometroncoinfeed.txt)
  - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
