@@ -362,7 +362,7 @@ function convertscrollinks(){
                 loadmap(localscroll);
             }
         }        
-        if(links[index].href.includes("maps/") && !links[index].href.includes(".php")){
+        if(links[index].href.includes("maps/") && !links[index].href.includes(".php") && !links[index].href.includes("google.com")){
             //console.log(links[index].href);
             var newspan = document.createElement("SPAN");
             newspan.innerHTML = links[index].innerHTML;
