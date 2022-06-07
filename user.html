@@ -113,11 +113,11 @@ var converter = new showdown.Converter();
 converter.setOption('literalMidWordUnderscores', 'true');
 converter.setOption('tables', 'true')
     
-filename = "scrolls/home";
+filename = "maps/home";
 
 //loadscroll("scrolls/home");
 
-loadscroll("scrolls/home");
+loadmap("maps/home");
 
 
 
@@ -276,7 +276,7 @@ function convertscrollinks(){
             newspan.onclick = function(){
                 var localscroll = this.getElementsByClassName("data")[0].innerHTML;
                 loadmap(localscroll);
-            }
+            } 
         }        
         if(links[index].href.includes("maps/") && !links[index].href.includes(".php")){
             //console.log(links[index].href);

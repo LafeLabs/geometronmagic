@@ -14,7 +14,6 @@
     ],
     "images": [
         "20220531_201646.jpg",
-        "cover.jpg",
         "squatsymbol.png",
         "trashrobot.png"
     ],
@@ -65,6 +64,7 @@
         "waterbag",
         "webpage",
         "why",
-        "xampp"
+        "xampp",
+        "youtube"
     ]
 }
