@@ -3,6 +3,9 @@
     "symbols": [
         "baseboard.svg",
         "baseboard2.svg",
+        "box-base-4x.svg",
+        "box-side-1-4x.svg",
+        "box-side2-ABCD.svg",
         "crossbar.svg",
         "handle.svg",
         "handles2.svg",
