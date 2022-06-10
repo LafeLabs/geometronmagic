@@ -50,10 +50,16 @@ No glue or tape is needed. This can be assembled with just friction.
 
 Print each of these at exactly 8 inches wide on the laser cutter in thick corrugated cardboard:
 
+Print this set of 4 panels once to make the bottom:
+
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-base-4x.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-base-4x.svg)
 
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side-1-4x)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side-1-4x)
+Print this set of 4 panels twice to make 2 of the sides:
 
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side2-ABCD)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side2-ABCD)
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side-1-4x.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side-1-4x.svg)
+
+print this set of 4 panels twice to make another 2 of the sides:
+
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side2-ABCD.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side2-ABCD.svg)
 
 
