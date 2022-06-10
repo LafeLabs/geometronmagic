@@ -43,6 +43,7 @@
         "trashmagic",
         "trashmagicbooks",
         "trashrobotbrand",
+        "trashspace",
         "trashtie",
         "waterbag",
         "webpage",

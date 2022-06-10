@@ -200,6 +200,43 @@ void moveTowards(int nSteps){
 
 void geometronAction(char action){
   stopBool = !digitalRead(stopPin);
+  if(stopBool){
+    delay(500);
+    while(true){
+      if(!digitalRead(goPin)){
+        stopBool = false;
+        break;
+      }
+      if(!digitalRead(stopPin)){
+        break;
+      }
+      xleftBool = !digitalRead(xleftPin);
+      xrightBool = !digitalRead(xrightPin);
+      yawayBool = !digitalRead(yawayPin);
+      ytowardsBool = !digitalRead(ytowardsPin);
+      zdownBool = !digitalRead(zdownPin);
+      zupBool = !digitalRead(zupPin);
+      if(xleftBool){
+         moveLeft(1);
+      }
+      if(xrightBool){
+         moveRight(1);
+      }
+      if(zdownBool){
+        moveUp(1); 
+      }
+      if(zupBool){
+        moveDown(1); 
+      }
+      if(yawayBool){
+        moveAway(1);
+      }
+      if(ytowardsBool){
+        moveTowards(1);
+      }
+      
+    }
+  }
   if(action == 'a'){
      moveRight(side);
   }
@@ -252,6 +289,7 @@ void geometronAction(char action){
 
 
 void printCoin(){
+  side=unit;
    for(int index = 0;index <= sizeof(coin);index++){
     if(!stopBool){
       geometronAction(coin[index]);    

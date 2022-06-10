@@ -244,6 +244,7 @@
         "mechanicals",
         "microposition",
         "newcoin",
+        "pentagram",
         "pi",
         "picrust",
         "printerxyz",
@@ -264,11 +265,13 @@
         "trashmagic",
         "trashmagicbooks",
         "trashrobotbrand",
+        "trashspace",
         "trashtie",
         "waterbag",
         "webpage",
         "why",
-        "xampp"
+        "xampp",
+        "youtube"
     ],
     "maps": [
         "foo",
