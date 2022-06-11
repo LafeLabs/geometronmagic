@@ -48,9 +48,15 @@ No glue or tape is needed. This can be assembled with just friction.
 
 ## Cube planter
 
+This design still needs testing and tweaking, but it now has been proven to basically work to make a 4 inch cube(outside dimension) with stacks of cardboard using dovetail friction joints. We can make these in very large numbers, assemble them into arrays, stack them in the hanging trash frame above, and make a modular system which can have very large numbers of small plants suspended in a system which can then also be used to make robots. The same planters are used for tiny worm farms, growing plants, growing mushrooms, different kinds of compost, parts bins, art supply storage. All the cardboard will ultimately be composted or digested into fungi.
+
+![](https://i.imgur.com/7lyQPDh.png)
+
+![](https://i.imgur.com/T6OXa9A.png)
+
 Print each of these at exactly 8 inches wide on the laser cutter in thick corrugated cardboard:
 
-Print this set of 4 panels once to make the bottom:
+Print this set of 4 panels once to make the bottom(each panel is 4 layers of cardboard thick):
 
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-base-4x.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-base-4x.svg)
 
@@ -62,4 +68,4 @@ print this set of 4 panels twice to make another 2 of the sides:
 
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side2-ABCD.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/box-side2-ABCD.svg)
 
-
+![](https://i.imgur.com/cE2EOoj.png)
