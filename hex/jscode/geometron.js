@@ -287,24 +287,6 @@ function GVM(canvas2d,width,height) {
             this.glyph = "0207,";
             this.cleanGlyph = "";
         }
-        if(address == 012){
-            //spell
-            var glyphSplit = this.glyph.split(",");
-            currentGlyph = "";
-            for(var index = 0;index < glyphSplit.length;index++){
-                if(glyphSplit[index].length > 0){
-                    var addressNumber = parseInt(glyphSplit[index],8);
-                    if(addressNumber < 01000 && addressNumber != 0207 && addressNumber > 0177){
-                        currentGlyph += "0" + (addressNumber + 01000).toString(8) + ",";
-                    }
-                    else{
-                        currentGlyph += "0" + addressNumber.toString(8) + ",";
-                    }
-            
-                }
-            }
-            this.glyph = currentGlyph;
-        }
         if(address == 020) {
             //cursor back
             var currentGlyph = this.glyph;
