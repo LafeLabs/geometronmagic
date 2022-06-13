@@ -12,6 +12,7 @@
         "firebag",
         "flags",
         "goldentriangle",
+        "hex",
         "home",
         "hyperlink",
         "iconset",
