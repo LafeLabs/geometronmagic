@@ -1,0 +1,13 @@
+{
+    "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/",
+    "symbols": [
+        "basic-url.svg",
+        "dual.svg",
+        "hexagram-stencil.svg",
+        "no.svg",
+        "pentagramfractal.svg",
+        "stoptagon.svg",
+        "stoptagonfilled.svg",
+        "x.svg"
+    ]
+}
