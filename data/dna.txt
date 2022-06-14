@@ -53,6 +53,7 @@
     "data": [
         "alignimage.txt",
         "arduinocode.txt",
+        "arduinocodexyz-scanners.txt",
         "arduinocodexyz.txt",
         "arduinocodexyzold.txt",
         "arduinocodexyzpause.txt",
@@ -234,6 +235,7 @@
         "firebag",
         "flags",
         "goldentriangle",
+        "hex",
         "home",
         "hyperlink",
         "iconset",
