@@ -2,6 +2,9 @@
 
 # Cube
 
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/cube-photo.jpg)
+
 [http://localhost/cube/index.html](http://localhost/cube/index.html)
 
 ![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/cubeicon.svg)
