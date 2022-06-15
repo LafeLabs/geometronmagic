@@ -13,9 +13,8 @@
         "zoom3"
     ],
     "images": [
-        "20220531_201646.jpg",
-        "squatsymbol.png",
-        "trashrobot.png"
+        "qrcode-array.png",
+        "qrcode.png"
     ],
     "scrolls": [
         "arduino",
@@ -29,6 +28,7 @@
         "firebag",
         "flags",
         "goldentriangle",
+        "hex",
         "home",
         "hyperlink",
         "iconset",
