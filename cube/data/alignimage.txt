@@ -1,1 +1,1 @@
-{"w":0.9577142857142857,"x":0.018285714285714287,"y":-0.07085714285714285,"angle":0,"src":"http://localhost/uploadimages/squatsymbol.png"}
+{"w":0.9988571428571429,"x":0.10742857142857143,"y":0.011428571428571429,"angle":0,"src":"http://localhost/cube/symbolfeed/symbol1655325456.svg"}
