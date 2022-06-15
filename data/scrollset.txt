@@ -7,6 +7,7 @@
         "coins",
         "coinsets",
         "controller",
+        "cube",
         "dvd",
         "earthbag",
         "firebag",
