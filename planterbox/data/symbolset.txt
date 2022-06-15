@@ -2,6 +2,7 @@
     "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/planterbox/",
     "symbols": [
         "bottom.svg",
+        "controller.svg",
         "side1-square.svg",
         "side1.svg",
         "side2-square.svg",
