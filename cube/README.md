@@ -2,6 +2,7 @@
 
 # Cube
 
+4 inch cube.
 
 ![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/cube-photo.jpg)
 
