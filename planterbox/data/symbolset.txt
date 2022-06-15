@@ -1,13 +1,20 @@
 {
     "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/planterbox/",
     "symbols": [
+        "bottom-3x.svg",
         "bottom.svg",
         "controller.svg",
+        "side1-6x.svg",
         "side1-square.svg",
         "side1.svg",
+        "side2-6x.svg",
         "side2-square.svg",
         "side2a.svg",
         "side2b.svg",
-        "side2c.svg"
+        "side2c.svg",
+        "symbol1655260585.svg",
+        "symbol1655260608.svg",
+        "symbol1655260615.svg",
+        "symbol1655260626.svg"
     ]
 }
