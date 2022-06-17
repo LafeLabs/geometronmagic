@@ -30,6 +30,7 @@
         "printerxyz",
         "prospectpark",
         "prospectparkcamp",
+        "readme-old",
         "replicators",
         "roctal",
         "sets",

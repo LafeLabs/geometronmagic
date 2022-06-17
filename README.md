@@ -1,199 +1,176 @@
-## [![](iconsymbols/home.svg)](index.html)
-
 # Geometron Magic
 
-## A Self-Replicating Set
+ - [First Book of Geometron](https://www.trashrobot.org/bookofgeometronfirst/)
+ - [Geometron Magic Book 2](https://www.trashrobot.org/geometronmagic/)
+ - [Geometron Magic Github Repository](https://github.com/lafeLabs/geometronmagic)
 
-### Links
+## Cube
 
- - [http://localhost/](http://localhost/)
- - [the Geometron Magic github repository](https://github.com/lafeLabs/geometronmagic)
- - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt)
+4 inch cube with 5 sides, each side is 3 layers of corrugated cardboard.  All sides are made from 4 inch squares. Cut cardboard trash with a laser cutter or box cutter or razor blade or build and operate stamps for automated production.  
+
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/cube.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/cube.svg)
+
+ - photo of square with ruler and labels of dimensions
+ - photo of a corner with 3 faces
+ - photo of each face laid out in a pattern of 5
+ - photo of a fully assembled cube
+ - photo of cube with rulers, box cutters, pens for full self-replication
+ - photo of stack of cube
+ - [link to oyster mushroom cardboard farming](https://grocycle.com/grow-mushrooms-on-cardboard/)
+ - [buy worms to farm in compost bins](https://unclejimswormfarm.com/order-stuff/composting-worms/)
+
+# Geometron Ruler
+
+![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/rulersphoto.jpg)
+
+The Geometron Ruler is one inch by six inches. One side has tenths and the other halves, quarters and eights. The highest quality rulers are made from quarter inch neon green acrylic with a laser cutter.  Any ruler can be used to make more rulers.  Cereal box cardboard is a good material.  Find a maker space or individual with a laser cutter.  Dig through the waste bin to find extra acrylic.  Place the outlines and etch and make rulers.  Give them away and spread the word of Geometron, Trash Magic, Trash Robot and so on.  Also you can use [Ponoko.com](https://www.ponoko.com/) to get large numbers of rulers made and can sell those if you so choose.  All of this work is in the PUBLIC DOMAIN with no restrictions whatsoever, so you are free to remix this and brand it for whatever you're dong, and sell or give away the branded rulers.  No payments are ever asked for this, no agreements, no contracts, just copy and use as you wish.  
+
+Using Ponoko.com is only cost effective if you have a budget of over 1000 dollars, then the cost per ruler can drop to about a dollar and a half.  Also, Ponoko only has eighth inch acrylic and quarter inch is the nicest.  
+
+
+Ruler Outline SVG file:
+
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruleroutline.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruleroutline.svg)
+
+Ruler Etch pattern PNG file:  
+
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruleretch.png)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruleretch.png)
+
+
+
+Ruler 2 color SVG file for Ponoko.com:
+
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler2color.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler2color.svg)
+
+
+Set of 8 rulers in one SVG file for Ponoko.com:
+
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/rulers8.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/rulers8.svg)
+
+
+## Metric
+
+Centimeters PNG file for etch.  Print out with 15 centimeter width and 2 cm height:
+
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler-cm-etch.png)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler-cm-etch.png)
+
+centimeters Ruler Outline SVG file, line up with etch and make 15x2 cm:
+
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler-cm-outline.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler-cm-outline.svg)
+
+One ruler with etch and cut in different layers:
+
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler-cm.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler-cm.svg)
+
+
+Set of 8 cm rulers in one SVG file for Ponoko.com:
+
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler-cm-array.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler-cm-array.svg)
+
+# Shape Set
  
-### Install on Pi
+These can be laser cut or printed and cut out or constructed through any of various geometric means. The shape set is a set of shapes based on a three inch unit and the various natural scales implied by common symmetries of the Universe.  To make them from laser cut acrylic, do what you would for the [geometron rulers](scrolls/ruler).
 
-Raspberry Pi is now impossible to buy.  Find them donated from someone. Most people who have them don't use them or used them once and stopped due to lack of interest/time/need. Ask around!  Someone will be able to donate a Pi, keyboard, mouse, screen, power supply and whatever other random things you need to get set up.
 
-Get a SD card with 8 GB or more storage and a SD card USB reader
+## Shape Set SVG file for 2 layer laser cutting or print out on printer:
 
-Download and install, then use the Raspberry Pi Imager:
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset.svg)
 
-[https://www.raspberrypi.org/software/](https://www.raspberrypi.org/software/)
+## Outline for the cut layer in a laser cutter:
 
-Turn on the pi click through all the things, put it on the wifi network.
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-outline.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-outline.svg)
 
-## Install Apache and PHP so that geometron can run
 
-Open a command prompt(black link on menu bar) and type:
+## PNG file for laser etch:
 
-```
-sudo apt update
-sudo apt install apache2 -y
-sudo apt install php libapache2-mod-php -y
-```
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-etch.png)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-etch.png)
 
-## Install geometron magic with this document for self-documentation and replication
 
-```
-cd /var/www/html
-sudo rm index.html
-sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/php/replicator.txt
-cd ..
-sudo chmod -R 0777 *
-cd html
-php replicator.php
-sudo chmod -R 0777 *
-```
+### 3" square: 
+![](https://i.imgur.com/oCXWSGN.jpg)
+### 3" isosceles right triangle:
+![](https://i.imgur.com/Tp6xtV6.jpg)
+### 3" Golden Triangle and Golden Gnomon:
+![](https://i.imgur.com/TD5Sqs6.jpg)
+### 30-60-90 and isosceles 120 degree triangles:
+![](https://i.imgur.com/vkUCCZP.jpg)
+### 3" equilateral triangle:
+![](https://i.imgur.com/BtOx3D1.jpg)
 
-Check the IP address by hovering over the wifi icon, put that into the browser on another machine on the same local wifi network to see and edit the server.  Or open a browser on the pi and point it to [http://localhost](http://localhost)
 
-## Set up to have names for other servers
 
-edit hosts file to have the IP address of the other servers and then the name you want to use, copying the format in the existing file.
 
-```
-sudo nano /etc/hosts
-```
-edit, and use control-x and say "yes" to save changes.
+## Protractor SVG file for 2 layer laser cutting or print out on printer:
 
-## connect pi to outside internet over router
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor.svg)
 
-Look up "set up port forwarding raspberry pi" and follow instructions to log onto your router and forward port 80 to the raspberry pi.  Use [whatismyipaddress.com](https://whatismyipaddress.com/) to get your global IP address.  Now your home Raspberry pi server will be visible on that IP address.  Take that address and make it a link on the remote raspberry pi terminal as well as a QR code on both.   
+## Outline for the cut layer in a laser cutter:
 
-edit the /etc/hosts file on the remote pi terminal so that home/ and remote/ point to home pi server either on the local network or on the public network.  So "home" will point to the local IP address on the wifi and "remote" will point to the global IP address of the home raspberry pi server(which everyone can see).  
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor-outline.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor-outline.svg)
 
 
-[link to pi my life up](https://pimylifeup.com/raspberry-pi-port-forwarding/)
+## PNG file for laser etch:
 
-[link to setting up basic website with pi with external connection](http://unixetc.co.uk/2013/09/21/create-a-basic-website-on-a-raspberry-pi/)
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor-etch.png)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor-etch.png)
 
-## Install Arduino
+# Penrose
+ 
+Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling) either on a laser cutter or with paper to laminate and trace to make cardboard shapes:
 
-the short but not as good way:
 
-```
-sudo apt-get install arduino
-```
+[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/penrose/symbolfeed/penrose.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/penrose/symbolfeed/penrose.svg)
 
-this installs a old version which is missing some features, namely the serial plotter.  following more complicated instructions leads to non-working version which is impossible to uninstall.
+## Random spray paint stencils for laser cutout
 
 
-how to do the tar ball thing to get a later version of arduino which has the plotting
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/basic-url.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/basic-url.svg)
 
-[https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/)
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/dual.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/dual.svg)
 
-go get the Arduino software at:
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/hexagram-stencil.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/hexagram-stencil.svg)
 
-[https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/no.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/no.svg)
 
-and download "Linux ARM 32 bits".
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/pentagramfractal.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/pentagramfractal.svg)
 
-Open a terminal and go to the home directory:
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagon.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagon.svg)
 
-```
-cd ~
-```
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagonfilled.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagonfilled.svg)
 
-Go to downloads folder:
-```
-cd Downloads
-```
-list the files with 
-```
-ls
-```
-See the name of an archive with a name like "arduino-####-linuxarm.tar.xz", where #### is a version number.
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/x.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/x.svg)
 
-extract with 
-```
-tar -xf arduino-####-linuxarm.tar.xz
-```
 
-move the extracted information to opt directory(directory for package installation)
+## Geometron Icon Printer 
 
-```
-sudo mv arduino-#### /opt
-```
+### Printer Kit(about $75 of parts):
 
-then run the install script:
-```
-sudo /opt/arduino-####/install.sh
-```
+ - [3 motor controller boards from Pololu(10x3=$30)](https://www.pololu.com/product/2966)
+ - [Custom printed circuit board to connect Arduino to controllers and connectors($2/ea in lots of 20 with shipping)](https://www.pcbway.com/project/shareproject/Trash_Robot_main__brain__board.html)
+ - [straight 0.1 inch headers from Digikey(buy about 2 per kit at about 60 cents each)](https://www.digikey.com/en/products/detail/chip-quik-inc/HDR100IMP40M-G-V-TH/5978197)
+ - [Ribbon cable from Digikey(about $8 for about 6 kits worth for about $2/kit rounding up )](https://www.digikey.com/en/products/detail/assmann-wsw-components/AWG28-20-F-1-300-R/2391636)
+ - [8 buttons for controller from Digikey(about $1 for all 8)](https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/FSM2JRT/529664)
+ - [Cables from Digikey to connect stepper motors in DVD drive stages to circuit board(about $10 for 3 of them)](https://www.digikey.com/en/products/detail/molex/2177971043/14637940)
+ - [Arduino Uno from Sparkfun($25)](https://www.sparkfun.com/products/11021)
 
 
-## Add python that we need for doing science
+## Server
 
-[https://matplotlib.org/](https://matplotlib.org/)
+ - install on pc/mac
+ - install on android
+ - install on raspberry pi or linux
+ - install on ios
+ - scroll sets
+ - map sets 
+ - pi crust 
+ - qr code
+ - cube voxel AR memes
 
-matplotlib install:
+## Icon Design
 
-```
-sudo apt install python3-matplotlib
-```
+## Tarot
 
-[https://matplotlib.org/](https://matplotlib.org/)
+## Links
 
-[https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/](https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/)
 
-```
-sudo apt-get update
-sudo apt-get install python3-scipy
-sudo pip3 install --upgrade pip
-reboot
-sudo pip3 install jupyter
-```
-
-### Install on Windows or Mac
-
-First, install XAMPP, a free open source web server for all platforms.  [Download from www.apachefriends.org](https://www.apachefriends.org/index.html).  Click on windows to download, and click through to install everything.
-
-![](https://i.imgur.com/G90zeyE.png)
-
-After you download and install it, run it and start Apache.  You should see a control panel like this:
-
-![](https://i.imgur.com/wgpIqfH.png)
-
-Click on "Explorer" to get access to where the files are.  From the main directory called xamp, you want the sub-directory "htdocs".  Open this, delete the index.php file, and create a new file called replicator.php which you copy and paste the replicator at [php/replicator.txt](php/replicator.txt) into, and save.  
-
-![](https://i.imgur.com/EpHYYOd.png)
-
-Point a web browser on the same computer to [http://localhost/](http://localhost), then click on replicator.php.  This should replicate the whole system into the directory.  When this is done, click the link to go to the main page.  
-
-Now you can go [make a new coin](scrolls/newcoin) using your server.
-
-### Install on Android
-
-
-To run a Geometron Server on an Android, we will install the commercial software ksweb pro.
-
-![](https://i.imgur.com/Q8Q7gaR.jpg)
-
-
-[link to play store to install ksweb](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiLrtjPw6fxAhUQu54KHWkyAjIQFjAAegQIBRAD&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dru.kslabs.ksweb%26hl%3Den_US%26gl%3DUS&usg=AOvVaw2ChVP4ojXIuGxVe-JjtEV3)
-
-[https://www.kslabs.ru/](https://www.kslabs.ru/)
-
-Install KSWEB on the Android, and turn it on.  Get the paid version. It is worth it, there are lots of broken web servers out there or ones with crappy features and tons of ads.  This is critical infrastructure for Geometron and it's worth supporting the developer of this useful tool.  Be sure PHP is also turned on.  
-
-This is what it looks like when it is on:
-
-![](https://i.imgur.com/EKjyekx.png)
-
-Use the Editor built into the system to create a new file called replicator.php in the directory htdocs on the sd card as shown above, and to copy/paste into that the file in [php/replicator.txt](php/replicator.txt).  Save that, and delete index.php. Point a browser to the address [http://localhost:8080](http://localhost:8080).  Click on replicator.php and wait for the system to copy.  Sometimes it might time out, try it again.  When the system has replicated, make sure your phone is on a local wifi network, and turn the server off and on again, and you will get an IP address for the phone which is shown in the app.  The link for any other machine on the network other than the phone is the IP address followed by colon and then "8080".  E.g. http://192.168.0.19:8080/.  Share this link via email, text message, and links on other servers so that anyone on your network can see your server and edit it.  
-
-### Replicate the Github using localhost
-
- - install PHP on your machine
- - create a new github repository on a CC0 PUBLIC DOMAIN license and clone it on your machine
- - copy the file [php/replicator.txt](php/replicator.txt) into a file called replicator.php in the new repo directory
- - run `php replicator.php` on your machine, wait for all the code to copy
- - push all that code up to your github repo
- - in the same directory, type `sudo php -S localhost:80`
- - go to [http://localhost](http://localhost) and you should get back to this screen, edit all elements of the system
- - use [editor.php](editor.php) to edit the file php/replicator.txt so that the two urls are the global url for *your* repo for both dna and replicator
- - after you've edited the code, click [text2php.php](text2php.php) to convert that to php
- - push your code to your github repo
- - use the new replicator code on your github repo to replicate out that instance to all other servers(linux, windows, mac, android) and forks
- - when you figure this out, make youtube videos showing other people how to copy the whole system 
-
-
+ - [copy ]
+ - [copy latest README.md from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/README.md&to=README.md)

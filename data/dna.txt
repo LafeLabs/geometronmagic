@@ -47,6 +47,7 @@
         "threejs.html",
         "threejsinvert.html",
         "traceicon.html",
+        "trashrobot.html",
         "user.html",
         "webpages.html"
     ],
@@ -230,6 +231,7 @@
         "coins",
         "coinsets",
         "controller",
+        "cube",
         "dvd",
         "earthbag",
         "firebag",
@@ -252,6 +254,7 @@
         "printerxyz",
         "prospectpark",
         "prospectparkcamp",
+        "readme-old",
         "replicators",
         "roctal",
         "sets",
