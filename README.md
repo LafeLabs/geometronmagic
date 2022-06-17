@@ -169,8 +169,18 @@ Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling
 
 ## Tarot
 
+ - [link to quantum art](https://www.quantumart.org/)
+ - links to wikipedia pages
+ - [link to programmer from quantum art](https://www.quantumart.org/programarduinoxyz.html)
+
+## Trash Robot Bags, Flags and Rags
+
+ - photo of shirts and pants
+ - photos of all the bags
+ - photos of flags
+
 ## Links
 
-
- - [copy ]
+ - [copy  trashrobot.html to index.html](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/trashrobot.html&to=index.html)
  - [copy latest README.md from github](copy.php?from=https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/README.md&to=README.md)
+ - [http://localhost/](http://localhost/)
