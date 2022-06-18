@@ -1,0 +1,546 @@
+<svg width="400" height="400" viewbox = "0 0 400 400"  xmlns="http://www.w3.org/2000/svg">
+<!--<json>{
+  "glyph": "0227,",
+  "x0": 200,
+  "y0": 200,
+  "unit": 88.57805000000006,
+  "width": 400,
+  "height": 400,
+  "style": {
+    "color0": "black",
+    "fill0": "black",
+    "line0": 1,
+    "color1": "black",
+    "fill1": "black",
+    "line1": 5,
+    "color2": "red",
+    "fill2": "#ff000080",
+    "line2": 2,
+    "color3": "#FF7900",
+    "fill3": "#FF790080",
+    "line3": 2,
+    "color4": "yellow",
+    "fill4": "#ffff0080",
+    "line4": 2,
+    "color5": "green",
+    "fill5": "#00ff0080",
+    "line5": 2,
+    "color6": "blue",
+    "fill6": "#0000ff80",
+    "line6": 2,
+    "color7": "purple",
+    "fill7": "#BF40BF80",
+    "line7": 2
+  },
+  "shapes": [
+    "0220:0337,0331,0333,0337,0200,0336,0330,0332,0336,",
+    "0221:0331,0336,0331,0333,0337,0333,0314,0337,0200,0336,0330,0332,0313,0336,0330,0332,0337,",
+    "0222:0316,0336,0313,0336,0332,0336,0341,0337,0333,0333,0336,0341,0337,0332,0337,0316,0337,0313,",
+    "0223:0330,0334,0222,0330,0350,0334,0304,0222,0350,0334,0304,0330,0222,0330,0350,0334,0304,0222,0350,0334,0304,0330,0222,0330,0350,0334,0304,0222,0350,0334,0304,0330,0222,0330,0350,0334,0304,0222,0350,0334,0304,0330,0335,0331,",
+    "0224:0336,0336,0336,0336,0336,0330,0334,0337,0337,0337,0362,0203,0334,0336,0336,0203,0334,0337,0337,0203,0203,0334,0336,0336,0203,0334,0337,0337,0203,0354,0335,0336,0336,0336,0331,0337,0337,0337,0337,0337,",
+    "0225:0223,0224,0221,",
+    "0226:0336,0330,0336,0330,0333,0333,0333,0331,0336,0330,065,0162,0145,0144,0365,0331,0331,0331,0331,067,0171,0145,0154,0154,0157,0167,0365,0331,0331,0331,0331,0331,0331,0331,066,0157,0162,0141,0156,0147,0145,0365,0332,0332,0332,0332,0332,0332,0332,070,040,0147,0162,0145,0145,0156,0365,0332,0332,0332,0332,0332,0332,0332,061,061,040,0147,0162,0145,0171,0365,0330,0330,0330,0330,0330,0330,0330,061,060,040,0160,0165,0162,0160,0154,0145,0365,0330,0330,0330,0330,061,062,040,0167,0150,0151,0164,0145,0365,0333,0333,0333,0333,0333,0333,0333,071,040,0142,0154,0165,0145,0365,0333,0331,0331,0331,0331,0331,0337,0337,0337,",
+    "0227:0320,0225,0322,0226,0330,0336,0336,0330,0332,0332,0332,0332,0336,0332,0337,01063,01040,01111,01116,01103,01110,01040,01123,01121,01125,01101,01122,01105,0331,0331,0331,0331,0331,0331,0331,0331,0331,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0331,0336,0331,0333,0333,0333,0333,0333,01127,01127,01127,01056,01124,01122,01101,01123,01110,01122,01117,01102,01117,01124,01056,01117,01122,01107,0337,0337,0330,0332,0330,0332,0330,0336,0333,0331,0336,0332,0330,0337,0337,0337,0320,",
+    "0230:0312,0336,0330,0306,0335,0335,0350,0335,0306,0337,0362,0203,0335,0335,0203,0335,0335,0203,0354,0350,0334,0336,0304,0331,0312,0337,0313,",
+    "0231:0320,0220,0223,0224,0326,0330,0230,0331,0331,0335,0335,0230,0331,0334,0330,0230,0334,0330,0230,0335,0335,0330,0330,0230,0335,0333,0330,0330,0230,0335,0330,0336,0341,0337,0331,0331,0336,0341,0337,0333,0330,0336,0331,0332,0332,0331,0336,0336,0331,0336,0333,0337,0147,0162,0145,0145,0156,0365,0330,0330,0330,0330,0330,0330,0330,0332,0162,0145,0144,0365,0330,0330,0330,0330,0330,0330,0330,0330,0162,0145,0144,0365,0333,0333,0333,0333,0333,0333,0333,0147,0162,0145,0145,0156,0365,0333,0333,0333,0333,0333,0333,0333,0333,0142,0154,0165,0145,0365,0331,0331,0331,0331,0331,0331,0331,0331,0162,0145,0144,0365,0331,0331,0331,0331,0331,0142,0154,0165,0145,0365,0332,0332,0332,0332,0332,0332,0332,0336,0330,0332,0337,0147,0162,0145,0145,0156,0365,0336,0331,0337,0333,0330,0330,0330,0330,0330,0330,0330,0337,0337,0337,0330,0336,0330,0336,0330,0336,0332,0332,0332,0332,0332,01064,01040,01111,01116,01103,01110,01040,01123,01121,01125,01101,01122,01105,0331,0331,0332,0332,0332,0331,0331,0331,0331,0332,0332,0331,0331,0331,0331,0331,0331,0331,0331,0336,0333,0336,0332,0337,0337,0337,0337,0337,0331,0331,0332,0336,0336,0336,0330,0337,0332,0332,0332,0336,0333,0337,01127,01127,01127,01056,01124,01122,01101,01123,01110,01122,01117,01102,01117,01124,01056,01117,01122,01107,0332,0332,0332,0332,0332,0330,0330,0330,0330,0330,0330,0332,0332,0330,0336,0330,0337,0337,0337,",
+    "01220:0333,0200,0336,0330,0332,0336,0331,0333,0337,0200,0336,0331,0333,0337,0337,",
+    "01221:0333,0200,0336,0330,0332,0336,0336,0220,0221,0337,0337,0331,0333,0337,",
+    "01222:0333,0200,0336,0330,0332,0222,0331,0333,0337,",
+    "01223:0333,0200,0336,0330,0332,0336,0223,0337,0331,0333,0337,",
+    "01224:0333,0200,0336,0330,0332,0224,0331,0333,0337,",
+    "01225:0333,0200,0336,0330,0332,0336,0225,0337,0331,0333,0337,",
+    "01226:0333,0200,0336,0330,0332,0336,0337,0226,0331,0333,0337,",
+    "01227:0333,0200,0336,0330,0332,0336,0227,0337,0331,0333,0337,0320,",
+    "01230:0333,0200,0336,0330,0332,0336,0331,0330,0230,0331,0331,0333,0333,0337,0337,",
+    "01231:0333,0200,0336,0332,0330,0336,0231,0337,0331,0333,0337,0320,",
+    "01232:0333,0200,",
+    "01233:0333,0200,",
+    "01234:0333,0200,",
+    "01235:0333,0200,",
+    "01236:0333,0200,",
+    "01237:0333,0200,",
+    "0240:0220,0336,0331,0333,0336,0321,0335,0342,0335,0335,0342,0335,0330,0330,0332,0332,0337,0337,",
+    "01240:0333,0200,0336,0330,0332,0210,0240,0211,0333,0331,0337,",
+    "0241:0220,0336,0321,0343,0332,0350,0335,0336,0342,0334,0334,0342,0335,0304,0337,0333,0337,",
+    "01241:0333,0200,0336,0332,0330,0210,0241,0211,0333,0331,0337,",
+    "0242:0220,0321,0336,0343,0333,0336,0350,0335,0342,0334,0334,0342,0335,0337,0304,0332,0337,",
+    "01242:0333,0200,0336,0330,0332,0210,0242,0211,0333,0331,0337,",
+    "0243:0220,0336,0331,0332,0336,0321,0343,0332,0350,0334,0336,0342,0335,0335,0342,0337,0334,0334,0335,0304,0332,0330,0330,0337,0337,0333,",
+    "01243:0333,0200,0336,0330,0332,0210,0243,0211,0333,0331,0337,",
+    "0244:0220,0336,0331,0333,0336,0321,0343,0333,0350,0336,0335,0342,0334,0334,0342,0335,0337,0304,0333,0330,0330,0337,0337,0332,",
+    "01244:0333,0200,0336,0330,0332,0210,0244,0211,0333,0331,0337,",
+    "0245:0210,0332,0332,0362,0335,0203,0203,0203,0203,0334,0203,0363,0332,0332,0331,0211,",
+    "01245:0333,0200,0336,0330,0332,0336,0245,0337,0333,0331,0337,",
+    "0246:0210,0332,0332,0335,0306,0336,0330,0335,0335,0335,0321,0362,0203,0335,0335,0203,0364,0331,0350,0335,0337,0366,0333,0333,0333,0333,0334,0334,0334,0334,0367,0335,0336,0342,0334,0334,0342,0330,0330,0330,0330,0335,0335,0335,0304,0337,0211,",
+    "01246:0333,0200,0336,0330,0332,0336,0246,",
+    "0247:0330,0332,0336,0332,0336,0221,0333,0333,0333,0222,0333,0333,0333,0223,0333,0333,0333,0225,0333,0331,0331,0331,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0333,0333,0226,0331,0331,0331,0333,0333,0333,0333,0333,0333,0333,0333,0333,0333,0333,0333,0333,0330,0333,0330,0330,0333,0330,0331,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0332,0227,0333,0333,0333,0230,0333,0331,0331,0331,0331,0332,0332,0332,0330,0332,0332,0332,0332,0332,0332,0333,0333,0231,0333,0333,0333,0232,0331,0333,0330,0333,0333,0233,0333,0333,0333,0234,0330,0330,0332,0330,0332,0332,0337,0337,",
+    "01247:0333,0200,0336,0330,0332,0220,0336,0247,0337,0331,0333,0337,"
+  ]
+}</json>--><circle cx="200" cy = "120" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="200" cy = "103" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="118" cy = "118" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="105" cy = "105" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="120" cy = "200" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="103" cy = "200" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="118" cy = "282" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="105" cy = "295" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="200" cy = "280" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="200" cy = "297" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="282" cy = "282" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="295" cy = "295" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="280" cy = "200" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="297" cy = "200" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="282" cy = "118" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+<circle cx="295" cy = "105" r = "4.428902500000003" stroke = "#000000" stroke-width = "1" fill = "none" />
+	<path d = "M200 197 L178 197 L178 203 L200 203 L222 203 L222 197 L200 197 Z" stroke = "#000000" stroke-width = "1" fill = "none" />	<path d = "M333 333 L333 67 L67 67 L67 333 L333 333 Z" stroke = "#000000" stroke-width = "1" fill = "none" />    <text x="266" y = "145" fill = "#ff0000" font-size = "11.072256250000008px" font-family = "Arial">5red</text>
+    <text x="266" y = "189" fill = "#ff0000" font-size = "11.072256250000008px" font-family = "Arial">7yellow</text>
+    <text x="266" y = "266" fill = "#ff0000" font-size = "11.072256250000008px" font-family = "Arial">6orange</text>
+    <text x="189" y = "266" fill = "#ff0000" font-size = "11.072256250000008px" font-family = "Arial">8 green</text>
+    <text x="111" y = "266" fill = "#ff0000" font-size = "11.072256250000008px" font-family = "Arial">11 grey</text>
+    <text x="111" y = "189" fill = "#ff0000" font-size = "11.072256250000008px" font-family = "Arial">10 purple</text>
+    <text x="111" y = "145" fill = "#ff0000" font-size = "11.072256250000008px" font-family = "Arial">12 white</text>
+    <text x="189" y = "145" fill = "#ff0000" font-size = "11.072256250000008px" font-family = "Arial">9 blue</text>
+    <circle cx="103" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="106" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="109" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="111" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="114" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="114" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="111" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="109" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="114" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="114" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="111" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="109" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="106" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="103" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="139" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="142" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="145" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="142" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="142" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="142" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="142" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="142" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="142" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="139" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="145" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="153" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="153" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="153" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="153" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="153" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="153" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="153" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="156" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="158" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="161" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="164" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="164" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="164" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="164" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="164" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="164" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="164" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="170" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="170" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="170" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="170" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="170" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="172" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="175" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="178" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="181" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="181" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="178" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="175" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="172" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="186" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="186" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="186" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="186" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="186" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="186" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="186" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="189" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="192" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="194" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="197" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="197" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="197" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="197" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="197" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="197" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="197" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="219" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="222" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="225" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="228" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="230" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="230" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="228" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="225" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="222" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="219" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="219" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="222" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="225" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="228" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="230" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="236" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="236" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="236" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="236" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="236" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="239" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="242" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="244" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="247" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="247" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="247" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="247" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="244" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="242" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="239" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="242" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="247" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="253" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="253" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="253" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="253" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="253" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="253" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="255" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="258" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="261" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="264" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="264" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="264" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="264" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="264" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="264" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="269" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="269" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="269" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="269" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="269" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="269" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="272" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="275" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="278" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="280" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="280" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="280" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="280" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="280" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="280" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="278" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="275" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="272" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="286" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="286" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="286" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="286" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="286" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="286" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="286" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="289" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="291" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="294" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="297" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="297" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="294" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="291" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="289" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="291" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="294" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="297" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="302" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="302" cy = "87" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="302" cy = "84" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="302" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="302" cy = "78" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="302" cy = "75" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="302" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="305" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="308" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="311" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="313" cy = "73" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="308" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="305" cy = "81" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="305" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="308" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="311" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="313" cy = "89" r = "1.384032031250001" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="129" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="129" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="129" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="129" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="129" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="129" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="131" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="132" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="132" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="132" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="134" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="135" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="135" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="135" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="135" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="135" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="135" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="138" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="138" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="138" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="138" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="138" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="138" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="139" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="140" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="140" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="140" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="142" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="143" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="143" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="143" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="143" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="143" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="143" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="146" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="146" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="146" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="146" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="146" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="146" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="147" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="149" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="149" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="149" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="150" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="152" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="152" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="152" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="152" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="152" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="152" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="157" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="157" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="158" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="158" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="163" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="164" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="165" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="167" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="168" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="165" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="165" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="165" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="165" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="165" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="165" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="171" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="171" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="171" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="171" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="171" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="171" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="171" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="172" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="174" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="175" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="176" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="176" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="175" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="174" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="172" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="174" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="175" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="176" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="179" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="179" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="179" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="179" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="179" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="179" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="181" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="182" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="183" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="185" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="185" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="185" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="185" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="185" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="185" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="183" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="182" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="181" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="188" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="189" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="190" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="192" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="193" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="193" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="192" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="190" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="189" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="188" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="188" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="189" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="190" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="192" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="193" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="196" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="196" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="196" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="196" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="196" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="196" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="196" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="197" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="199" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="200" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="201" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="201" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="201" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="201" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="201" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="201" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="201" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="204" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="204" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="204" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="204" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="204" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="204" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="204" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="206" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="207" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="208" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="210" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="210" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="208" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="207" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="206" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="207" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="208" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="210" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="212" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="212" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="212" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="212" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="212" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="214" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="215" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="217" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="218" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="218" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="218" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="218" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="218" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="217" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="215" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="214" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="221" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="221" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="221" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="221" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="221" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="221" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="221" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="222" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="224" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="225" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="226" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="226" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="225" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="224" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="222" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="226" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="226" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="225" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="224" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="222" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="229" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="229" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="229" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="229" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="229" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="230" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="232" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="233" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="235" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="235" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="235" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="235" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="235" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="233" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="232" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="230" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="237" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="239" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="240" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="242" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="243" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="240" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="240" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="240" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="240" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="240" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="240" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="248" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="248" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="250" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="250" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="254" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="254" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="254" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="254" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="254" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="255" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="257" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="258" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="260" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="260" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="260" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="260" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="260" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="258" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="257" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="255" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="262" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="262" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="262" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="262" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="262" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="262" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="262" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="264" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="265" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="266" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="268" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="268" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="266" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="265" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="264" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="265" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="266" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="268" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="271" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="271" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="271" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="271" cy = "316" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="271" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="272" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="273" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="275" cy = "313" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="276" cy = "315" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="275" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="273" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="276" cy = "318" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="276" cy = "319" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="276" cy = "320" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="276" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="275" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="273" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+    <circle cx="272" cy = "322" r = "0.6920160156250005" stroke = "#ff0000" stroke-width = "2" fill = "rgba(255, 0, 0, 0.5)" />
+</svg>

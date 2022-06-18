@@ -1,6 +1,13 @@
 {
     "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/",
     "symbols": [
-        "cube.svg"
+        "controller-3inch-square.svg",
+        "controller-4inch-square.svg",
+        "controller.svg",
+        "cube.svg",
+        "cubeicon.svg",
+        "symbol1655325456.svg",
+        "symbol1655567177.svg",
+        "symbol1655567213.svg"
     ]
 }
