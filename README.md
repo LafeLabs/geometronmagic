@@ -153,6 +153,21 @@ Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling
  - [Arduino Uno from Sparkfun($25)](https://www.sparkfun.com/products/11021)
 
 
+### Assembly
+
+### Programming
+
+### Workflow
+
+### Examples
+
+ - cardboard squares and cube panels
+ - leaves
+ - bottle caps
+ - random trash bits
+ - stylus in clay
+
+
 ## Server
 
  - install on pc/mac
@@ -172,6 +187,9 @@ Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling
  - [link to quantum art](https://www.quantumart.org/)
  - links to wikipedia pages
  - [link to programmer from quantum art](https://www.quantumart.org/programarduinoxyz.html)
+ - screen shots of list of icons shown in this scroll
+ - photo of a 22 card deck
+
 
 ## Trash Robot Bags, Flags and Rags
 

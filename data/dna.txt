@@ -49,6 +49,7 @@
         "traceicon.html",
         "trashrobot.html",
         "user.html",
+        "voxel.html",
         "webpages.html"
     ],
     "data": [
@@ -66,6 +67,7 @@
         "geometroncoinfeed.txt",
         "glyph3d.txt",
         "hypercube.txt",
+        "image3durl.txt",
         "imagefeed.txt",
         "ipaddress.txt",
         "mapset.txt",
