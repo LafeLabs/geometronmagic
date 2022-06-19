@@ -1,14 +1,20 @@
 # Geometron Magic
 
- - [First Book of Geometron](https://www.trashrobot.org/bookofgeometronfirst/)
- - [Geometron Magic Book 2](https://www.trashrobot.org/geometronmagic/)
- - [Geometron Magic Github Repository](https://github.com/lafeLabs/geometronmagic)
+The [TRASH ROBOT](https://www.trashrobot.org) network exists to grow a new civilization from the trash of the old one.  When all the elements of a good life are contained in media we can replicate freely from trash and things we can grow we call that [TRASH MAGIC](https://www.trashrobot.org/user.php?scroll=scrolls/trashmagicbooks).  
+
+The language of GEOMETRON is based on the symmetries of the Universe, and can be used to create geometric constructions to build up all our media and technology.  Geometron is described in the [First Book of Geometron](https://www.trashrobot.org/bookofgeometronfirst/) and [The Book of Geometron Magic](https://www.trashrobot.org/geometronmagic/).  
+
+Digital media are hosted on Geometron hosts from the self-replicating code swarm at [github.com/lafelabs/geometronmagic](https://github.com/LafeLabs/geometronmagic).  These can be installed on Raspberry Pi, any Linux machine, Windows, MacOS, iOS and Android.  
+
+All work presented here was created by TRASH ROBOT, AKA Lafe Spietz, and is released into [Public Domain](https://github.com/LafeLabs/geometronmagic/blob/main/LICENSE).
 
 ## Cube
 
-4 inch cube with 5 sides, each side is 3 layers of corrugated cardboard.  All sides are made from 4 inch squares. Cut cardboard trash with a laser cutter or box cutter or razor blade or build and operate stamps for automated production.  
+The primary construction of the Trash Robot network is the Cube. It is a 4 inch cube with 5 sides, each side is 3 layers of corrugated cardboard.  All sides are made from 4 inch squares. Cut cardboard trash with a laser cutter or box cutter or razor blade or build and operate stamps for automated production.  These cubes form a physical social media network, where we print media onto them, build them into machines, and use them to grow living things which are of use in building our new world.
 
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/cube.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/cube.svg)
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/cube-factory.jpg)
 
  - photo of square with ruler and labels of dimensions
  - photo of a corner with 3 faces
