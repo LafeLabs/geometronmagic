@@ -10,8 +10,9 @@ Geometron Magic refers to self-replicating geometric media.  This is media based
 
 All work presented here was created by TRASH ROBOT, AKA Lafe Spietz, and is released into [Public Domain](https://github.com/LafeLabs/geometronmagic/blob/main/LICENSE).  We replicate all this media and share it freely.  As our story gathers more attention, we will ask for sponsors to directly support the growth of the Trash Robot Network by both financial support and direct material support of creators on the Network.  This can be branded sponsorships, events, classes, sold art pieces, seminars, art installations, popups, games, educational programs, commissions, network installations, promotional campaigns, political campaigns, community organizing projects, or any other form of information sharing which has value to a potential sponsor.  Direct material support can include places to work and live, food, medicine, clean water and sanitation, transportation, employment with a sponsor or just cash donations.  
 
-There is not central organizing body. To become a creator on the Network, just start creating and sharing.  Build things, share them, tell people about them, improve them.  
+There is no central organizing body. To become a creator on the Network, just start creating and sharing.  To become a sponsor, find a creator, ask them what they need, and support them.  Build things, share them, tell people about them, improve them.  
 
+We are content creators who create our own platform.  We create physical media as well as physical infrastructure to host digital media, and content to spread on that media.  We create physical media which has material value in the form of food and consumer products as well as digital media which has value in capturing attention.  Creators create, sponsors support, and consumers consume. This is the path of our media, and it removes the digital landlords who currently own all media networks.
 
 ## Cube
 
@@ -163,7 +164,7 @@ And finally the Sproing is fastened to the z stage on the DVD drive using anothe
  - [9 pin socket headers](https://www.digikey.com/en/products/detail/samtec-inc/SSQ-109-03-T-S/1111949)
 
 
-The exact kit for one printer is as follows, and is in the following photograph:
+The exact electronics kit for one printer is as follows, and is in the following photograph:
 
  - 8 inches of solid core wire for square ground ring in inside of controller cube
  - 1 inch solid core wire for jumper from Vcc to Vin on shield board
@@ -171,21 +172,36 @@ The exact kit for one printer is as follows, and is in the following photograph:
  - 3 pololu stepper driver boards
  - 1 custom shield board
  - Arduino UNO
- - 
+ - 9 pin socket connector for cable from controller
+ - 2 strips of breakable headers 32-40 pins per strip
+ - 3 cables to connect the motors to the brain
+ - 8 buttons
 
 ![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/kit.jpg)
 
-### Brain
+When assembled, the brain will look like this:
 
-The Brains of the robot are an Arduino [Shield](https://learn.sparkfun.com/tutorials/arduino-shields) and an [Arduino UNO](https://www.sparkfun.com/products/11021).  
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/brain-assembly.jpg)
 
 
-
-### Controller 
+To create the Controller cube lid use the following patterns for the 4 inch outside square and 3 inch inside square.  These patterns can be printed on a laser cutter to get all the labels right and the holes and cuts.  Or they can be created using the Geometron ruler and shape set and a pen by hand.  
 
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/controller-4inch-square.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/controller-4inch-square.svg)
 
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/controller-3inch-square.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/controller-3inch-square.svg)
+
+
+Photographs of inside and outside assembly:
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/controller-inside.jpg)
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/controller-outside.jpg)
+
+The base cube has the Arduino brain in it and a lid with the top cut off down to 
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/brain-box-front.jpg)
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/brain-box-back.jpg)
 
 
 ### Programming
