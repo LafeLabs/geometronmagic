@@ -157,7 +157,10 @@ Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling
 
 ### Controller 
 
-![]()
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/controller-4inch-square.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/controller-4inch-square.svg)
+
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/controller-3inch-square.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/controller-3inch-square.svg)
+
 
 ### Programming
 
