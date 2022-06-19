@@ -94,16 +94,20 @@ These can be laser cut or printed and cut out or constructed through any of vari
 
 [![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-etch.png)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-etch.png)
 
-
 ## Geometron Icon Printer 
 
 The printer is made up of 3 cubes, each with a custom lid.  The top lid holds the z axis motion stage.  The middle lid has the control panel which controls the printer. The bottom lid is just a cover for the cube which holds the Arduino brain.  Each stage in the x and y directions is an independent construction with square base and top using a DVD drive stage.  All stages have 4 wire cables with 0.1 inch socket connectors which go to the Arduino brain.
 
 ![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/printer-photo.jpg)
 
+### Z axis stage Cube
 
+The Z axis stage is made by gluing a 3 inch square in the center of a 4 inch square then building up levels of cardboard to the stage, and a stack of cardboard on the stage which can hold the Sproing, also shown here.
 
-### Printer Kit(about $75 of parts):
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/z-cube.jpg)
+ 
+
+### Printer Electronics Kit(about $75 of parts):
 
  - [3 motor controller boards from Pololu(10x3=$30)](https://www.pololu.com/product/2966)
  - [Custom printed circuit board to connect Arduino to controllers and connectors($2/ea in lots of 20 with shipping)](https://www.pcbway.com/project/shareproject/Trash_Robot_main__brain__board.html)
@@ -113,6 +117,12 @@ The printer is made up of 3 cubes, each with a custom lid.  The top lid holds th
  - [Cables from Digikey to connect stepper motors in DVD drive stages to circuit board(about $10 for 3 of them)](https://www.digikey.com/en/products/detail/molex/2177971043/14637940)
  - [Arduino Uno from Sparkfun($25, some off brand UNOs have power supply problems for this application, test any new board to see if it stalls out)](https://www.sparkfun.com/products/11021)
  - [9 pin socket headers](https://www.digikey.com/en/products/detail/samtec-inc/SSQ-109-03-T-S/1111949)
+
+### Brain
+
+The Brains of the robot are an Arduino [Shield](https://learn.sparkfun.com/tutorials/arduino-shields) and an [Arduino UNO](https://www.sparkfun.com/products/11021).  
+
+
 
 ### Controller 
 
