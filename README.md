@@ -4,9 +4,14 @@ The [TRASH ROBOT](https://www.trashrobot.org) network exists to grow a new civil
 
 The language of GEOMETRON is based on the symmetries of the Universe, and can be used to create geometric constructions to build up all our media and technology.  Geometron is described in the [First Book of Geometron](https://www.trashrobot.org/bookofgeometronfirst/) and [The Book of Geometron Magic](https://www.trashrobot.org/geometronmagic/).  
 
-Digital media are hosted on Geometron hosts from the self-replicating code swarm at [github.com/lafelabs/geometronmagic](https://github.com/LafeLabs/geometronmagic).  These can be installed on Raspberry Pi, any Linux machine, Windows, MacOS, iOS and Android.  
+Digital media are hosted on Geometron hosts from the self-replicating code swarm (called cyber magic) at [github.com/lafelabs/geometronmagic](https://github.com/LafeLabs/geometronmagic).  These can be installed on Raspberry Pi, any Linux machine, Windows, MacOS, iOS and Android.  See instructions below to install a Geometron server.  
 
-All work presented here was created by TRASH ROBOT, AKA Lafe Spietz, and is released into [Public Domain](https://github.com/LafeLabs/geometronmagic/blob/main/LICENSE).
+Geometron Magic refers to self-replicating geometric media.  This is media based on geometric constructions using the language of Geometron to make things which people replicate freely.  
+
+All work presented here was created by TRASH ROBOT, AKA Lafe Spietz, and is released into [Public Domain](https://github.com/LafeLabs/geometronmagic/blob/main/LICENSE).  We replicate all this media and share it freely.  As our story gathers more attention, we will ask for sponsors to directly support the growth of the Trash Robot Network by both financial support and direct material support of creators on the Network.  This can be branded sponsorships, events, classes, sold art pieces, seminars, art installations, popups, games, educational programs, commissions, network installations, promotional campaigns, political campaigns, community organizing projects, or any other form of information sharing which has value to a potential sponsor.  Direct material support can include places to work and live, food, medicine, clean water and sanitation, transportation, employment with a sponsor or just cash donations.  
+
+There is not central organizing body. To become a creator on the Network, just start creating and sharing.  Build things, share them, tell people about them, improve them.  
+
 
 ## Cube
 
@@ -27,12 +32,13 @@ Useful links for organic experiments:
 
 # Geometron Ruler
 
-![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/rulersphoto.jpg)
+The Geometron Ruler is one inch by six inches. One side has tenths and the other halves, quarters and eights. The highest quality rulers are made from quarter inch neon green acrylic with a laser cutter.  Any ruler can be used to make more rulers.  Cereal box cardboard is a good material.  Find a maker space or individual with a laser cutter.  Dig through the waste bin to find extra acrylic.  Place the outlines and etch and make rulers.  Give them away and spread the word of Geometron, Trash Magic, Trash Robot and so on.  Also you can use [Ponoko.com](https://www.ponoko.com/) to get large numbers of rulers made and can sell those if you so choose.  
 
-The Geometron Ruler is one inch by six inches. One side has tenths and the other halves, quarters and eights. The highest quality rulers are made from quarter inch neon green acrylic with a laser cutter.  Any ruler can be used to make more rulers.  Cereal box cardboard is a good material.  Find a maker space or individual with a laser cutter.  Dig through the waste bin to find extra acrylic.  Place the outlines and etch and make rulers.  Give them away and spread the word of Geometron, Trash Magic, Trash Robot and so on.  Also you can use [Ponoko.com](https://www.ponoko.com/) to get large numbers of rulers made and can sell those if you so choose.  All of this work is in the PUBLIC DOMAIN with no restrictions whatsoever, so you are free to remix this and brand it for whatever you're dong, and sell or give away the branded rulers.  No payments are ever asked for this, no agreements, no contracts, just copy and use as you wish.  
+Using Ponoko.com is only cost effective if you have a budget of over 1000 dollars, then the cost per ruler can drop to about a dollar and a half.  Also, Ponoko only has eighth inch acrylic and quarter inch is the nicest.  For best results, go find 0.2 inch or quarter inch neon green acrylic somewhere, find a laser cutter and print these out yourself.  All the files for this are below.  
 
-Using Ponoko.com is only cost effective if you have a budget of over 1000 dollars, then the cost per ruler can drop to about a dollar and a half.  Also, Ponoko only has eighth inch acrylic and quarter inch is the nicest.  
+This is some 6 inch rulers from both green and yellow acrylic and a 15 cm metric ruler.
 
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/rulers-photo.jpg)
 
 Ruler Outline SVG file:
 
@@ -42,8 +48,6 @@ Ruler Etch pattern PNG file:
 
 [![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruleretch.png)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruleretch.png)
 
-
-
 Ruler 2 color SVG file for Ponoko.com:
 
 [![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler2color.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/ruler2color.svg)
@@ -52,9 +56,6 @@ Ruler 2 color SVG file for Ponoko.com:
 Set of 8 rulers in one SVG file for Ponoko.com:
 
 [![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/rulers8.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/rulerimageset/uploadimages/rulers8.svg)
-
-
-## Metric
 
 Centimeters PNG file for etch.  Print out with 15 centimeter width and 2 cm height:
 
@@ -75,8 +76,9 @@ Set of 8 cm rulers in one SVG file for Ponoko.com:
 
 # Shape Set
  
-These can be laser cut or printed and cut out or constructed through any of various geometric means. The shape set is a set of shapes based on a three inch unit and the various natural scales implied by common symmetries of the Universe.  To make them from laser cut acrylic, do what you would for the [geometron rulers](scrolls/ruler).
+The basic set of Geometron shapes can be used in conjunction with the rulers above to construct objects using Geometron which mirror the constructions in the web browser.  
 
+These can be laser cut or printed and cut out or constructed through any of various geometric means. The shape set is a set of shapes based on a three inch unit and the various natural scales implied by common symmetries of the Universe.  For best results, use 1/8 inch neon green transparent acrylic.
 
 ## Shape Set SVG file for 2 layer laser cutting or print out on printer:
 
@@ -86,11 +88,9 @@ These can be laser cut or printed and cut out or constructed through any of vari
 
 [![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-outline.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-outline.svg)
 
-
 ## PNG file for laser etch:
 
 [![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-etch.png)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-etch.png)
-
 
 ### 3" square: 
 ![](https://i.imgur.com/oCXWSGN.jpg)
@@ -102,8 +102,6 @@ These can be laser cut or printed and cut out or constructed through any of vari
 ![](https://i.imgur.com/vkUCCZP.jpg)
 ### 3" equilateral triangle:
 ![](https://i.imgur.com/BtOx3D1.jpg)
-
-
 
 
 ## Protractor SVG file for 2 layer laser cutting or print out on printer:
@@ -123,11 +121,9 @@ These can be laser cut or printed and cut out or constructed through any of vari
  
 Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling) either on a laser cutter or with paper to laminate and trace to make cardboard shapes:
 
-
 [![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/penrose/symbolfeed/penrose.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/penrose/symbolfeed/penrose.svg)
 
 ## Random spray paint stencils for laser cutout
-
 
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/basic-url.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/basic-url.svg)
 
@@ -144,7 +140,6 @@ Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagonfilled.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagonfilled.svg)
 
 [![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/x.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/x.svg)
-
 
 ## Geometron Icon Printer 
 
@@ -183,6 +178,7 @@ Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling
 
 ## Server
 
+ - keyboard photo *and* diagram
  - install on pc/mac
  - install on android
  - install on raspberry pi or linux
