@@ -107,6 +107,9 @@ The Z axis stage is made by gluing a 3 inch square in the center of a 4 inch squ
 
 ![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/z-cube.jpg)
  
+
+Don't forget the rocks! Without rocks, this will instantly tip over.  Rocks are essential. Choose nice rocks so you can carry them around and use them for other stuff.  
+
 ### Sproing 
 
 This soft spring loaded tool holder is the magic that makes this printer work on uneven random surfaces.  By being soft, a long travel distance makes it possible to make marks over uneven surfaces.  This is made from stiffer thicker plastic, thin soft sheet from milk bottles, duct tape and rubber bands. It uses the standard Geometron Rulers described in the [laser shapes scroll](scrolls/lasershapes).
@@ -203,6 +206,13 @@ The base cube has the Arduino brain in it and a lid with the top cut off down to
 
 ![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/brain-box-back.jpg)
 
+The piece on the inside of the lid is 0.5 inches by 3 inches and centered.  The cutout in the back/base is 1 inch wide and 1.125 inches high.  This can be cut by hand or laser cut from a bottom board.
+
+The two bases can be just made from stacks of small cardboard cutouts cut by hand and big 4 inch square on top and bottom, or similar sized rectangular cutouts.  These can be changed in orientation to control what angle of viewer can see the print as it comes out when printing in different spaces and configurations.
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/stages.jpg)
+
+When all the parts are put together, further decorate with panels of whatever color, texture and material you want to make the thing look professional or have whatever aesthetic you want.
 
 ### Programming
 
