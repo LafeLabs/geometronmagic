@@ -76,9 +76,13 @@ Set of 8 cm rulers in one SVG file for Ponoko.com:
 
 # Shape Set
  
+
+
 The basic set of Geometron shapes can be used in conjunction with the rulers above to construct objects using Geometron which mirror the constructions in the web browser.  
 
 These can be laser cut or printed and cut out or constructed through any of various geometric means. The shape set is a set of shapes based on a three inch unit and the various natural scales implied by common symmetries of the Universe.  For best results, use 1/8 inch neon green transparent acrylic.
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/shapes-photo.jpg)
 
 ## Shape Set SVG file for 2 layer laser cutting or print out on printer:
 
