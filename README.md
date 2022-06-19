@@ -76,8 +76,6 @@ Set of 8 cm rulers in one SVG file for Ponoko.com:
 
 # Shape Set
  
-
-
 The basic set of Geometron shapes can be used in conjunction with the rulers above to construct objects using Geometron which mirror the constructions in the web browser.  
 
 These can be laser cut or printed and cut out or constructed through any of various geometric means. The shape set is a set of shapes based on a three inch unit and the various natural scales implied by common symmetries of the Universe.  For best results, use 1/8 inch neon green transparent acrylic.
@@ -96,58 +94,10 @@ These can be laser cut or printed and cut out or constructed through any of vari
 
 [![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-etch.png)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/shapes/symbolfeed/shapeset-etch.png)
 
-### 3" square: 
-![](https://i.imgur.com/oCXWSGN.jpg)
-### 3" isosceles right triangle:
-![](https://i.imgur.com/Tp6xtV6.jpg)
-### 3" Golden Triangle and Golden Gnomon:
-![](https://i.imgur.com/TD5Sqs6.jpg)
-### 30-60-90 and isosceles 120 degree triangles:
-![](https://i.imgur.com/vkUCCZP.jpg)
-### 3" equilateral triangle:
-![](https://i.imgur.com/BtOx3D1.jpg)
-
-
-## Protractor SVG file for 2 layer laser cutting or print out on printer:
-
-[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor.svg)
-
-## Outline for the cut layer in a laser cutter:
-
-[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor-outline.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor-outline.svg)
-
-
-## PNG file for laser etch:
-
-[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor-etch.png)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/protractor/symbolfeed/protractor-etch.png)
-
-# Penrose
- 
-Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling) either on a laser cutter or with paper to laminate and trace to make cardboard shapes:
-
-[![](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/penrose/symbolfeed/penrose.svg)](https://raw.githubusercontent.com/LafeLabs/pibrary/main/factory/penrose/symbolfeed/penrose.svg)
-
-## Random spray paint stencils for laser cutout
-
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/basic-url.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/basic-url.svg)
-
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/dual.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/dual.svg)
-
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/hexagram-stencil.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/hexagram-stencil.svg)
-
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/no.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/no.svg)
-
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/pentagramfractal.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/pentagramfractal.svg)
-
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagon.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagon.svg)
-
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagonfilled.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/stoptagonfilled.svg)
-
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/x.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/stencils/symbolfeed/x.svg)
 
 ## Geometron Icon Printer 
 
-
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/printer-photo.jpg)
 
 ### Printer Kit(about $75 of parts):
 
