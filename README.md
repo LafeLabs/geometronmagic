@@ -142,6 +142,8 @@ Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling
 
 ## Geometron Icon Printer 
 
+
+
 ### Printer Kit(about $75 of parts):
 
  - [3 motor controller boards from Pololu(10x3=$30)](https://www.pololu.com/product/2966)
@@ -151,9 +153,11 @@ Use this to cut out [Penrose Tiles](https://en.wikipedia.org/wiki/Penrose_tiling
  - [8 buttons for controller from Digikey(about $1 for all 8)](https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/FSM2JRT/529664)
  - [Cables from Digikey to connect stepper motors in DVD drive stages to circuit board(about $10 for 3 of them)](https://www.digikey.com/en/products/detail/molex/2177971043/14637940)
  - [Arduino Uno from Sparkfun($25)](https://www.sparkfun.com/products/11021)
+ - [9 pin female headers](https://www.digikey.com/en/products/detail/samtec-inc/SSQ-109-03-T-S/1111949)
 
+### Controller 
 
-### Assembly
+![]()
 
 ### Programming
 
