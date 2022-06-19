@@ -106,6 +106,50 @@ The Z axis stage is made by gluing a 3 inch square in the center of a 4 inch squ
 
 ![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/z-cube.jpg)
  
+### Sproing 
+
+This soft spring loaded tool holder is the magic that makes this printer work on uneven random surfaces.  By being soft, a long travel distance makes it possible to make marks over uneven surfaces.  This is made from stiffer thicker plastic, thin soft sheet from milk bottles, duct tape and rubber bands. It uses the standard Geometron Rulers described in the [laser shapes scroll](scrolls/lasershapes).
+ 
+This component is called the Sproing.
+
+HDPE sheet from milk bottle is cut out into 2 identical rectangles, each 4.5 inches by 0.6 inches. Lines for folds are drawn an inch and a quarter in from each end.
+
+![](https://i.imgur.com/R8boqTI.png)
+
+![](https://i.imgur.com/21Ez2DZ.jpg) 
+
+Cut and fold
+
+![](https://i.imgur.com/Z5VG3zk.jpg) 
+
+Z folds. About 90 degrees for each fold.
+
+![](https://i.imgur.com/ZGw7M94.jpg) 
+
+Get some stiff and thick but not too brittle plastic like polypropylene from the lid of a plastic storage tote.  Trace out with Geometron ruler 2 different rectangles, one is 3 inches by 0.6 inches and the other 3 by three quarters of an inch.  
+
+![](https://i.imgur.com/TqpZCXX.png)
+
+![](https://i.imgur.com/ir0Uxev.png)
+
+![](https://i.imgur.com/fNsZDEQ.jpg)
+
+Cut out rectangles with box cutter. 
+
+![](https://i.imgur.com/0tdlvae.jpg)
+
+Join it all up witch duct tape as shown:
+
+![](https://i.imgur.com/aot16bk.jpg)
+
+A doubled up small rubber band is used to mount the pen.
+
+![](https://i.imgur.com/40jY0VL.jpg)
+
+And finally the Sproing is fastened to the z stage on the DVD drive using another doubled up rubber band.  Stack of cardboard is built onto the stage, first with 2 part epoxy Gorilla Glue to connect the metal to the cardboard then with Elmer's glue for the subsequent layers of cardboard to cardboard, and build that up until it's a good stage for the Sproing with the pen or other tool.
+
+![](https://i.imgur.com/89jZWJY.jpg) 
+
 
 ### Printer Electronics Kit(about $75 of parts):
 
@@ -117,6 +161,19 @@ The Z axis stage is made by gluing a 3 inch square in the center of a 4 inch squ
  - [Cables from Digikey to connect stepper motors in DVD drive stages to circuit board(about $10 for 3 of them)](https://www.digikey.com/en/products/detail/molex/2177971043/14637940)
  - [Arduino Uno from Sparkfun($25, some off brand UNOs have power supply problems for this application, test any new board to see if it stalls out)](https://www.sparkfun.com/products/11021)
  - [9 pin socket headers](https://www.digikey.com/en/products/detail/samtec-inc/SSQ-109-03-T-S/1111949)
+
+
+The exact kit for one printer is as follows, and is in the following photograph:
+
+ - 8 inches of solid core wire for square ground ring in inside of controller cube
+ - 1 inch solid core wire for jumper from Vcc to Vin on shield board
+ - 14 inches of rainbow ribbon cable from black to red as shown
+ - 3 pololu stepper driver boards
+ - 1 custom shield board
+ - Arduino UNO
+ - 
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/kit.jpg)
 
 ### Brain
 
