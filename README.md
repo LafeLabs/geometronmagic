@@ -229,6 +229,8 @@ Find images, put them in the global image feed.  Align the image.  Trace the ico
 
 ![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/keyboard-screenshot.png)
 
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/keyboard-photo.jpg)
+
  - keyboard photo *and* diagram
  - install on pc/mac
  - install on android
@@ -239,8 +241,6 @@ Find images, put them in the global image feed.  Align the image.  Trace the ico
  - pi crust 
  - qr code
  - cube voxel AR memes
-
-## Icon Design
 
 ## Tarot
 
