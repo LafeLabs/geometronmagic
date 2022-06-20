@@ -214,20 +214,20 @@ The two bases can be just made from stacks of small cardboard cutouts cut by han
 
 When all the parts are put together, further decorate with panels of whatever color, texture and material you want to make the thing look professional or have whatever aesthetic you want.
 
-### Programming
+## Icon Design and Printing
 
-### Workflow
+Find images, put them in the global image feed.  Align the image.  Trace the icon, and save it. Program the Arduino.  Hit go.  Hit stop to pause, hold down to reset to start new print. 
 
-### Examples
-
- - cardboard squares and cube panels
- - leaves
- - bottle caps
- - random trash bits
- - stylus in clay
+ - [globalimagefeed.html](globalimagefeed.html)
+ - [alignimage.html](alignimage.html)
+ - [traceicon.html](traceicon.html)
+ - [iconset.html](iconset.html)
+ - [program arduino](programarduinoxyz.html)
 
 
 ## Server
+
+![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/uploadimages/keyboard-screenshot.png)
 
  - keyboard photo *and* diagram
  - install on pc/mac
