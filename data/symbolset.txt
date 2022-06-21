@@ -8,6 +8,7 @@
         "box-side-1-4x.svg",
         "box-side2-ABCD.svg",
         "crossbar.svg",
+        "cubesides.svg",
         "handle.svg",
         "handles2.svg",
         "legdims2.svg",
@@ -28,6 +29,11 @@
         "symbol1650981547.svg",
         "symbol1651093304.svg",
         "symbol1651266125.svg",
-        "symbol1651422639.svg"
+        "symbol1651422639.svg",
+        "symbol1655838094.svg",
+        "symbol1655839084.svg",
+        "symbol1655843625.svg",
+        "symbol1655844045.svg",
+        "symbol1655844082.svg"
     ]
 }
