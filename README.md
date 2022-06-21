@@ -20,7 +20,7 @@ The primary construction of the Trash Robot network is the Cube. It is a 4 inch 
 
 The following Geometron file has the layout of all three of the panel patterns to make a cube.  To make one cube you need 6 each of the two patterns with twofold symmetry and 3 of the pattern with 4 fold symmetry.  All are 4 inches by 4 inches.  You can use this file to cut these out on a laser cutter.  Or you can download it and upload it to a Geometron server and make your own variations, including custom laser etch patterns.  To replicate one by hand using the Geometron ruler, note that all patterns are on a grid of 0.5 inches and just slide the ruler around to get the patterns which match the diagram.  
 
-[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/cube.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/cube/symbolfeed/cube.svg)
+[![](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/cubesides.svg)](https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/symbolfeed/cubesides.svg)
 
 The box is self-replicating if it contains a box cutter.  Squares and all the panel cutouts can be created with direct trace and a box cutter from existing parts, or new patterns can be created with a Geometron ruler(see below).  Find a cardboard recycle dumpster, take boxes out, slice out flat panels, cut out into 4 inch squares, then either cut out and stack/glue or stack/glue then cut out.  Assemble, and glue or rubber band as needed, use for parts bins, guerilla organic growing projects(plants, fungus, worms, compost), structural elements, decorative elements, and components of the Geometron Icon printer(see below) 
 
