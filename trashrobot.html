@@ -44,6 +44,11 @@
 <div id = "scrollscroll"></div>
 <script>
 
+if(innerWidth>innerHeight){
+    marginWidth = 0.5*(innerWidth - innerHeight);
+    document.getElementById("scrollscroll").style.left = marginWidth.toString() + "px";
+    document.getElementById("scrollscroll").style.right = marginWidth.toString() + "px";
+}
 
 mode = "dark";
 //mode = "light";
@@ -159,16 +164,6 @@ input{
     margin:auto;
     background-color:#808080;
 }
-#mainmap{
-    position:absolute;
-    left:0px;
-    top:0px;
-    overflow:hidden;
-}
-#mainmap a{
-    font-family:Helvetica;
-    color:#ff2cb4;
-}
 
 .data{
     display:none;
@@ -185,33 +180,14 @@ h1,h2,h3,h4{
 .button:active{
     background-color:yellow;
 }
-#scrollsbox{
-    position:absolute;
-    background-color:#808080;
-    color:black;
-    overflow:scroll;
-}
-
 
 @media only screen and (orientation: landscape) {
     
-    #scrollsbox{
-        right:0px;
-        top:0px;
-        bottom:0px;
-    }
     #scrollscroll{
         top:0px;
         bottom:0px;
+        
     }   
-    #landscapelinks{
-        position:absolute;
-        left:0px;
-        top:0px;
-    }
-    #portraitlinks{
-        display:none;
-    }
 
 }
 
@@ -219,27 +195,12 @@ h1,h2,h3,h4{
     .button{
         font-size:2em;
     }
-    #scrollsbox{
-        height:30%;
-        right:0px;
-        left:0px;
-        bottom:0px;
-        display:none;
-    }
     #scrollscroll{
         top:70px;
         left:10px;
         right:10px;
         bottom:10px;
     }   
-    #landscapelinks{
-        display:none;
-    }
-    #portraitlinks{
-        position:absolute;
-        left:0px;
-        top:0px;
-    }
     table img{
         max-width:60px;
     }
