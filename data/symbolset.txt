@@ -15,6 +15,8 @@
         "legs2.svg",
         "roctal.svg",
         "roctalscroll.svg",
+        "rulers.svg",
+        "squares-3-4.svg",
         "symbol1641265253.svg",
         "symbol1642104224.svg",
         "symbol1642306342.svg",
@@ -34,6 +36,11 @@
         "symbol1655839084.svg",
         "symbol1655843625.svg",
         "symbol1655844045.svg",
-        "symbol1655844082.svg"
+        "symbol1655844082.svg",
+        "symbol1655860519.svg",
+        "symbol1655860649.svg",
+        "symbol1655860675.svg",
+        "symbol1655860791.svg",
+        "symbol1655861092.svg"
     ]
 }
