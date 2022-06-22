@@ -1,4 +1,9 @@
 {
-    "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/",
-    "symbols": []
+    "server": "https://raw.githubusercontent.com/LafeLabs/geometronmagic/main/hypercube/",
+    "symbols": [
+        "allsides.svg",
+        "rulers.svg",
+        "shapeset.svg",
+        "squares-3-4.svg"
+    ]
 }
