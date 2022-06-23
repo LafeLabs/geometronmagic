@@ -14,9 +14,11 @@ There is no central organizing body. To become a creator on the Network, just st
 
 We are content creators who create our own platform.  We create physical media as well as physical infrastructure to host digital media, and content to spread on that media.  We create physical media which has material value in the form of food and consumer products as well as digital media which has value in capturing attention.  Creators create, sponsors support, and consumers consume. This is the path of our media, and it removes the digital landlords who currently own all media networks.
 
-## Cube
+## The Geometron Hypercube
 
-The primary construction of the Trash Robot network is the Cube. It is a 4 inch cube with 5 sides, each side is 3 layers of corrugated cardboard.  All sides are made from 4 inch squares. Cut cardboard trash with a laser cutter or box cutter or razor blade or build and operate stamps for automated production.  These cubes form a physical social media network, where we print media onto them, build them into machines, and use them to grow living things which are of use in building our new world.
+The Geometron Hypercube is a set of constructions from trash which we can use to grow Trash Magic.  The hypercube part living organisms, part trash, part machine, and part code.  We use "hypercube" to refer to an extension of the idea of the cube into higher dimensions.  These are not literal dimensions in an exact mathematical sense but 
+
+The cubes which are the primary physical element of the hypercube is is a 4 inch cube with 5 sides, each side is 3 layers of corrugated cardboard.  All sides are made from 4 inch squares. Cut cardboard trash with a laser cutter or box cutter or razor blade or build and operate stamps for automated production.  These cubes form a physical social media network, where we print media onto them, build them into machines, and use them to grow living things which are of use in building our new world.
 
 The following Geometron file has the layout of all three of the panel patterns to make a cube.  To make one cube you need 6 each of the two patterns with twofold symmetry and 3 of the pattern with 4 fold symmetry.  All are 4 inches by 4 inches.  You can use this file to cut these out on a laser cutter.  Or you can download it and upload it to a Geometron server and make your own variations, including custom laser etch patterns.  To replicate one by hand using the Geometron ruler, note that all patterns are on a grid of 0.5 inches and just slide the ruler around to get the patterns which match the diagram.  
 

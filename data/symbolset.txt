@@ -3,6 +3,7 @@
     "symbols": [
         "baseboard.svg",
         "baseboard2.svg",
+        "bottom.svg",
         "box-base-4x.svg",
         "box-side-1-4x-domain.svg",
         "box-side-1-4x.svg",
@@ -16,6 +17,7 @@
         "roctal.svg",
         "roctalscroll.svg",
         "rulers.svg",
+        "side.svg",
         "squares-3-4.svg",
         "symbol1641265253.svg",
         "symbol1642104224.svg",
@@ -47,6 +49,8 @@
         "symbol1655861409.svg",
         "symbol1655861415.svg",
         "symbol1655861841.svg",
-        "symbol1655861962.svg"
+        "symbol1655861962.svg",
+        "symbol1655943337.svg",
+        "symbol1655943347.svg"
     ]
 }
