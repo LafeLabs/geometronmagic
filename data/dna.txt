@@ -2,6 +2,7 @@
     "html": [
         "README.md",
         "alignimage.html",
+        "arduino.html",
         "controls.html",
         "font.html",
         "fork.html",
